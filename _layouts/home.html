@@ -2,7 +2,6 @@
 layout: default
 title: Ultrawide Snowboards
 ---
-<h1>Ultrawide Snowboards</h1>
 
 <p>Those of us with big feet (I'm a US 13) know that toe and heel drag is a big issue, especially if you want to do Knapton style carves.</p>
 
@@ -26,6 +25,9 @@ title: Ultrawide Snowboards
             <th>Name</th>
             <th>Size (cm)</th>
             <th>Waist Width (cm)</th>
+            <th>Category</th>
+            <th>Profile</th>
+            <th>Shape</th>
             <th>Side Cut (m)</th>
             <th>Stance Min-Max</th>
             <th>Set Back</th>
@@ -33,10 +35,13 @@ title: Ultrawide Snowboards
         </tr>
         {% for board in brand.boards %}
             <tr>
-                <td><img src="{{ site.github.url }}/assets/img/{{ board.image }}" class="snowboard"><img></td>
+                <td><a href="{{ board.url }}"><img src="{{ site.github.url }}/assets/img/{{ board.image }}" class="snowboard"><img></a></td>
                 <td>{{ board.name }}</td>
                 <td>{{ board.length }}</td>
                 <td>{{ board.waist_width }}</td>
+                <td>{{ board.category }}</td>
+                <td>{{ board.profile }}</td>
+                <td>{{ board.shape }}</td>
                 <td>{{ board.side_cut }}</td>
                 <td>{{ board.stance }}</td>
                 <td>{{ board.setback }}</td>

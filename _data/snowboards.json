@@ -198,7 +198,7 @@
                     "side_cut": 8.6,
                     "stance": "50-64cm",
                     "setback": "20mm",
-                    "price": "€450",
+                    "price": "530 (€450)",
                     "url": "https://www.koruashapes.com/classic/model/dart",
                     "profile": "Float Camber",
                     "category": "",
@@ -212,10 +212,32 @@
                     "side_cut": 8.6,
                     "stance": "50-64cm",
                     "setback": "20mm",
-                    "price": "€450",
+                    "price": "530 (€450)",
                     "url": "https://www.koruashapes.com/classic/model/cafe-racer",
                     "profile": "Full Camber",
                     "category": "Carve",
+                    "shape": "Directional"
+                }
+            ]
+        },
+        {
+            "name": "Ride",
+            "url": "https://ridesnowboards.com/",
+            "logo": "ride/logo.jpeg",
+            "notes": "",
+            "boards": [
+                {
+                    "image": "ride/superpig.jpeg",
+                    "name": "Superpig",
+                    "length": 158,
+                    "waist_width": 27.7,
+                    "side_cut": 7.2,
+                    "stance": "",
+                    "setback": 0,
+                    "price": 560,
+                    "url": "https://ridesnowboards.com/en-us/p/superpig-snowboard",
+                    "profile": "Hybrid Camber",
+                    "category": "All Mountain, Park, Powder",
                     "shape": "Directional"
                 }
             ]
@@ -256,14 +278,6 @@
             "logo": "arbor/logo.webp",
             "notes": "",
             "maximum": 27.35,
-            "boards": []
-        },
-        {
-            "name": "Ride",
-            "url": "https://ridesnowboards.com/",
-            "logo": "ride/logo.jpeg",
-            "notes": "",
-            "maximum": 27.7,
             "boards": []
         },
         {
