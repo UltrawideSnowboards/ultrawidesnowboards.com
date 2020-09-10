@@ -1,31 +1,50 @@
 ---
 layout: default
-title: Home
+title: Ultrawide Snowboards
 ---
+<h1>Ultrawide Snowboards</h1>
 
-{% for post in paginator.posts %}
+<p>Those of us with big feet (I'm a US 13) know that toe and heel drag is a big issue, especially if you want to do Knapton style carves.</p>
 
-<article>
-  <a href="{{ site.github.url }}{{ post.url }}">
-    <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
-      <h2><span>{{ post.title }}</span></h2>
-    </div>
-  </a>
-</article>
+<p>An ultrawide board is one that's over 28cm wide at the waist. Most boards are aronud 25cm, "wide" boards are typically around 26.5cm.</p>
 
-{% endfor %}
+<p>Finding a big board is tough. Most manufacturers don't make ultrawide boards, and those that do bury the boards.</p>
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
-  {% else %}
-    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
-  {% endif %}
+<p>This website is a list of every ultrawide board I've found. Since almost every board comes in multiple sizes, I'm only listing the widest and longest variant. You'd never ride anything smaller, right?</p>
 
-  {% if paginator.previous_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
+<p>If you're not 6'2" with a size 13 foot or larger this site is not for you.</p>
+
+<p>Some people like to overcome a narrow board by widening their stance, angling their feet more, getting risers, or just ignoring it. I'm of a different mind: I think a wider board will let you ride more naturally.</p>
+
+
+{% for brand in site.data.snowboards.brands %}
+<img src="{{ site.github.url }}/assets/img/{{ brand.logo }}" class="brand-logo-hero"></img>
+    {% if brand.boards.size > 0 %}
+    <table>
+        <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Size (cm)</th>
+            <th>Waist Width (cm)</th>
+            <th>Side Cut (m)</th>
+            <th>Stance Min-Max</th>
+            <th>Set Back</th>
+            <th>Price</th>
+        </tr>
+        {% for board in brand.boards %}
+            <tr>
+                <td><img src="{{ site.github.url }}/assets/img/{{ board.image }}" class="snowboard"><img></td>
+                <td>{{ board.name }}</td>
+                <td>{{ board.length }}</td>
+                <td>{{ board.waist_width }}</td>
+                <td>{{ board.side_cut }}</td>
+                <td>{{ board.stance }}</td>
+                <td>{{ board.setback }}</td>
+                <td><a href="{{ board.url }}">${{ board.price }}</a></td>
+            </tr>
+        {% endfor %}
+    </table>
     {% else %}
-      <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
-  {% endif %}
-</div>
+    {{ brand.name }} doesn't make any ultrawide boards (their largest is {{ brand.maximum }}cm).
+    {% endif %}
+{% endfor %}

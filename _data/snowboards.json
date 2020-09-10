@@ -1,0 +1,310 @@
+{
+    "brands": [
+        {
+            "name": "Lib Tech",
+            "logo": "lib-tech/logo.svg",
+            "boards": [
+                {
+                    "image": "lib-tech/skunk-ape.jpg",
+                    "name": "Skunk Ape 170UW",
+                    "length": 170,
+                    "waist_width": 28.5,
+                    "side_cut": 8.6,
+                    "stance": "21\"-26\"",
+                    "setback": "0.5\"",
+                    "price": 620,
+                    "url": "https://www.lib-tech.com/skunk-ape",
+                    "profile": "C2 Rocker Camber",
+                    "category": "All Mountain / Freeride",
+                    "shape": "Directional Twin"
+                },
+                {
+                    "image": "lib-tech/stump-ape.jpg",
+                    "name": "Stump Ape 163",
+                    "length": 163,
+                    "waist_width": 28.4,
+                    "side_cut": 8,
+                    "stance": "19.5\"-24.25\"",
+                    "setback": "2\"",
+                    "price": 620,
+                    "url": "https://www.lib-tech.com/stumpape",
+                    "profile": "C2x Rocker Camber",
+                    "category": "experiMENTAL / Freeride",
+                    "shape": "Directional"
+                }
+            ]
+        },
+        {
+            "name": "Never Summer",
+            "logo": "neversummer/logo.png",
+            "notes": "Never Summer categorizes their ultrawide boards as \"DF\", or Drag Free.",
+            "boards": [
+                {
+                    "image": "neversummer/westbound.png",
+                    "name": "West Bound 166DF",
+                    "length": 166,
+                    "waist_width": 28.5,
+                    "side_cut": 8.02,
+                    "stance": "",
+                    "setback": "",
+                    "price": 600,
+                    "url": "https://www.neversummer.com/shop/snowboards/mens-west-bound/",
+                    "profile": "Fusion Rocker Camber",
+                    "category": "All Mountain",
+                    "shape": "Mellow Taper"
+                },
+                {
+                    "image": "neversummer/heritage.png",
+                    "name": "Heritage 164DF",
+                    "length": 164,
+                    "waist_width": 28.5,
+                    "side_cut": 7.89,
+                    "stance": "",
+                    "setback": "",
+                    "price": 600,
+                    "url": "https://www.neversummer.com/shop/snowboards/mens-heritage/",
+                    "profile": "Original Rocker Camber",
+                    "category": "All Mountain",
+                    "shape": "Directional"
+                },
+                {
+                    "image": "neversummer/protosynthesis.png",
+                    "name": "ProtoSynthesis 162DF",
+                    "length": 162,
+                    "waist_width": 28.1,
+                    "side_cut": 7.83,
+                    "stance": "-",
+                    "setback": "-",
+                    "price": 600,
+                    "url": "https://www.neversummer.com/shop/snowboards/mens-protosynthesis/",
+                    "profile": "Shock Wave Rocker Camber",
+                    "category": "All Mountain",
+                    "shape": "Twin"
+                }
+            ]
+        },
+        {
+            "name": "Bataleon",
+            "logo": "bataleon/logo.svg",
+            "notes": "",
+            "boards": [
+                {
+                    "image": "bataleon/partywave.png",
+                    "name": "Party Wave 154",
+                    "length": 154,
+                    "waist_width": 28.0,
+                    "side_cut": 8.9,
+                    "stance": "-",
+                    "setback": "3cm",
+                    "price": 400,
+                    "url": "https://www.bataleon.com/en/shop/snowboards/party-wave-1920",
+                    "profile": "Mellow Camber",
+                    "category": "Powder",
+                    "shape": "3D Directional"
+                },
+                {
+                    "image": "bataleon/stallion.png",
+                    "name": "Stallion 167W",
+                    "length": 167,
+                    "waist_width": 27.5,
+                    "side_cut": 8.5,
+                    "stance": "-",
+                    "setback": 0,
+                    "price": 630,
+                    "url": "https://www.bataleon.com/en/shop/snowboards/stallion-1920",
+                    "profile": "Dynamic Camber",
+                    "category": "All Mountain",
+                    "shape": "3D Twin"
+                }
+            ]
+        },
+        {
+            "name": "Donek",
+            "url": "https://www.donek.com/",
+            "logo": "donek/logo.png",
+            "notes": "Donek does custom snowboards, so you can get essentially anything you like. Expect to spend quite a bit more for a nice board though.",
+            "boards": [
+                {
+                    "image": "donek/knapton.png",
+                    "name": "Knapton Twin",
+                    "length": "custom",
+                    "waist_width": "custom",
+                    "side_cut": "custom",
+                    "stance": "custom",
+                    "setback": "custom",
+                    "price": "750+",
+                    "url": "https://www.donek.com/product/knapton-twin/",
+                    "profile": "custom",
+                    "category": "All Mountain",
+                    "shape": "Twin"
+                }
+            ]
+        },
+        {
+            "name": "K2",
+            "url": "https://k2snow.com/",
+            "logo": "k2/logo.png",
+            "notes": "",
+            "boards": [
+                {
+                    "image": "k2/partyplatter.jpeg",
+                    "name": "Party Platter 157",
+                    "length": 157,
+                    "waist_width": 27.9,
+                    "side_cut": 7.8,
+                    "stance": "23\"",
+                    "setback": 0,
+                    "price": 490,
+                    "url": "https://k2snow.com/en-us/p/k2-party-platter-unisex-snowboard",
+                    "profile": "Combination Camber",
+                    "category": "All Mountain, Powder",
+                    "shape": "Directional"
+                }
+            ]
+        },
+        {
+            "name": "Salomon",
+            "url": "https://www.salomon.com/en-us",
+            "logo": "salomon/logo.svg",
+            "notes": "",
+            "boards": [
+                {
+                    "image": "salomon/hps-wolle-nyvelt.jpg",
+                    "name": "HPS Wolle Nyvelt",
+                    "length": 157,
+                    "waist_width": 27.8,
+                    "side_cut": ,
+                    "stance": "",
+                    "setback": "",
+                    "price": 650,
+                    "url": "https://www.salomon.com/en-us/shop/product/hps-wolle-nyvelt.html",
+                    "profile": "Backseat Camber",
+                    "category": "Powder",
+                    "shape": "Tapered Directional"
+                }
+            ]
+        },
+        {
+            "name": "Korua",
+            "url": "https://www.koruashapes.com/",
+            "logo": "korua/logo.png",
+            "notes": "German",
+            "boards": [
+                {
+                    "image": "korua/dart.jpg",
+                    "name": "Dart 160",
+                    "length": 160,
+                    "waist_width": 27.8,
+                    "side_cut": 8.6,
+                    "stance": "50-64cm",
+                    "setback": "20mm",
+                    "price": "€450",
+                    "url": "https://www.koruashapes.com/classic/model/dart",
+                    "profile": "Float Camber",
+                    "category": "",
+                    "shape": "Directional"
+                },
+                {
+                    "image": "korua/caferacer.jpg",
+                    "name": "Cafe Racer 164",
+                    "length": 164,
+                    "waist_width": 27.8,
+                    "side_cut": 8.6,
+                    "stance": "50-64cm",
+                    "setback": "20mm",
+                    "price": "€450",
+                    "url": "https://www.koruashapes.com/classic/model/cafe-racer",
+                    "profile": "Full Camber",
+                    "category": "Carve",
+                    "shape": "Directional"
+                }
+            ]
+        },
+        {
+            "name": "Gnu",
+            "logo": "gnu/logo.svg",
+            "maximum": 26.8,
+            "boards": []
+        },
+        {
+            "name": "Jones",
+            "url": "https://www.jonessnowboards.com/",
+            "logo": "jones/logo.jpeg",
+            "notes": "",
+            "maximum": 27.0,
+            "boards": []
+        },
+        {
+            "name": "Rossignol",
+            "url": "https://www.rossignol.com/us/",
+            "logo": "rossignol/logo.svg",
+            "notes": "",
+            "maximum": 26.8,
+            "boards": []
+        },
+        {
+            "name": "Burton",
+            "url": "https://www.burton.com/us/en/home",
+            "logo": "burton/logo.jpeg",
+            "notes": "",
+            "maximum": 27.0,
+            "boards": []
+        },
+        {
+            "name": "Arbor",
+            "url": "https://www.arborcollective.com/",
+            "logo": "arbor/logo.webp",
+            "notes": "",
+            "maximum": 27.35,
+            "boards": []
+        },
+        {
+            "name": "Ride",
+            "url": "https://ridesnowboards.com/",
+            "logo": "ride/logo.jpeg",
+            "notes": "",
+            "maximum": 27.7,
+            "boards": []
+        },
+        {
+            "name": "Nitro",
+            "url": "https://nitrousa.com/",
+            "logo": "nitro/logo.svg",
+            "notes": "",
+            "maximum": 27.4,
+            "boards": []
+        },
+        {
+            "name": "Capita",
+            "url": "https://capitasnowboarding.com/",
+            "logo": "capita/logo.png",
+            "notes": "",
+            "maximum": 26.4,
+            "boards": []
+        },
+        {
+            "name": "Rome",
+            "url": "https://romesnowboards.com",
+            "logo": "rome/logo.jpeg",
+            "notes": "",
+            "maximum": "TBD",
+            "boards": []
+        },
+        {
+            "name": "Endeavor Snowboards",
+            "url": "https://usa.endeavorsnowboards.com",
+            "logo": "endeavor/logo.jpeg",
+            "notes": "",
+            "maximum": "TBD",
+            "boards": []
+        },
+        {
+            "name": "Marhar Snowboards",
+            "url": "https://www.marharsnowboards.com/",
+            "logo": "marhar/logo.webp",
+            "notes": "",
+            "maximum": 27.3,
+            "boards": []
+        }
+    ]
+}
