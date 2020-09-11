@@ -39,3 +39,11 @@ git config --local core.hooksPath .githooks/
 ## License
 
 Code is open sourced under the [MIT license](LICENSE.md).
+
+## Development
+
+Set image to a height of 600px, keep proportional.
+
+```bash
+mogrify -geometry x600 superpig.jpeg
+```
