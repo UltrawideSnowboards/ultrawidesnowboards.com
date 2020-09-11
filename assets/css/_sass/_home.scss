@@ -1,11 +1,13 @@
-/* SRLM custom below */
 img.snowboard {
- max-width: 200px;
- max-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 img.brand-logo-hero {
- max-height: 100px;
- margin-top: 100px;
- align: left;
+    max-height: 100px;
+    text-align: left;  
+}
+
+.row {
+    margin-top: 100px;
 }

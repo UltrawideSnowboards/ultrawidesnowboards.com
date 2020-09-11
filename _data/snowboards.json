@@ -2,7 +2,7 @@
     "brands": [
         {
             "name": "Lib Tech",
-            "logo": "lib-tech/logo.svg",
+            "logo": "lib-tech/logo.png",
             "boards": [
                 {
                     "image": "lib-tech/skunk-ape.jpg",
@@ -85,7 +85,7 @@
         },
         {
             "name": "Bataleon",
-            "logo": "bataleon/logo.svg",
+            "logo": "bataleon/logo.png",
             "notes": "",
             "boards": [
                 {
@@ -165,7 +165,7 @@
         {
             "name": "Salomon",
             "url": "https://www.salomon.com/en-us",
-            "logo": "salomon/logo.svg",
+            "logo": "salomon/logo.png",
             "notes": "",
             "boards": [
                 {
@@ -244,7 +244,7 @@
         },
         {
             "name": "Gnu",
-            "logo": "gnu/logo.svg",
+            "logo": "gnu/logo.png",
             "maximum": 26.8,
             "boards": []
         },
@@ -259,7 +259,7 @@
         {
             "name": "Rossignol",
             "url": "https://www.rossignol.com/us/",
-            "logo": "rossignol/logo.svg",
+            "logo": "rossignol/logo.png",
             "notes": "",
             "maximum": 26.8,
             "boards": []
@@ -283,7 +283,7 @@
         {
             "name": "Nitro",
             "url": "https://nitrousa.com/",
-            "logo": "nitro/logo.svg",
+            "logo": "nitro/logo.png",
             "notes": "",
             "maximum": 27.4,
             "boards": []
