@@ -243,33 +243,11 @@
             ]
         },
         {
-            "name": "Gnu",
-            "logo": "gnu/logo.png",
-            "maximum": 26.8,
-            "boards": []
-        },
-        {
-            "name": "Jones",
-            "url": "https://www.jonessnowboards.com/",
-            "logo": "jones/logo.jpeg",
+            "name": "Nitro",
+            "url": "https://nitrousa.com/",
+            "logo": "nitro/logo.png",
             "notes": "",
-            "maximum": 27.0,
-            "boards": []
-        },
-        {
-            "name": "Rossignol",
-            "url": "https://www.rossignol.com/us/",
-            "logo": "rossignol/logo.png",
-            "notes": "",
-            "maximum": 26.8,
-            "boards": []
-        },
-        {
-            "name": "Burton",
-            "url": "https://www.burton.com/us/en/home",
-            "logo": "burton/logo.jpeg",
-            "notes": "",
-            "maximum": 27.0,
+            "maximum": 27.4,
             "boards": []
         },
         {
@@ -281,11 +259,41 @@
             "boards": []
         },
         {
-            "name": "Nitro",
-            "url": "https://nitrousa.com/",
-            "logo": "nitro/logo.png",
+            "name": "Marhar Snowboards",
+            "url": "https://www.marharsnowboards.com/",
+            "logo": "marhar/logo.webp",
             "notes": "",
-            "maximum": 27.4,
+            "maximum": 27.3,
+            "boards": []
+        },
+        {
+            "name": "Burton",
+            "url": "https://www.burton.com/us/en/home",
+            "logo": "burton/logo.jpeg",
+            "notes": "",
+            "maximum": 27.0,
+            "boards": []
+        },
+        {
+            "name": "Jones",
+            "url": "https://www.jonessnowboards.com/",
+            "logo": "jones/logo.jpeg",
+            "notes": "",
+            "maximum": 27.0,
+            "boards": []
+        },
+        {
+            "name": "Gnu",
+            "logo": "gnu/logo.png",
+            "maximum": 26.8,
+            "boards": []
+        },
+        {
+            "name": "Rossignol",
+            "url": "https://www.rossignol.com/us/",
+            "logo": "rossignol/logo.png",
+            "notes": "",
+            "maximum": 26.8,
             "boards": []
         },
         {
@@ -310,14 +318,6 @@
             "logo": "endeavor/logo.jpeg",
             "notes": "",
             "maximum": "TBD",
-            "boards": []
-        },
-        {
-            "name": "Marhar Snowboards",
-            "url": "https://www.marharsnowboards.com/",
-            "logo": "marhar/logo.webp",
-            "notes": "",
-            "maximum": 27.3,
             "boards": []
         }
     ]
