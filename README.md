@@ -55,3 +55,12 @@ optipng filename.png
 ```bash
 mogrify -quality "40%" -filter Lanczos -interlace Plane -gaussian-blur 0.15 background.jpg
 ```
+
+
+## Favicon
+
+Export as png
+
+```bash
+convert -background none favicon.svg -define icon:auto-resize favicon.ico
+```
