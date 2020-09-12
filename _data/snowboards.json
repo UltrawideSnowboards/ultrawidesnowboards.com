@@ -84,6 +84,29 @@
             ]
         },
         {
+            "name": "Weston Backcountry",
+            "url": "https://westonbackcountry.com/",
+            "logo": "weston/logo.jpeg",
+            "notes": "",
+            "maximum": 0,
+            "boards": [
+                {
+                    "image": "weston/timber.webp",
+                    "name": "Timber 166W",
+                    "length": 166,
+                    "waist_width": 28.2,
+                    "side_cut": 8,
+                    "stance": "",
+                    "setback": 0,
+                    "price": 400,
+                    "url": "https://westonbackcountry.com/collections/snowboards/products/timber-20-21",
+                    "profile": "Rocker-Camber-Rocker",
+                    "category": "All-Mountain",
+                    "shape": "Twin"
+                }
+            ]
+        },
+        {
             "name": "Bataleon",
             "logo": "bataleon/logo.png",
             "notes": "",
@@ -261,6 +284,28 @@
                     "profile": "Positive Camber",
                     "category": "All-Mountain",
                     "shape": "Twin"
+                }
+            ]
+        },
+        {
+            "name": "Niche Snowboards",
+            "url": "https://nichesnowboards.com/",
+            "logo": "niche/logo.png",
+            "notes": "",
+            "boards": [
+                {
+                    "image": "niche/pyre.jpg",
+                    "name": "Pyre",
+                    "length": 160,
+                    "waist_width": 27.5,
+                    "side_cut": 7.5,
+                    "stance": "",
+                    "setback": "",
+                    "price": 480,
+                    "url": "https://nichesnowboards.com/product/pyre/",
+                    "profile": "Back-Seat Camber",
+                    "category": "All-Mountain/Powder",
+                    "shape": "Directional"
                 }
             ]
         },
