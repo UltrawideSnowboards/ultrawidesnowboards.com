@@ -40,7 +40,12 @@ title: Ultrawide Snowboards
     <div class="col-sm">
         <div class="card">
             <div class="card-body">
-                <img src="{{ site.github.url }}/assets/img/{{ brand.logo }}" class="brand-logo-hero img-fluid" alt="{{ brand.name }} logo"></img>
+                <p><img src="{{ site.github.url }}/assets/img/{{ brand.logo }}" class="brand-logo-hero img-fluid" alt="{{ brand.name }} logo"></img></p>
+
+                {% if brand.notes.size > 0 %}
+                <p>{{ brand.notes }}</p>
+                {% endif %}
+
                 {% if brand.boards.size > 0 %}
                 <div class="table-responsive">
                 <table class="table">
