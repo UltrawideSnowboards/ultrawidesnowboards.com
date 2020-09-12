@@ -47,3 +47,11 @@ Set image to a height of 600px, keep proportional.
 ```bash
 mogrify -geometry x600 superpig.jpeg
 ```
+
+```bash
+optipng filename.png
+```
+
+```bash
+mogrify -quality "40%" -filter Lanczos -interlace Plane -gaussian-blur 0.15 background.jpg
+```
