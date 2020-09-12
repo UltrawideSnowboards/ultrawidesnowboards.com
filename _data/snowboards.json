@@ -243,6 +243,28 @@
             ]
         },
         {
+            "name": "Nidecker",
+            "url": "https://www.nidecker.com/en/",
+            "logo": "nidecker/logo.png",
+            "notes": "",
+            "boards": [
+                {
+                    "image": "nidecker/escape.png",
+                    "name": "Escape 169 XW",
+                    "length": 169,
+                    "waist_width": 27.6,
+                    "side_cut": 9,
+                    "stance": "540mm-620mm",
+                    "setback": "30mm",
+                    "price": 420,
+                    "url": "https://www.nidecker.com/en/snowboards/593-3167-escape.html",
+                    "profile": "Positive Camber",
+                    "category": "All-Mountain",
+                    "shape": "Twin"
+                }
+            ]
+        },
+        {
             "name": "Capita",
             "url": "https://capitasnowboarding.com/",
             "logo": "capita/logo.png",
@@ -331,7 +353,7 @@
             "name": "Rome",
             "url": "https://romesnowboards.com",
             "logo": "rome/logo.jpeg",
-            "notes": "",
+            "notes": "Rome has not released their 2020-2021 line yet.",
             "maximum": "TBD",
             "boards": []
         },
@@ -339,7 +361,7 @@
             "name": "Endeavor Snowboards",
             "url": "https://usa.endeavorsnowboards.com",
             "logo": "endeavor/logo.jpeg",
-            "notes": "",
+            "notes": "Endeavor Snowboards has not released their 2020-2021 line yet.",
             "maximum": "TBD",
             "boards": []
         },
@@ -352,10 +374,18 @@
             "boards": []
         },
         {
+            "name": "Venture Snowboards",
+            "url": "https://venturesnowboards.com/",
+            "logo": "venture/logo.webp",
+            "notes": "Venture Snowboards has not released their 2020-2021 line yet.",
+            "maximum": "TBD",
+            "boards": []
+        },
+        {
             "name": "Soul Waterman",
             "url": "https://www.soulwaterman.com/",
             "logo": "soul/logo.webp",
-            "notes": "",
+            "notes": "Due to the specialty nature of these boards they're at the end of the list.",
             "maximum": 0,
             "boards": [
                 {
@@ -420,7 +450,7 @@
             "name": "LTB Snowboards",
             "url": "http://www.ltbsnowboards.com/",
             "logo": "ltb/logo.jpg",
-            "notes": "Direct from manufacturer delivers to the EU only.",
+            "notes": "LTB makes the biggest boards around, but ship direct from manufacturer and delivers to the EU only. Since there's no US delivery I'm putting it at the end of the list.",
             "maximum": 0,
             "boards": [
                 {
