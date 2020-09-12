@@ -243,6 +243,14 @@
             ]
         },
         {
+            "name": "Capita",
+            "url": "https://capitasnowboarding.com/",
+            "logo": "capita/logo.png",
+            "notes": "",
+            "maximum": 27.4,
+            "boards": []
+        },
+        {
             "name": "Nitro",
             "url": "https://nitrousa.com/",
             "logo": "nitro/logo.png",
@@ -297,12 +305,27 @@
             "boards": []
         },
         {
-            "name": "Capita",
-            "url": "https://capitasnowboarding.com/",
-            "logo": "capita/logo.png",
-            "notes": "",
-            "maximum": 26.4,
-            "boards": []
+            "name": "Yes. Snowboards",
+            "url": "https://www.yesnowboard.com/",
+            "logo": "yes/logo.png",
+            "notes": "Yes has several boards that are 26.8cm. Their Pro20 is 28.6cm (one of the widest available!), but the extreme shortness makes it unsuitable for larger riders.",
+            "boards": [
+                {
+                    "image": "yes/pro20.jpg",
+                    "name": "Pro20",
+                    "length": 152,
+                    "waist_width": 28.6,
+                    "side_cut": 6.1,
+                    "stance": "53.2cm - 61.2cm",
+                    "setback": "1.5mm",
+                    "price": 670,
+                    "url": "https://www.yesnowboard.com/snowboards/305-2733-pro20.html",
+                    "profile": "C4",
+                    "category": "Powder",
+                    "shape": "Directional Weird"
+                }
+
+            ]
         },
         {
             "name": "Rome",
@@ -319,6 +342,172 @@
             "notes": "",
             "maximum": "TBD",
             "boards": []
+        },
+        {
+            "name": "Telos Snowboards",
+            "url": "https://telossnowboards.com/",
+            "logo": "telos/logo.webp",
+            "notes": "Telos does not list any specs about their boards, so it's not possible to find the width.",
+            "maximum": 0,
+            "boards": []
+        },
+        {
+            "name": "Soul Waterman",
+            "url": "https://www.soulwaterman.com/",
+            "logo": "soul/logo.webp",
+            "notes": "",
+            "maximum": 0,
+            "boards": [
+                {
+                    "image": "soul/snowwave.png",
+                    "name": "Snow Wave",
+                    "length": 164,
+                    "waist_width": 34,
+                    "side_cut": ,
+                    "stance": "500mm",
+                    "setback": "",
+                    "price": 700,
+                    "url": "https://www.soulwaterman.com/collections/soulstick/products/snowwave",
+                    "profile": "",
+                    "category": "Powder Surfer",
+                    "shape": "Directional"
+                },
+                {
+                    "image": "soul/flashback.png",
+                    "name": "Flashback",
+                    "length": 161,
+                    "waist_width": 28.3,
+                    "side_cut": "",
+                    "stance": "510mm",
+                    "setback": "49mm",
+                    "price": 590,
+                    "url": "https://www.soulwaterman.com/collections/soulstick/products/flashback",
+                    "profile": "",
+                    "category": "Powder Carve",
+                    "shape": "Directional"
+                },
+                {
+                    "image": "soul/pocketrocket.png",
+                    "name": "Pocket Rocket",
+                    "length": 165,
+                    "waist_width": 28.2,
+                    "side_cut": "",
+                    "stance": "",
+                    "setback": "",
+                    "price": 650,
+                    "url": "https://www.soulwaterman.com/collections/soulstick/products/pocketrocket",
+                    "profile": "",
+                    "category": "Powder",
+                    "shape": "Directional"
+                },
+                {
+                    "image": "soul/pitchwing.png",
+                    "name": "Pitch Wing",
+                    "length": 160,
+                    "waist_width": 28,
+                    "side_cut": "",
+                    "stance": "510mm",
+                    "setback": "50mm",
+                    "price": 590,
+                    "url": "https://www.soulwaterman.com/collections/soulstick/products/pitchwing",
+                    "profile": "",
+                    "category": "Carve",
+                    "shape": "Directional"
+                }
+            ]
+        },
+        {
+            "name": "LTB Snowboards",
+            "url": "http://www.ltbsnowboards.com/",
+            "logo": "ltb/logo.jpg",
+            "notes": "Direct from manufacturer delivers to the EU only.",
+            "maximum": 0,
+            "boards": [
+                {
+                    "image": "ltb/dream.jpg",
+                    "name": "Dream DR178XXW",
+                    "length": 177.8,
+                    "waist_width": 32,
+                    "side_cut": 5,
+                    "stance": "",
+                    "setback": "",
+                    "price": "800Eur",
+                    "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-dream-snowboard",
+                    "profile": "",
+                    "category": "Freestyle/Freeride",
+                    "shape": "Twin"
+                },
+                {
+                    "image": "ltb/decent.jpg",
+                    "name": "Decent DDC165XXW",
+                    "length": 166.1,
+                    "waist_width": 32,
+                    "side_cut": 5,
+                    "stance": "",
+                    "setback": "",
+                    "price": "800Eur",
+                    "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-decent-snowboard",
+                    "profile": "",
+                    "category": "Freestyle",
+                    "shape": "Twin"
+                },
+                {
+                    "image": "ltb/crude.jpg",
+                    "name": "Crude DC165XXW",
+                    "length": 165.3,
+                    "waist_width": 29.3,
+                    "side_cut": 10,
+                    "stance": "",
+                    "setback": "",
+                    "price": "800EUR",
+                    "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-crude-snowboard",
+                    "profile": "",
+                    "category": "Freeride",
+                    "shape": "Directional"
+                },
+                {
+                    "image": "ltb/surge.jpg",
+                    "name": "Surge 163XXW",
+                    "length": 163,
+                    "waist_width": 29.2,
+                    "side_cut": 7,
+                    "stance": "",
+                    "setback": "50mm",
+                    "price": "800Eur",
+                    "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-surge-snowboard",
+                    "profile": "",
+                    "category": "Freeride",
+                    "shape": "Directional"
+                },
+                {
+                    "image": "ltb/cutter.jpg",
+                    "name": "Cutter 166XXW",
+                    "length": 166,
+                    "waist_width": 28.6,
+                    "side_cut": 9.163,
+                    "stance": "",
+                    "setback": "10mm",
+                    "price": "590Eur",
+                    "url": "http://www.ltbsnowboards.com/freestyle-snowboards/ltb-cutter-black-snowboard",
+                    "profile": "Camber",
+                    "category": "Freestyle/Backcountry",
+                    "shape": "Twin"
+                },
+                {
+                    "image": "ltb/p-team.jpg",
+                    "name": "P Team 166XXW",
+                    "length": 166,
+                    "waist_width": 28.6,
+                    "side_cut": 9.163,
+                    "stance": "",
+                    "setback": "10mm",
+                    "price": "620Eur",
+                    "url": "http://www.ltbsnowboards.com/freestyle-snowboards/ltb-p-team-wood-snowboard",
+                    "profile": "Power Rocker",
+                    "category": "",
+                    "shape": "Twin"
+                }
+            ]
         }
     ]
 }

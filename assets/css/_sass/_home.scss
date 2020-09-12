@@ -12,7 +12,8 @@ img.brand-logo-hero {
     margin-top: 100px;
 }
 
-#background {
+/* Based on https://stackoverflow.com/a/55360370 */
+.background {
     background-image: url('../img/background.jpg');
     background-position: center center;
     background-size: cover;
