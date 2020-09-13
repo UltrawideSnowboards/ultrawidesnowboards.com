@@ -470,6 +470,14 @@
             "boards": []
         },
         {
+            "name": "Hightide MFG",
+            "url": "https://hightidemfg.com/",
+            "logo": "hightide/logo.webp",
+            "notes": "",
+            "maximum": 27.2,
+            "boards": []
+        },
+        {
             "name": "Burton",
             "url": "https://www.burton.com/us/en/home",
             "logo": "burton/logo.jpeg",
@@ -486,6 +494,14 @@
             "boards": []
         },
         {
+            "name": "Head",
+            "url": "https://www.head.com/us-US/home/",
+            "logo": "head/logo.png",
+            "notes": "",
+            "maximum": 27.0,
+            "boards": []
+        },
+        {
             "name": "Gnu",
             "logo": "gnu/logo.png",
             "maximum": 26.8,
@@ -495,6 +511,14 @@
             "name": "Rossignol",
             "url": "https://www.rossignol.com/us/",
             "logo": "rossignol/logo.png",
+            "notes": "",
+            "maximum": 26.8,
+            "boards": []
+        },
+        {
+            "name": "Academy Snowboard Co.",
+            "url": "https://www.academysnowboards.com/",
+            "logo": "academy/logo.jpg",
             "notes": "",
             "maximum": 26.8,
             "boards": []
@@ -519,6 +543,14 @@
             "name": "United Shapes",
             "url": "https://www.unitedshapes.us/",
             "logo": "",
+            "notes": "",
+            "maximum": 26.4,
+            "boards": []
+        },
+        {
+            "name": "Sims",
+            "url": "https://www.simscollective.com/",
+            "logo": "sims/logo.png",
             "notes": "",
             "maximum": 26.4,
             "boards": []
@@ -733,7 +765,7 @@
             "url": "https://romesnowboards.com",
             "logo": "rome/logo.jpeg",
             "notes": "Rome has not released their 2020-2021 line yet.",
-            "maximum": "TBD",
+            "maximum": null,
             "boards": []
         },
         {
@@ -741,7 +773,7 @@
             "url": "https://usa.endeavorsnowboards.com",
             "logo": "endeavor/logo.jpeg",
             "notes": "Endeavor Snowboards has not released their 2020-2021 line yet.",
-            "maximum": "TBD",
+            "maximum": null,
             "boards": []
         },
         {
@@ -749,7 +781,7 @@
             "url": "https://venturesnowboards.com/",
             "logo": "venture/logo.webp",
             "notes": "Venture Snowboards has not released their 2020-2021 line yet.",
-            "maximum": "TBD",
+            "maximum": null,
             "boards": []
         },
         {
@@ -757,7 +789,23 @@
             "url": "https://lobstersnowboards.com/",
             "logo": "lobster/logo.jpeg",
             "notes": "Lobster Snowboards have not released their 2020-2021 line yet.",
-            "maximum": "TBD",
+            "maximum": null,
+            "boards": []
+        },
+        {
+            "name": "Snoplanks",
+            "url": "https://www.snoplanks.com/",
+            "logo": "snoplanks/logo.webp",
+            "notes": "Snoplanks has not released their 2020-2021 line yet.",
+            "maximum": null,
+            "boards": []
+        },
+        {
+            "name": "Northwave",
+            "url": "https://www.northwave.com",
+            "logo": "northwave/logo.jpeg",
+            "notes": "Northwave has not released their 2020-2021 line yet.",
+            "maximum": null,
             "boards": []
         },
         {
@@ -765,7 +813,15 @@
             "url": "https://telossnowboards.com/",
             "logo": "telos/logo.webp",
             "notes": "Telos does not list any specs about their boards, so it's not possible to find the width.",
-            "maximum": 0,
+            "maximum": null,
+            "boards": []
+        },
+        {
+            "name": "Chomonix",
+            "url": "https://chamonixcollection.com/",
+            "logo": "chomonix/logo.webp",
+            "notes": "Chomonix doesn't list specs of their snowboards, so we don't know the waist widths.",
+            "maximum": null,
             "boards": []
         }
     ]

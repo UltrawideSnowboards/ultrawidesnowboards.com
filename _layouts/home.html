@@ -79,7 +79,7 @@ title: Ultrawide Snowboards
                     {% endfor %}
                 </table>
                 </div>
-                {% else %}
+                {% elsif brand.maximum != null %}
                 <p>{{ brand.name }} doesn't make any ultrawide boards (their largest is {{ brand.maximum }}cm).</p>
                 {% endif %}
             </div>
