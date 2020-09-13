@@ -64,7 +64,7 @@ title: Ultrawide Snowboards
                     </thead>
                     {% for board in brand.boards %}
                         <tr>
-                            <td><a href="{{ board.url }}"><img src="{{ site.github.url }}/assets/img/{{ board.image }}" class="snowboard"><img></a></td>
+                            <td><a href="{{ board.url }}" target="_blank"><img src="{{ site.github.url }}/assets/img/{{ board.image }}" class="snowboard"><img></a></td>
                             <td>{{ board.name }}</td>
                             <td>{{ board.length }}</td>
                             <td>{{ board.waist_width }}</td>
@@ -74,7 +74,7 @@ title: Ultrawide Snowboards
                             <td>{{ board.side_cut }}</td>
                             <td>{{ board.stance }}</td>
                             <td>{{ board.setback }}</td>
-                            <td><a href="{{ board.url }}">${{ board.price }}</a></td>
+                            <td><a href="{{ board.url }}" target="_blank">${{ board.price }}</a></td>
                         </tr>
                     {% endfor %}
                 </table>
