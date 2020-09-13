@@ -542,7 +542,7 @@
         {
             "name": "United Shapes",
             "url": "https://www.unitedshapes.us/",
-            "logo": "",
+            "logo": null,
             "notes": "",
             "maximum": 26.4,
             "boards": []
