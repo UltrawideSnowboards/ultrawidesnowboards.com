@@ -1,6 +1,98 @@
 {
     "brands": [
         {
+            "name": "Gentemstick",
+            "url": "https://gentemstick.com/",
+            "logo": "gentemstick/logo.png",
+            "notes": "Ships from Japan.",
+            "boards": [
+                {
+                    "image": "gentemstick/superfish.png",
+                    "name": "Super Fish Cloudliner",
+                    "length": 176,
+                    "waist_width": 28.9,
+                    "side_cut": 10.5,
+                    "stance": "510mm-650mm",
+                    "setback": "35mm",
+                    "price": "1070 (¥114,000)",
+                    "url": "https://gentemstick.com/productsDetail/id_316/",
+                    "profile": "Accel Camber",
+                    "category": "Alternative",
+                    "shape": "Directional"
+                },
+                {
+                    "image": "gentemstick/flyfisk.png",
+                    "name": "Fly Fisk",
+                    "length": 164,
+                    "waist_width": 28.7,
+                    "side_cut": 9,
+                    "stance": "540mm-660mm",
+                    "setback": 0,
+                    "price": "1030 (¥110,000)",
+                    "url": "https://gentemstick.com/productsDetail/id_322/",
+                    "profile": "Accel Camber",
+                    "category": "Freestyle",
+                    "shape": "Directional"
+                },
+                {
+                    "image": "gentemstick/bigfish.png",
+                    "name": "Big Fish",
+                    "length": 163,
+                    "waist_width": 28.7,
+                    "side_cut": 9.2,
+                    "stance": "520mm-600mm",
+                    "setback": "48.5mm",
+                    "price": "1070 (¥114,000)",
+                    "url": "https://gentemstick.com/productsDetail/id_312/",
+                    "profile": "Accel Camber",
+                    "category": "Alternative",
+                    "shape": "Directional"
+                },
+                {
+                    "image": "gentemstick/barracuda.png",
+                    "name": "Barracuda",
+                    "length": 158.6,
+                    "waist_width": 28.7,
+                    "side_cut": 9,
+                    "stance": "500mm-640mm",
+                    "setback": "10mm",
+                    "price": "1050 (¥112,000)",
+                    "url": "https://gentemstick.com/productsDetail/id_310/",
+                    "profile": "Accel Camber",
+                    "category": "Alternative",
+                    "shape": "Directional"
+                },
+                {
+                    "image": "gentemstick/chaser.png",
+                    "name": "The Chaser",
+                    "length": 156,
+                    "waist_width": 28.5,
+                    "side_cut": "8.3/7.6",
+                    "stance": "510mm-590mm",
+                    "setback": 0,
+                    "price": "1030 (¥110,000)",
+                    "url": "https://gentemstick.com/productsDetail/id_320/",
+                    "profile": "Accel Camber",
+                    "category": "Alternative",
+                    "shape": "Directional"
+                },
+                {
+                    "image": "gentemstick/rocketfish.png",
+                    "name": "Rocket Fish",
+                    "length": 144.7,
+                    "waist_width": 29.4,
+                    "side_cut": 8.1,
+                    "stance": "440mm-520mm",
+                    "setback": "26.5mm",
+                    "price": "1030 (¥110,000)",
+                    "url": "https://gentemstick.com/productsDetail/id_306/",
+                    "profile": "Accel Camber",
+                    "category": "Alternative",
+                    "shape": "Directional"
+                }
+            ]
+        },
+        {
             "name": "Lib Tech",
             "logo": "lib-tech/logo.png",
             "boards": [
@@ -266,6 +358,42 @@
             ]
         },
         {
+            "name": "Moss Snowstick",
+            "url": "http://www.mosssnowstick.com/",
+            "logo": "moss/logo.png",
+            "notes": "",
+            "boards": [
+                {
+                    "image": "moss/swallow.png",
+                    "name": "70 Swallow",
+                    "length": 170,
+                    "waist_width": 27.7,
+                    "side_cut": "10.2/7.3",
+                    "stance": "480mm-600mm",
+                    "setback": "10mm",
+                    "price": 1020,
+                    "url": "http://www.mosssnowstick.com/2020-2021/70-swallow",
+                    "profile": "Snowsurf Camber",
+                    "category": "Powder",
+                    "shape": "Directional"
+                },
+                {
+                    "image": "moss/wingswallow.png",
+                    "name": "Wing Swallow 57",
+                    "length": 157.2,
+                    "waist_width": 28.4,
+                    "side_cut": "8.6/6.6",
+                    "stance": "480mm-600mm",
+                    "setback": "90mm",
+                    "price": 1040,
+                    "url": "http://www.mosssnowstick.com/2020-2021/wing-swallow-57",
+                    "profile": "Snowsurf Camber",
+                    "category": "",
+                    "shape": "Directional"
+                }
+            ]
+        },
+        {
             "name": "Nidecker",
             "url": "https://www.nidecker.com/en/",
             "logo": "nidecker/logo.png",
@@ -310,7 +438,7 @@
             ]
         },
         {
-            "name": "Capita",
+            "name": "CAPiTA",
             "url": "https://capitasnowboarding.com/",
             "logo": "capita/logo.png",
             "notes": "",
@@ -372,6 +500,54 @@
             "boards": []
         },
         {
+            "name": "Dues Ex Machina",
+            "url": "https://shop.us.deuscustoms.com/",
+            "logo": "deusexmachina/logo.png",
+            "notes": "",
+            "maximum": 26.5,
+            "boards": []
+        },
+        {
+            "name": "Slash",
+            "url": "https://slashsnow.com/",
+            "logo": "slash/logo.png",
+            "notes": "",
+            "maximum": 26.4,
+            "boards": []
+        },
+        {
+            "name": "United Shapes",
+            "url": "https://www.unitedshapes.us/",
+            "logo": "",
+            "notes": "",
+            "maximum": 26.4,
+            "boards": []
+        },
+        {
+            "name": "DC",
+            "url": "https://www.dcshoes.com/mens-snowboard-decks/",
+            "logo": "dc/logo.jpeg",
+            "notes": "",
+            "maximum": 26.3,
+            "boards": []
+        },
+        {
+            "name": "Dinosaurs Will Die",
+            "url": "https://dinosaurswilldie.com/",
+            "logo": "dinosaurswilldie/logo.jpg",
+            "notes": "",
+            "maximum": 26.3,
+            "boards": []
+        },
+        {
+            "name": "The Interior Plain Project",
+            "url": "http://www.theipproject.com/",
+            "logo": "ipp/logo.jpg",
+            "notes": "",
+            "maximum": 26.3,
+            "boards": []
+        },
+        {
             "name": "Yes. Snowboards",
             "url": "https://www.yesnowboard.com/",
             "logo": "yes/logo.png",
@@ -393,38 +569,6 @@
                 }
 
             ]
-        },
-        {
-            "name": "Rome",
-            "url": "https://romesnowboards.com",
-            "logo": "rome/logo.jpeg",
-            "notes": "Rome has not released their 2020-2021 line yet.",
-            "maximum": "TBD",
-            "boards": []
-        },
-        {
-            "name": "Endeavor Snowboards",
-            "url": "https://usa.endeavorsnowboards.com",
-            "logo": "endeavor/logo.jpeg",
-            "notes": "Endeavor Snowboards has not released their 2020-2021 line yet.",
-            "maximum": "TBD",
-            "boards": []
-        },
-        {
-            "name": "Telos Snowboards",
-            "url": "https://telossnowboards.com/",
-            "logo": "telos/logo.webp",
-            "notes": "Telos does not list any specs about their boards, so it's not possible to find the width.",
-            "maximum": 0,
-            "boards": []
-        },
-        {
-            "name": "Venture Snowboards",
-            "url": "https://venturesnowboards.com/",
-            "logo": "venture/logo.webp",
-            "notes": "Venture Snowboards has not released their 2020-2021 line yet.",
-            "maximum": "TBD",
-            "boards": []
         },
         {
             "name": "Soul Waterman",
@@ -506,7 +650,7 @@
                     "side_cut": 5,
                     "stance": "",
                     "setback": "",
-                    "price": "800Eur",
+                    "price": "950 (800Eur)",
                     "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-dream-snowboard",
                     "profile": "",
                     "category": "Freestyle/Freeride",
@@ -520,7 +664,7 @@
                     "side_cut": 5,
                     "stance": "",
                     "setback": "",
-                    "price": "800Eur",
+                    "price": "950 (800Eur)",
                     "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-decent-snowboard",
                     "profile": "",
                     "category": "Freestyle",
@@ -534,7 +678,7 @@
                     "side_cut": 10,
                     "stance": "",
                     "setback": "",
-                    "price": "800EUR",
+                    "price": "950 (800EUR)",
                     "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-crude-snowboard",
                     "profile": "",
                     "category": "Freeride",
@@ -548,7 +692,7 @@
                     "side_cut": 7,
                     "stance": "",
                     "setback": "50mm",
-                    "price": "800Eur",
+                    "price": "950 (800Eur)",
                     "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-surge-snowboard",
                     "profile": "",
                     "category": "Freeride",
@@ -562,7 +706,7 @@
                     "side_cut": 9.163,
                     "stance": "",
                     "setback": "10mm",
-                    "price": "590Eur",
+                    "price": "700 (590Eur)",
                     "url": "http://www.ltbsnowboards.com/freestyle-snowboards/ltb-cutter-black-snowboard",
                     "profile": "Camber",
                     "category": "Freestyle/Backcountry",
@@ -576,13 +720,53 @@
                     "side_cut": 9.163,
                     "stance": "",
                     "setback": "10mm",
-                    "price": "620Eur",
+                    "price": "730 (620Eur)",
                     "url": "http://www.ltbsnowboards.com/freestyle-snowboards/ltb-p-team-wood-snowboard",
                     "profile": "Power Rocker",
                     "category": "",
                     "shape": "Twin"
                 }
             ]
+        },
+        {
+            "name": "Rome",
+            "url": "https://romesnowboards.com",
+            "logo": "rome/logo.jpeg",
+            "notes": "Rome has not released their 2020-2021 line yet.",
+            "maximum": "TBD",
+            "boards": []
+        },
+        {
+            "name": "Endeavor Snowboards",
+            "url": "https://usa.endeavorsnowboards.com",
+            "logo": "endeavor/logo.jpeg",
+            "notes": "Endeavor Snowboards has not released their 2020-2021 line yet.",
+            "maximum": "TBD",
+            "boards": []
+        },
+        {
+            "name": "Venture Snowboards",
+            "url": "https://venturesnowboards.com/",
+            "logo": "venture/logo.webp",
+            "notes": "Venture Snowboards has not released their 2020-2021 line yet.",
+            "maximum": "TBD",
+            "boards": []
+        },
+        {
+            "name": "Lobster Snowboards",
+            "url": "https://lobstersnowboards.com/",
+            "logo": "lobster/logo.jpeg",
+            "notes": "Lobster Snowboards have not released their 2020-2021 line yet.",
+            "maximum": "TBD",
+            "boards": []
+        },
+        {
+            "name": "Telos Snowboards",
+            "url": "https://telossnowboards.com/",
+            "logo": "telos/logo.webp",
+            "notes": "Telos does not list any specs about their boards, so it's not possible to find the width.",
+            "maximum": 0,
+            "boards": []
         }
     ]
 }

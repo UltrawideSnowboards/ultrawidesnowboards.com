@@ -48,6 +48,11 @@ Set image to a height of 600px, keep proportional.
 mogrify -geometry x600 superpig.jpeg
 ```
 
+
+```bash
+mogrify -geometry x300 logo.jpg
+```
+
 ```bash
 optipng filename.png
 ```
