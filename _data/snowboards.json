@@ -1,6 +1,29 @@
 {
     "brands": [
         {
+            "name": "Marhar Snowboards",
+            "url": "https://www.marharsnowboards.com/",
+            "logo": "marhar/logo.webp",
+            "notes": "",
+            "maximum": 27.3,
+            "boards": [
+                {
+                    "image": "marhar/lumberjack.webp",
+                    "name": "Lumberjack",
+                    "length": 158,
+                    "waist_width": "27.3, underfoot 29",
+                    "side_cut": 8.2,
+                    "stance": "20.5in-26.5in",
+                    "setback": "",
+                    "price": 560,
+                    "url": "https://www.marharsnowboards.com/collections/2019-2020-snowboards/products/lumberjack-snowboard",
+                    "profile": "",
+                    "category": "All Mountain Powder Freestyle",
+                    "shape": "True Twin"
+                }
+            ]
+        },
+        {
             "name": "Gentemstick",
             "url": "https://gentemstick.com/",
             "logo": "gentemstick/logo.png",
@@ -416,6 +439,27 @@
             ]
         },
         {
+            "name": "Endeavor Snowboards",
+            "url": "https://usa.endeavorsnowboards.com",
+            "logo": "endeavor/logo.jpeg",
+            "boards": [
+                {
+                    "image": "endeavor/archetype.webp",
+                    "name": "Archetype",
+                    "length": 160,
+                    "waist_width": 27.6,
+                    "side_cut": 8.7,
+                    "stance": "19in-25in",
+                    "setback": 0,
+                    "price": 550,
+                    "url": "https://usa.endeavorsnowboards.com/collections/snowboards/products/2021-archetype?variant=33006171324525",
+                    "profile": "Hover Camber",
+                    "category": "Powder",
+                    "shape": "Directional"
+                }
+            ]
+        },
+        {
             "name": "Niche Snowboards",
             "url": "https://nichesnowboards.com/",
             "logo": "niche/logo.png",
@@ -459,14 +503,6 @@
             "logo": "arbor/logo.webp",
             "notes": "",
             "maximum": 27.35,
-            "boards": []
-        },
-        {
-            "name": "Marhar Snowboards",
-            "url": "https://www.marharsnowboards.com/",
-            "logo": "marhar/logo.webp",
-            "notes": "",
-            "maximum": 27.3,
             "boards": []
         },
         {
@@ -765,14 +801,6 @@
             "url": "https://romesnowboards.com",
             "logo": "rome/logo.jpeg",
             "notes": "Rome has not released their 2020-2021 line yet.",
-            "maximum": null,
-            "boards": []
-        },
-        {
-            "name": "Endeavor Snowboards",
-            "url": "https://usa.endeavorsnowboards.com",
-            "logo": "endeavor/logo.jpeg",
-            "notes": "Endeavor Snowboards has not released their 2020-2021 line yet.",
             "maximum": null,
             "boards": []
         },
