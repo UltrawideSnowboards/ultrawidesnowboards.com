@@ -493,8 +493,8 @@
             "name": "Nitro",
             "url": "https://nitrousa.com/",
             "logo": "nitro/logo.png",
-            "notes": "",
-            "maximum": 27.4,
+            "notes": "Nitro makes the <a href=\"https://nitrousa.com/snowboards/magnum\" target=\"_blank\">Magnum</a> designed for big foot riders with a pretty tight sidecut, but they only list the waist width (27.4cm) and not the presumably much larger underfoot size.",
+            "maximum": null,
             "boards": []
         },
         {
