@@ -460,6 +460,42 @@
             ]
         },
         {
+            "name": "Telos Snowboards",
+            "url": "https://telossnowboards.com/",
+            "logo": "telos/logo.webp",
+            "notes": "Telos lists their snowboard specs on <a href=\"https://telossnowboards.com/pages/2019-20-snowboard-specs\" target=\"blank\">this page</a>.",
+            "boards": [
+                {
+                    "image": "telos/backslash.webp",
+                    "name": "Back/Slash",
+                    "length": 158,
+                    "waist_width": 27.6,
+                    "side_cut": "7.3/9.6",
+                    "stance": "510mm-630mm",
+                    "setback": "25mm",
+                    "price": 600,
+                    "url": "https://telossnowboards.com/collections/2019-20-snowboard-collection/products/telos-back-slash-rated-radical",
+                    "profile": "Camber",
+                    "category": "",
+                    "shape": "Directional"
+                },
+                {
+                    "image": "telos/rideandseek.webp",
+                    "name": "Ride and Seek",
+                    "length": 179,
+                    "waist_width": 27.6,
+                    "side_cut": "10.4/9.5/8.9/8.4",
+                    "stance": "510mm-630mm",
+                    "setback": "0",
+                    "price": 650,
+                    "url": "https://telossnowboards.com/collections/2019-20-snowboard-collection/products/telos-ride-seek-swallowtail-surfer-2019-20",
+                    "profile": "",
+                    "category": "Freeride",
+                    "shape": "Directional"
+                }
+            ]
+        },
+        {
             "name": "Niche Snowboards",
             "url": "https://nichesnowboards.com/",
             "logo": "niche/logo.png",
@@ -833,14 +869,6 @@
             "url": "https://www.northwave.com",
             "logo": "northwave/logo.jpeg",
             "notes": "Northwave has not released their 2020-2021 line yet.",
-            "maximum": null,
-            "boards": []
-        },
-        {
-            "name": "Telos Snowboards",
-            "url": "https://telossnowboards.com/",
-            "logo": "telos/logo.webp",
-            "notes": "Telos does not list any specs about their boards, so it's not possible to find the width.",
             "maximum": null,
             "boards": []
         },
