@@ -83,7 +83,12 @@ title: Ultrawide Snowboards
                             <td>{{ board.side_cut }}</td>
                             <td>{{ board.stance }}</td>
                             <td>{{ board.setback }}</td>
-                            <td><a href="{{ board.url }}" target="_blank">${{ board.price }}</a></td>
+                            <td><a href="{{ board.url }}" target="_blank">
+                                {% if board.price != null %}
+                                    ${{ board.price }}
+                                {% else %}
+                                    N/A
+                                {% endif %}</a></td>
                         </tr>
                     {% endfor %}
                 </table>

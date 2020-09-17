@@ -116,6 +116,57 @@
             ]
         },
         {
+            "name": "CAPiTA",
+            "url": "https://capitasnowboarding.com/",
+            "logo": "capita/logo.png",
+            "notes": "Capita has their normal Men's and Women's lines, but they also have a separate line of snowboards 'Spring Break'. Their normal line maxes out at 27.4cm waist width.",
+            "maximum": 27.4,
+            "boards": [
+                {
+                    "image": "capita/slush_slasher.webp",
+                    "name": "Spring Break Slush Slasher",
+                    "length": 151,
+                    "waist_width": 28.6,
+                    "side_cut": 14.22,
+                    "stance": "59cm max",
+                    "setback": "",
+                    "price": null,
+                    "url": "https://capitasnowboarding.com/collections/spring-break/products/spring-break-slush-slasher#reviewsArea",
+                    "profile": "Party Profile",
+                    "category": "",
+                    "shape": "Directional"
+                },
+                {
+                    "image": "capita/powder_twin.webp",
+                    "name": "Spring Break Powder Twin",
+                    "length": 162,
+                    "waist_width": 27.8,
+                    "side_cut": 6.8,
+                    "stance": "64.1cm max",
+                    "setback": "",
+                    "price": null,
+                    "url": "https://capitasnowboarding.com/collections/spring-break/products/powder-twin",
+                    "profile": "Surf Rocker",
+                    "category": "",
+                    "shape": "True Twin"
+                },
+                {
+                    "image": "capita/powder_racers.webp",
+                    "name": "Spring Break Powder Racers",
+                    "length": 157,
+                    "waist_width": 27.8,
+                    "side_cut": 6.9,
+                    "stance": "64.6cm max",
+                    "setback": "",
+                    "price": null,
+                    "url": "https://capitasnowboarding.com/collections/spring-break/products/powder-racer",
+                    "profile": "Surf Rocker",
+                    "category": "",
+                    "shape": "Directional"
+                }
+            ]
+        },
+        {
             "name": "Lib Tech",
             "logo": "lib-tech/logo.png",
             "boards": [
@@ -253,6 +304,28 @@
                     "profile": "Dynamic Camber",
                     "category": "All Mountain",
                     "shape": "3D Twin"
+                }
+            ]
+        },
+        {
+            "name": "Nitro",
+            "url": "https://nitrousa.com/",
+            "logo": "nitro/logo.png",
+            "notes": "Nitro makes the <a href=\"https://nitrousa.com/snowboards/magnum\" target=\"_blank\">Magnum</a> designed for big foot riders with a pretty tight sidecut, but they only list the waist width (27.4cm) and not the presumably much larger underfoot size. They also have the Pow board, but despite it's 28cm waist the length of 154cm is pretty short for big riders. The Pow is listed here because it's waist size is >25.5cm.",
+            "boards": [
+                {
+                    "image": "nitro/pow.jpg",
+                    "name": "Pow",
+                    "length": 154,
+                    "waist_width": 28.0,
+                    "side_cut": "11.4/8.3",
+                    "stance": "52cm-64cm",
+                    "setback": 20,
+                    "price": null,
+                    "url": "https://nitrosnowboards.com/snowboards/pow",
+                    "profile": "True Camber",
+                    "category": "Backcountry",
+                    "shape": "Directional"
                 }
             ]
         },
@@ -516,22 +589,6 @@
                     "shape": "Directional"
                 }
             ]
-        },
-        {
-            "name": "CAPiTA",
-            "url": "https://capitasnowboarding.com/",
-            "logo": "capita/logo.png",
-            "notes": "",
-            "maximum": 27.4,
-            "boards": []
-        },
-        {
-            "name": "Nitro",
-            "url": "https://nitrousa.com/",
-            "logo": "nitro/logo.png",
-            "notes": "Nitro makes the <a href=\"https://nitrousa.com/snowboards/magnum\" target=\"_blank\">Magnum</a> designed for big foot riders with a pretty tight sidecut, but they only list the waist width (27.4cm) and not the presumably much larger underfoot size.",
-            "maximum": null,
-            "boards": []
         },
         {
             "name": "Arbor",
