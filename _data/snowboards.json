@@ -5,7 +5,6 @@
             "url": "https://www.marharsnowboards.com/",
             "logo": "marhar/logo.webp",
             "notes": "",
-            "maximum": 27.3,
             "boards": [
                 {
                     "image": "marhar/lumberjack.webp",
@@ -21,7 +20,12 @@
                     "category": "All Mountain Powder Freestyle",
                     "shape": "True Twin"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
         },
         {
             "name": "Gentemstick",
@@ -113,7 +117,26 @@
                     "category": "Alternative",
                     "shape": "Directional"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "boards": [
+                    {
+                        "image": "",
+                        "name": "Fly Fisk Chopstick",
+                        "length": 164,
+                        "waist_width": 28.7,
+                        "side_cut": 9,
+                        "stance": "540mm-760mm",
+                        "setback": "7mm",
+                        "price": "$1400 (¥146,000)",
+                        "url": "https://gentemstick.com/productsDetail/id_333/",
+                        "profile": "Accel Camber",
+                        "category": "",
+                        "shape": ""
+                    }
+                ]
+            }
         },
         {
             "name": "CAPiTA",
@@ -164,11 +187,17 @@
                     "category": "",
                     "shape": "Directional"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
         },
         {
             "name": "Lib Tech",
             "logo": "lib-tech/logo.png",
+            "url": "https://www.lib-tech.com/",
             "boards": [
                 {
                     "image": "lib-tech/skunk-ape.jpg",
@@ -198,11 +227,17 @@
                     "category": "experiMENTAL / Freeride",
                     "shape": "Directional"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": 26.8,
+                "boards": []
+            }
         },
         {
             "name": "Never Summer",
             "logo": "neversummer/logo.png",
+            "url": "https://www.neversummer.com/",
             "notes": "Never Summer categorizes their ultrawide boards as \"DF\", or Drag Free.",
             "boards": [
                 {
@@ -247,7 +282,12 @@
                     "category": "All Mountain",
                     "shape": "Twin"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": 27.4,
+                "boards": []
+            }
         },
         {
             "name": "Weston Backcountry",
@@ -270,12 +310,18 @@
                     "category": "All-Mountain",
                     "shape": "Twin"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": 27.3,
+                "boards": []
+            }
         },
         {
             "name": "Bataleon",
             "logo": "bataleon/logo.png",
-            "notes": "",
+            "url": "https://bataleon.com/",
+            "notes": "It seems that currently (2020-09-17) that Bataleon has removed their website in anticipation of refresh for 2020-2021. The boards below were listed as of 2020-09-09.",
             "boards": [
                 {
                     "image": "bataleon/partywave.png",
@@ -305,7 +351,12 @@
                     "category": "All Mountain",
                     "shape": "3D Twin"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": "Bataleon has not listed their 2020-2021 lineup yet.",
+                "maximum": null,
+                "boards": []
+            }
         },
         {
             "name": "Nitro",
@@ -327,7 +378,12 @@
                     "category": "Backcountry",
                     "shape": "Directional"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": 26.0,
+                "boards": []
+            }
         },
         {
             "name": "Donek",
@@ -349,7 +405,12 @@
                     "category": "All Mountain",
                     "shape": "Twin"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": "Donek does custom snowboards, so you can probably get them to make you a splitboard.",
+                "maximum": null,
+                "boards": []
+            }
         },
         {
             "name": "K2",
@@ -371,7 +432,12 @@
                     "category": "All Mountain, Powder",
                     "shape": "Directional"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": "Technically, the Split Bean snowboard has a 28.1cm waist, but at 144cm long it's much too short for most big foot riders. Otherwise, the maximum is 26.9.",
+                "maximum": 26.9,
+                "boards": []
+            }
         },
         {
             "name": "Salomon",
@@ -393,7 +459,12 @@
                     "category": "Powder",
                     "shape": "Tapered Directional"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": 26.1,
+                "boards": []
+            }
         },
         {
             "name": "Korua",
@@ -429,7 +500,12 @@
                     "category": "Carve",
                     "shape": "Directional"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": 26.6,
+                "boards": []
+            }
         },
         {
             "name": "Ride",
@@ -451,7 +527,12 @@
                     "category": "All Mountain, Park, Powder",
                     "shape": "Directional"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
         },
         {
             "name": "Moss Snowstick",
@@ -487,7 +568,12 @@
                     "category": "",
                     "shape": "Directional"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": 26.2,
+                "boards": []
+            }
         },
         {
             "name": "Nidecker",
@@ -509,7 +595,12 @@
                     "category": "All-Mountain",
                     "shape": "Twin"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
         },
         {
             "name": "Endeavor Snowboards",
@@ -530,7 +621,12 @@
                     "category": "Powder",
                     "shape": "Directional"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": 25.6,
+                "boards": []
+            }
         },
         {
             "name": "Telos Snowboards",
@@ -538,20 +634,6 @@
             "logo": "telos/logo.webp",
             "notes": "Telos lists their snowboard specs on <a href=\"https://telossnowboards.com/pages/2019-20-snowboard-specs\" target=\"blank\">this page</a>.",
             "boards": [
-                {
-                    "image": "telos/backslash.webp",
-                    "name": "Back/Slash",
-                    "length": 158,
-                    "waist_width": 27.6,
-                    "side_cut": "7.3/9.6",
-                    "stance": "510mm-630mm",
-                    "setback": "25mm",
-                    "price": 600,
-                    "url": "https://telossnowboards.com/collections/2019-20-snowboard-collection/products/telos-back-slash-rated-radical",
-                    "profile": "Camber",
-                    "category": "",
-                    "shape": "Directional"
-                },
                 {
                     "image": "telos/rideandseek.webp",
                     "name": "Ride and Seek",
@@ -565,8 +647,56 @@
                     "profile": "",
                     "category": "Freeride",
                     "shape": "Directional"
+                },
+                {
+                    "image": "telos/backslash.webp",
+                    "name": "Back/Slash",
+                    "length": 158,
+                    "waist_width": 27.6,
+                    "side_cut": "7.3/9.6",
+                    "stance": "510mm-630mm",
+                    "setback": "25mm",
+                    "price": 600,
+                    "url": "https://telossnowboards.com/collections/2019-20-snowboard-collection/products/telos-back-slash-rated-radical",
+                    "profile": "Camber",
+                    "category": "",
+                    "shape": "Directional"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": [
+                    {
+                        "image": "telos/rideandseek-split.webp",
+                        "name": "Ride and Seek Splitboard",
+                        "length": 179,
+                        "waist_width": 27.6,
+                        "side_cut": "10.4/9.5/8.9/8.4",
+                        "stance": "510mm-630mm",
+                        "setback": "0",
+                        "price": 950,
+                        "url": "https://telossnowboards.com/collections/2019-20-snowboard-collection/products/telos-ride-seek-swallowtail-splitboard-2019-20",
+                        "profile": "",
+                        "category": "Freeride",
+                        "shape": "Directional"
+                    },
+                    {
+                        "image": "telos/backslash-split.webp",
+                        "name": "Back/Slash Splitboard",
+                        "length": 158,
+                        "waist_width": 27.6,
+                        "side_cut": "7.3/9.6",
+                        "stance": "510mm-630mm",
+                        "setback": "25mm",
+                        "price": 900,
+                        "url": "https://telossnowboards.com/collections/2019-20-snowboard-collection/products/telos-back-slash-split-2019-20-ltd-early-release",
+                        "profile": "Camber",
+                        "category": "",
+                        "shape": "Directional"
+                    }
+                ]
+            }
         },
         {
             "name": "Niche Snowboards",
@@ -588,7 +718,54 @@
                     "category": "All-Mountain/Powder",
                     "shape": "Directional"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
+        },
+        {
+            "name": "Jones",
+            "url": "https://www.jonessnowboards.com/",
+            "logo": "jones/logo.jpeg",
+            "notes": "",
+            "boards": [
+                {
+                    "image": "jones/storm-chaser.jpg",
+                    "name": "Storm Chaser",
+                    "length": 160,
+                    "waist_width": 27.5,
+                    "side_cut": 7.2,
+                    "stance": "",
+                    "setback": "2.2cm",
+                    "price": 600,
+                    "url": "https://www.jonessnowboards.com/snowboarding/512-3277-storm-chaser.html",
+                    "profile": "Christenson Surf Rocker",
+                    "category": "Surf Series",
+                    "shape": "Directional"
+                }
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": [
+                    {
+                        "image": "jones/storm-chaser.jpg",
+                        "name": "Storm Chaser",
+                        "length": 157,
+                        "waist_width": 27.5,
+                        "side_cut": 7.1,
+                        "stance": "",
+                        "setback": "",
+                        "price": 900,
+                        "url": "https://www.jonessnowboards.com/splitboarding/523-3400-storm-chaser-splitboard.html",
+                        "profile": "Christenson Surf Rocker",
+                        "category": "Surf Series",
+                        "shape": "Directional"
+                    }
+                ]
+            }
         },
         {
             "name": "Arbor",
@@ -596,7 +773,12 @@
             "logo": "arbor/logo.webp",
             "notes": "",
             "maximum": 27.35,
-            "boards": []
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": 26.3,
+                "boards": []
+            }
         },
         {
             "name": "Hightide MFG",
@@ -604,7 +786,12 @@
             "logo": "hightide/logo.webp",
             "notes": "",
             "maximum": 27.2,
-            "boards": []
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
         },
         {
             "name": "Burton",
@@ -612,15 +799,12 @@
             "logo": "burton/logo.jpeg",
             "notes": "",
             "maximum": 27.0,
-            "boards": []
-        },
-        {
-            "name": "Jones",
-            "url": "https://www.jonessnowboards.com/",
-            "logo": "jones/logo.jpeg",
-            "notes": "",
-            "maximum": 27.0,
-            "boards": []
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": 27.0,
+                "boards": []
+            }
         },
         {
             "name": "Head",
@@ -628,13 +812,24 @@
             "logo": "head/logo.png",
             "notes": "",
             "maximum": 27.0,
-            "boards": []
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
         },
         {
             "name": "Gnu",
             "logo": "gnu/logo.png",
+            "url": "https://www.gnu.com/",
             "maximum": 26.8,
-            "boards": []
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": 26.5,
+                "boards": []
+            }
         },
         {
             "name": "Rossignol",
@@ -642,7 +837,12 @@
             "logo": "rossignol/logo.png",
             "notes": "",
             "maximum": 26.8,
-            "boards": []
+            "boards": [],
+            "splitboards": {
+                "notes": "Technically, the XV Sushi snowboard has a 27.6cm waist, but at 145cm long it's much too short for most big foot riders. Otherwise, the maximum is 26.2cm.",
+                "maximum": 26.2,
+                "boards": []
+            }
         },
         {
             "name": "Academy Snowboard Co.",
@@ -650,7 +850,12 @@
             "logo": "academy/logo.jpg",
             "notes": "",
             "maximum": 26.8,
-            "boards": []
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
         },
         {
             "name": "Dues Ex Machina",
@@ -658,7 +863,12 @@
             "logo": "deusexmachina/logo.png",
             "notes": "",
             "maximum": 26.5,
-            "boards": []
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
         },
         {
             "name": "Slash",
@@ -666,7 +876,12 @@
             "logo": "slash/logo.png",
             "notes": "",
             "maximum": 26.4,
-            "boards": []
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": 26.3,
+                "boards": []
+            }
         },
         {
             "name": "United Shapes",
@@ -674,7 +889,12 @@
             "logo": null,
             "notes": "",
             "maximum": 26.4,
-            "boards": []
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": 26.3,
+                "boards": []
+            }
         },
         {
             "name": "Sims",
@@ -682,7 +902,12 @@
             "logo": "sims/logo.png",
             "notes": "",
             "maximum": 26.4,
-            "boards": []
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
         },
         {
             "name": "DC",
@@ -690,7 +915,12 @@
             "logo": "dc/logo.jpeg",
             "notes": "",
             "maximum": 26.3,
-            "boards": []
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
         },
         {
             "name": "Dinosaurs Will Die",
@@ -698,7 +928,12 @@
             "logo": "dinosaurswilldie/logo.jpg",
             "notes": "",
             "maximum": 26.3,
-            "boards": []
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
         },
         {
             "name": "The Interior Plain Project",
@@ -706,7 +941,12 @@
             "logo": "ipp/logo.jpg",
             "notes": "",
             "maximum": 26.3,
-            "boards": []
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
         },
         {
             "name": "Yes. Snowboards",
@@ -729,7 +969,12 @@
                     "shape": "Directional Weird"
                 }
 
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": 27.0,
+                "boards": []
+            }
         },
         {
             "name": "Soul Waterman",
@@ -794,7 +1039,27 @@
                     "category": "Carve",
                     "shape": "Directional"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": [
+                    {
+                        "image": "soul/pocketrocket-split.webp",
+                        "name": "Pocket Rocket",
+                        "length": 165,
+                        "waist_width": 28.2,
+                        "side_cut": "",
+                        "stance": "",
+                        "setback": "",
+                        "price": 1000,
+                        "url": "https://www.soulwaterman.com/collections/soulstick/products/pocketrocket?variant=19591397245014",
+                        "profile": "",
+                        "category": "Powder",
+                        "shape": "Directional"
+                    },
+                ]
+            }
         },
         {
             "name": "LTB Snowboards",
@@ -887,7 +1152,27 @@
                     "category": "",
                     "shape": "Twin"
                 }
-            ]
+            ],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": [
+                    {
+                        "image": "ltb/life-split.jpg",
+                        "name": "Life Splitboard DL186XXW",
+                        "length": 186.1,
+                        "waist_width": 27.7,
+                        "side_cut": 7.8,
+                        "stance": "",
+                        "setback": "",
+                        "price": "950 (800Eur)",
+                        "url": "http://www.ltbsnowboards.com/split-snowboards/ltb-life-splitboard",
+                        "profile": "",
+                        "category": "",
+                        "shape": "Directional"
+                    }
+                ]
+            }
         },
         {
             "name": "Rome",

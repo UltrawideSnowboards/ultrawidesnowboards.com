@@ -59,7 +59,7 @@ title: Ultrawide Snowboards
                 <div class="table-responsive">
                 <table class="table">
                     <thead class="thead-dark">
-                        <th>{{ brand.name }}</th>
+                        <th><a class="text-reset" href="{{ brand.url }}" target="_blank">{{ brand.name }}</a></th>
                         <th>Name</th>
                         <th>Size (cm)</th>
                         <th>Waist Width (cm)</th>
@@ -94,7 +94,7 @@ title: Ultrawide Snowboards
                 </table>
                 </div>
                 {% elsif brand.maximum != null %}
-                <p>{{ brand.name }} doesn't make any ultrawide boards (their largest is {{ brand.maximum }}cm).</p>
+                <p><a class="text-reset" href="{{ brand.url }}" target="_blank">{{ brand.name }}</a> doesn't make any ultrawide boards (their largest is {{ brand.maximum }}cm).</p>
                 {% endif %}
             </div>
         </div>
