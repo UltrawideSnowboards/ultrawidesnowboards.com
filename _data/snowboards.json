@@ -930,6 +930,14 @@
             "boards": []
         },
         {
+            "name": "Habitual Snowboard Co",
+            "url": "https://www.habitualsnow.com/",
+            "logo": "habitual/logo.webp",
+            "notes": "Habitual Snowboard Co. has not released their 2020-2021 line yet.",
+            "maximum": null,
+            "boards": []
+        },
+        {
             "name": "Chomonix",
             "url": "https://chamonixcollection.com/",
             "logo": "chomonix/logo.webp",
