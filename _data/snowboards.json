@@ -108,7 +108,7 @@
                 "notes": null,
                 "boards": [
                     {
-                        "image": "",
+                        "image": "gentemstick/flyfisk_chopstick.png",
                         "name": "Fly Fisk Chopstick",
                         "length": 164,
                         "waist_width": 28.7,
@@ -118,8 +118,8 @@
                         "price": "1400 (¥146,000)",
                         "url": "https://gentemstick.com/productsDetail/id_333/",
                         "profile": "Accel Camber",
-                        "category": "",
-                        "shape": ""
+                        "category": "Freestyle",
+                        "shape": "Directional"
                     }
                 ]
             }
