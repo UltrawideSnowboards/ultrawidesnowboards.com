@@ -102,20 +102,6 @@
                     "profile": "Accel Camber",
                     "category": "Alternative",
                     "shape": "Directional"
-                },
-                {
-                    "image": "gentemstick/rocketfish.png",
-                    "name": "Rocket Fish",
-                    "length": 144.7,
-                    "waist_width": 29.4,
-                    "side_cut": 8.1,
-                    "stance": "440mm-520mm",
-                    "setback": "26.5mm",
-                    "price": "1030 (¥110,000)",
-                    "url": "https://gentemstick.com/productsDetail/id_306/",
-                    "profile": "Accel Camber",
-                    "category": "Alternative",
-                    "shape": "Directional"
                 }
             ],
             "splitboards": {
@@ -129,7 +115,7 @@
                         "side_cut": 9,
                         "stance": "540mm-760mm",
                         "setback": "7mm",
-                        "price": "$1400 (¥146,000)",
+                        "price": "1400 (¥146,000)",
                         "url": "https://gentemstick.com/productsDetail/id_333/",
                         "profile": "Accel Camber",
                         "category": "",
@@ -145,20 +131,6 @@
             "notes": "Capita has their normal Men's and Women's lines, but they also have a separate line of snowboards 'Spring Break'. Their normal line maxes out at 27.4cm waist width.",
             "maximum": 27.4,
             "boards": [
-                {
-                    "image": "capita/slush_slasher.webp",
-                    "name": "Spring Break Slush Slasher",
-                    "length": 151,
-                    "waist_width": 28.6,
-                    "side_cut": 14.22,
-                    "stance": "59cm max",
-                    "setback": "",
-                    "price": null,
-                    "url": "https://capitasnowboarding.com/collections/spring-break/products/spring-break-slush-slasher#reviewsArea",
-                    "profile": "Party Profile",
-                    "category": "",
-                    "shape": "Directional"
-                },
                 {
                     "image": "capita/powder_twin.webp",
                     "name": "Spring Break Powder Twin",
@@ -324,20 +296,6 @@
             "notes": "It seems that currently (2020-09-17) that Bataleon has removed their website in anticipation of refresh for 2020-2021. The boards below were listed as of 2020-09-09.",
             "boards": [
                 {
-                    "image": "bataleon/partywave.png",
-                    "name": "Party Wave 154",
-                    "length": 154,
-                    "waist_width": 28.0,
-                    "side_cut": 8.9,
-                    "stance": "-",
-                    "setback": "3cm",
-                    "price": 400,
-                    "url": "https://www.bataleon.com/en/shop/snowboards/party-wave-1920",
-                    "profile": "Mellow Camber",
-                    "category": "Powder",
-                    "shape": "3D Directional"
-                },
-                {
                     "image": "bataleon/stallion.png",
                     "name": "Stallion 167W",
                     "length": 167,
@@ -362,53 +320,12 @@
             "name": "Nitro",
             "url": "https://nitrousa.com/",
             "logo": "nitro/logo.png",
-            "notes": "Nitro makes the <a href=\"https://nitrousa.com/snowboards/magnum\" target=\"_blank\">Magnum</a> designed for big foot riders with a pretty tight sidecut, but they only list the waist width (27.4cm) and not the presumably much larger underfoot size. They also have the Pow board, but despite it's 28cm waist the length of 154cm is pretty short for big riders. The Pow is listed here because it's waist size is >25.5cm.",
-            "boards": [
-                {
-                    "image": "nitro/pow.jpg",
-                    "name": "Pow",
-                    "length": 154,
-                    "waist_width": 28.0,
-                    "side_cut": "11.4/8.3",
-                    "stance": "52cm-64cm",
-                    "setback": 20,
-                    "price": null,
-                    "url": "https://nitrosnowboards.com/snowboards/pow",
-                    "profile": "True Camber",
-                    "category": "Backcountry",
-                    "shape": "Directional"
-                }
-            ],
+            "maximum": 28,
+            "notes": "Nitro makes the 28cm wide Pow board, but at 154cm it's too short for this list. They also make the <a href=\"https://nitrousa.com/snowboards/magnum\" target=\"_blank\">Magnum</a> designed for big foot riders with a pretty tight sidecut, but they only list the waist width (27.4cm) and not the presumably much larger underfoot size.",
+            "boards": [],
             "splitboards": {
                 "notes": null,
                 "maximum": 26.0,
-                "boards": []
-            }
-        },
-        {
-            "name": "Donek",
-            "url": "https://www.donek.com/",
-            "logo": "donek/logo.png",
-            "notes": "Donek does custom snowboards, so you can get essentially anything you like. Expect to spend quite a bit more for a nice board though.",
-            "boards": [
-                {
-                    "image": "donek/knapton.png",
-                    "name": "Knapton Twin",
-                    "length": "custom",
-                    "waist_width": "custom",
-                    "side_cut": "custom",
-                    "stance": "custom",
-                    "setback": "custom",
-                    "price": "750+",
-                    "url": "https://www.donek.com/product/knapton-twin/",
-                    "profile": "custom",
-                    "category": "All Mountain",
-                    "shape": "Twin"
-                }
-            ],
-            "splitboards": {
-                "notes": "Donek does custom snowboards, so you can probably get them to make you a splitboard.",
-                "maximum": null,
                 "boards": []
             }
         },
@@ -505,6 +422,77 @@
                 "notes": null,
                 "maximum": 26.6,
                 "boards": []
+            }
+        },
+        {
+            "name": "Winterstick Snowboards",
+            "url": "https://www.winterstick.com/",
+            "logo": "winterstick/logo.jpg",
+            "notes": "Winterstick will customize the width of your board for $100 more.",
+            "maximum": 0,
+            "boards": [
+                {
+                    "image": "winterstick/roundtail.png",
+                    "name": "Roundtail",
+                    "length": 168,
+                    "waist_width": 27.8,
+                    "side_cut": 9.5,
+                    "stance": "",
+                    "setback": "50mm",
+                    "price": 1000,
+                    "url": "https://www.winterstick.com/shop/roundtail/",
+                    "profile": "",
+                    "category": "Powder",
+                    "shape": "Directional"
+                },
+                {
+                    "image": "winterstick/day_dreamer.jpg",
+                    "name": "Day Dreamer",
+                    "length": 167,
+                    "waist_width": 27.5,
+                    "side_cut": 9,
+                    "stance": "",
+                    "setback": "50mm",
+                    "price": 1300,
+                    "url": "https://www.winterstick.com/shop/day-dreamer/",
+                    "profile": "",
+                    "category": "Powder",
+                    "shape": "Directional"
+                }
+            ],
+            "splitboards": {
+                "notes": "Winterstick will customize the width of your board for $100 more. All their standard boards are also available in split.",
+                "maximum": null,
+                "boards": [
+                    {
+                        "image": "",
+                        "name": "Roundtail",
+                        "length": 168,
+                        "waist_width": 27.8,
+                        "side_cut": 9.5,
+                        "stance": "",
+                        "setback": "50mm",
+                        "price": 1000,
+                        "url": "https://www.winterstick.com/shop/roundtail/",
+                        "profile": "",
+                        "category": "Powder",
+                        "shape": "Directional"
+                    },
+                    {
+                        "image": "winterstick/day_dreamer.jpg",
+                        "name": "Day Dreamer",
+                        "length": 167,
+                        "waist_width": 27.5,
+                        "side_cut": 9,
+                        "stance": "",
+                        "setback": "50mm",
+                        "price": 1300,
+                        "url": "https://www.winterstick.com/shop/day-dreamer/",
+                        "profile": "",
+                        "category": "Powder",
+                        "shape": "Directional"
+                    }
+                ]
             }
         },
         {
@@ -768,6 +756,19 @@
             }
         },
         {
+            "name": "Deviation Ski & Snowboard Works",
+            "url": "https://deviationusa.com/",
+            "logo": "deviation/logo.png",
+            "notes": "",
+            "maximum": 27.4,
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
+        },
+        {
             "name": "Arbor",
             "url": "https://www.arborcollective.com/",
             "logo": "arbor/logo.webp",
@@ -819,6 +820,75 @@
                 "boards": []
             }
         },
+        {
+            "name": "Kemper Snowboards",
+            "url": "https://kemper-snowboards.com/",
+            "logo": "kemper/logo.webp",
+            "notes": "",
+            "maximum": 27.0,
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": 25.5,
+                "boards": []
+            }
+        },
+        {
+            "name": "Prior",
+            "url": "https://www.priorsnow.com/",
+            "logo": "prior/logo.webp",
+            "notes": "Prior has the Thruster 149XCE with a 28cm waist but it's extreme shortness makes it unsuitable for large riders. Prior also does custom boards but their online web order form does not let you choose a custom width. If interested, please contact them.",
+            "maximum": 27.0,
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": 26.8,
+                "boards": []
+            }
+        },
+        {
+            "name": "Borealis Snowboards",
+            "url": "https://www.borealis-snowboards.com/",
+            "logo": "borealis/logo.webp",
+            "notes": "",
+            "maximum": 27.0,
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": 25.0,
+                "boards": []
+            }
+        },
+        {
+            "name": "Cardiff Snowcraft",
+            "url": "https://www.cardiffsnow.com/",
+            "logo": "cardiff/logo.png",
+            "notes": "",
+            "maximum": 27.0,
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": [
+                    {
+                        "image": "cardiff/powgoda.webp",
+                        "name": "The Powgoda",
+                        "length": 162,
+                        "waist_width": 28.0,
+                        "side_cut": 8.5,
+                        "stance": "",
+                        "setback": "7mm",
+                        "price": 900,
+                        "url": "https://www.cardiffsnow.com/products/the-powgoda?variant=30355700908106",
+                        "profile": "HALFcamber50",
+                        "category": "",
+                        "shape": "Directional"
+                    }
+                ]
+            }
+        },
+
+
         {
             "name": "Gnu",
             "logo": "gnu/logo.png",
@@ -945,6 +1015,19 @@
             "splitboards": {
                 "notes": null,
                 "maximum": null,
+                "boards": []
+            }
+        },
+        {
+            "name": "Knwn Mfg.",
+            "url": "https://knwnmfg.com/",
+            "logo": "knwn/logo.webp",
+            "notes": "",
+            "maximum": 26.2,
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": 26.4,
                 "boards": []
             }
         },
@@ -1175,6 +1258,73 @@
             }
         },
         {
+            "name": "Donek",
+            "url": "https://www.donek.com/",
+            "logo": "donek/logo.png",
+            "maximum": null,
+            "notes": "Donek does custom snowboards, so you can get essentially anything you like. Expect to spend quite a bit more for a nice board though.",
+            "boards": [
+                {
+                    "image": "donek/knapton.png",
+                    "name": "Knapton Twin",
+                    "length": "custom",
+                    "waist_width": "custom",
+                    "side_cut": "custom",
+                    "stance": "custom",
+                    "setback": "custom",
+                    "price": "750+",
+                    "url": "https://www.donek.com/product/knapton-twin/",
+                    "profile": "custom",
+                    "category": "All Mountain",
+                    "shape": "Twin"
+                }
+            ],
+            "splitboards": {
+                "notes": "Donek does custom snowboards, so you can probably get them to make you a splitboard.",
+                "maximum": null,
+                "boards": []
+            }
+        },
+        {
+            "name": "Kindred Snowboards",
+            "url": "http://www.kindredsnowboards.com",
+            "logo": "kindred/logo.webp",
+            "notes": "Custom snowboards made on Vancouver Island.",
+            "maximum": null,
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
+        },
+        {
+            "name": "Aotea Shapes",
+            "url": "https://www.aoteashapes.com/",
+            "logo": "aotea/logo.webp",
+            "notes": "Custom snowboards made in New Zealand.",
+            "maximum": null,
+            "boards": [],
+            "splitboards": {
+                "notes": "Custom snowboards made in New Zealand.",
+                "maximum": null,
+                "boards": []
+            }
+        },
+        {
+            "name": "Franco Snowshapes",
+            "url": "https://www.francosnowshapes.com/",
+            "logo": "franco/logo.png",
+            "notes": "Franco makes very custom boards. You'll need to contact them for details.",
+            "maximum": null,
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
+        },
+        {
             "name": "Rome",
             "url": "https://romesnowboards.com",
             "logo": "rome/logo.jpeg",
@@ -1229,6 +1379,32 @@
             "notes": "Chomonix doesn't list specs of their snowboards, so we don't know the waist widths.",
             "maximum": null,
             "boards": []
+        },
+        {
+            "name": "Stompede Snowboards",
+            "url": "https://www.stompede-snowboards.com/english/",
+            "logo": "stompede/logo.png",
+            "notes": "Still working on their English site. Made in Germany.",
+            "maximum": 0,
+            "boards": [],
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": []
+            }
+        },
+        {
+            "name": "Voile",
+            "url": "https://www.voile.com/",
+            "logo": "voile/logo.png",
+            "notes": "Voile only makes splitboards, no traditional snowboards.",
+            "maximum": null,
+            "boards": [],
+            "splitboards": {
+                "notes": "Voile's maximum width is 26.5cm. Note that they also sell <a href=\"https://www.voile.com/voile-split-kit-diy.html\" target=\"_blank\">DIY conversion kits</a>.",
+                "maximum": 26.5,
+                "boards": []
+            }
         }
     ]
 }
