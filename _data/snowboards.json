@@ -281,12 +281,41 @@
                     "profile": "Rocker-Camber-Rocker",
                     "category": "All-Mountain",
                     "shape": "Twin"
+                },
+                {
+                    "image": "weston/backwoods.webp",
+                    "name": "Backwoods",
+                    "length": 167,
+                    "waist_width": 28.1,
+                    "side_cut": "8/7.2/8.4",
+                    "stance": "",
+                    "setback": "10mm",
+                    "price": 600,
+                    "url": "https://westonbackcountry.com/collections/snowboards/products/backwoods-20-21",
+                    "profile": "Multi-Radial Camber-Rocker",
+                    "category": "Powder/Freeride",
+                    "shape": "Directional"
                 }
             ],
             "splitboards": {
                 "notes": null,
-                "maximum": 27.3,
-                "boards": []
+                "maximum": null,
+                "boards": [
+                    {
+                        "image": "weston/backwoods-split.webp",
+                        "name": "Backwoods",
+                        "length": 167,
+                        "waist_width": 28.1,
+                        "side_cut": "8/7.2/8.4",
+                        "stance": "",
+                        "setback": "10mm",
+                        "price": 900,
+                        "url": "https://westonbackcountry.com/collections/splitboards/products/backwoods-splitboard-20-21",
+                        "profile": "Multi-Radial Camber-Rocker",
+                        "category": "Powder/Freeride",
+                        "shape": "Directional"
+                    }
+                ]
             }
         },
         {
