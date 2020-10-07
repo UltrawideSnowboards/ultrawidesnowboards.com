@@ -709,6 +709,36 @@
             }
         },
         {
+            "name": "Snoplanks",
+            "url": "https://www.snoplanks.com/",
+            "logo": "snoplanks/logo.webp",
+            "solid": {
+                "notes": null,
+                "maximum": null,
+                "boards": [
+                    {
+                        "image": "snoplanks/snofish.webp",
+                        "name": "Snofish",
+                        "length": 170,
+                        "waist_width": 27.5,
+                        "side_cut": 9.2,
+                        "stance": null,
+                        "setback": null,
+                        "price": 800,
+                        "url": "https://www.snoplanks.com/collections/snowboards/products/snofish",
+                        "profile": null,
+                        "category": "Powder",
+                        "shape": "Directional"
+                    }
+                ]
+            },
+            "splitboards": {
+                "notes": null,
+                "maximum": 27.0,
+                "boards": []
+            }
+        },
+        {
             "name": "Bataleon",
             "logo": "bataleon/logo.png",
             "url": "https://bataleon.com/",
@@ -1481,21 +1511,6 @@
             }
         },
         {
-            "name": "Snoplanks",
-            "url": "https://www.snoplanks.com/",
-            "logo": "snoplanks/logo.webp",
-            "solid": {
-                "notes": "Snoplanks has not released their 2020-2021 line yet.",
-                "maximum": null,
-                "boards": []
-            },
-            "splitboards": {
-                "notes": "Snoplanks has not released their 2020-2021 line yet.",
-                "maximum": null,
-                "boards": []
-            }
-        },
-        {
             "name": "Northwave",
             "url": "https://www.northwave.com",
             "logo": "northwave/logo.jpeg",
@@ -1515,12 +1530,12 @@
             "url": "https://www.habitualsnow.com/",
             "logo": "habitual/logo.webp",
             "solid": {
-                "notes": "Habitual Snowboard Co. has not released their 2020-2021 line yet.",
+                "notes": "Habitual Snowboard Co. just released their website, but it seems that links to specific boards don't work yet.",
                 "maximum": null,
                 "boards": []
             },
             "splitboards": {
-                "notes": "Habitual Snowboard Co. has not released their 2020-2021 line yet.",
+                "notes": "Habitual Snowboard Co. just released their website, but it seems that links to specific boards don't work yet.",
                 "maximum": null,
                 "boards": []
             }
