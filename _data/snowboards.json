@@ -1068,6 +1068,21 @@
             }
         },
         {
+            "name": "Trapper Snowboards",
+            "url": "https://trappersnowboards.com/",
+            "logo": "trapper/logo.webp",
+            "solid": {
+                "notes": null,
+                "maximum": 26.6,
+                "boards": []
+            },
+            "splitboards": {
+                "notes": null,
+                "maximum": 26.6,
+                "boards": []
+            }
+        },
+        {
             "name": "Dues Ex Machina",
             "url": "https://shop.us.deuscustoms.com/",
             "logo": "deusexmachina/logo.png",
@@ -1596,6 +1611,51 @@
             "splitboards": {
                 "notes": "Voile's maximum width is 26.5cm. Note that they also sell <a href=\"https://www.voile.com/voile-split-kit-diy.html\" target=\"_blank\">DIY conversion kits</a>.",
                 "maximum": 26.5,
+                "boards": []
+            }
+        },
+        {
+            "name": "Chimera Backcountry Snowboards",
+            "url": "https://chimerasnowboards.com/",
+            "logo": "chimera/logo.png",
+            "solid": {
+                "notes": "Chimera only makes splitboards, no traditional snowboards.",
+                "maximum": null,
+                "boards": []
+            },
+            "splitboards": {
+                "notes": null,
+                "maximum": 25.9,
+                "boards": []
+            }
+        },
+        {
+            "name": "Spline Snowboards",
+            "url": "https://www.splinesnowboards.com/",
+            "logo": "spline/logo.png",
+            "solid": {
+                "notes": "Spline has a standard lineup, but starting at $2000CAD they'll make a custom board for your. Their standard lineup maxes out at 26.5cm waist width.",
+                "maximum": 26.5,
+                "boards": []
+            },
+            "splitboards": {
+                "notes": "Spline has a standard lineup, but starting at $2000CAD they'll make a custom board for your. Their standard lineup maxes out at 26.5cm waist width.",
+                "maximum": 26.5,
+                "boards": []
+            }
+        },
+        {
+            "name": "Pallas Snowboards",
+            "url": "https://pallassnowboards.com/",
+            "logo": "pallas/logo.png",
+            "solid": {
+                "notes": "Pallas does not make men's snowboards",
+                "maximum": null,
+                "boards": []
+            },
+            "splitboards": {
+                "notes": "Pallas does not make men's snowboards",
+                "maximum": null,
                 "boards": []
             }
         }
