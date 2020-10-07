@@ -743,27 +743,41 @@
             "logo": "bataleon/logo.png",
             "url": "https://bataleon.com/",
             "solid": {
-                "notes": "It seems that currently (2020-09-17) that Bataleon has removed their website in anticipation of refresh for 2020-2021. The boards below were listed as of 2020-09-09.",
+                "notes": null,
                 "maximum": null,
                 "boards": [
                     {
-                        "image": "bataleon/stallion.png",
-                        "name": "Stallion 167W",
+                        "image": "bataleon/stallion.webp",
+                        "name": "Stallion",
                         "length": 167,
                         "waist_width": 27.5,
                         "side_cut": 8.5,
-                        "stance": "-",
+                        "stance": "55-67cm",
                         "setback": 0,
-                        "price": 630,
-                        "url": "https://www.bataleon.com/en/shop/snowboards/stallion-1920",
+                        "price": 650,
+                        "url": "https://bataleon.com/collections/mens-snowboards/products/bataleon-stallion-snowboard-2020-2021",
                         "profile": "Dynamic Camber",
                         "category": "All Mountain",
-                        "shape": "3D Twin"
+                        "shape": "Directional Twin"
+                    },
+                    {
+                        "image": "bataleon/party_wave.webp",
+                        "name": "Party Wave",
+                        "length": 157,
+                        "waist_width": 28.0,
+                        "side_cut": 8.9,
+                        "stance": "51-60cm",
+                        "setback": 3,
+                        "price": 400,
+                        "url": "https://bataleon.com/collections/mens-snowboards/products/party-wave-snowboard-2020-2021",
+                        "profile": "Mellow Camber",
+                        "category": "Powder / All-Mountain",
+                        "shape": "Directional Tapered"
                     }
                 ]
             },
             "splitboards": {
-                "notes": "Bataleon has not listed their 2020-2021 lineup yet.",
+                "notes": null,
                 "maximum": null,
                 "boards": []
             }
