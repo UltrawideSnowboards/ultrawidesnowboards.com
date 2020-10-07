@@ -40,68 +40,24 @@ title: Ultrawide Snowboards
     </div>
 </div>
 
-{% for brand in site.data.snowboards.brands %}
-<div class="row" id="{{ brand.name }}">
-    <div class="col-sm">
-        <div class="card">
-            <div class="card-body">
-                {% if brand.logo != null %}
-                <p><img src="{{ site.github.url }}/assets/img/{{ brand.logo }}" class="brand-logo-hero img-fluid" alt="{{ brand.name }} logo"></img></p>
-                {% else %}
-                <h2>{{ brand.name }}</h2>
-                {% endif %}
+{% assign category = 'solid' %}
 
-                {% if brand.notes.size > 0 %}
-                <p>{{ brand.notes }}</p>
-                {% endif %}
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].boards.size > 0" | where_exp:"brand", "brand[category].maximum != 0" %}
+{% include brand-list.html %}
 
-                {% if brand.boards.size > 0 %}
-                <div class="table-responsive">
-                <table class="table">
-                    <thead class="thead-dark">
-                        <th><a class="text-reset" href="{{ brand.url }}" target="_blank">{{ brand.name }}</a></th>
-                        <th>Name</th>
-                        <th>Size (cm)</th>
-                        <th>Waist Width (cm)</th>
-                        <th>Category</th>
-                        <th>Profile</th>
-                        <th>Shape</th>
-                        <th>Side Cut (m)</th>
-                        <th>Stance Min-Max</th>
-                        <th>Set Back</th>
-                        <th>Price</th>
-                    </thead>
-                    {% for board in brand.boards %}
-                        <tr>
-                            <td><a href="{{ board.url }}" target="_blank"><img src="{{ site.github.url }}/assets/img/{{ board.image }}" class="snowboard"><img></a></td>
-                            <td>{{ board.name }}</td>
-                            <td>{{ board.length }}</td>
-                            <td>{{ board.waist_width }}</td>
-                            <td>{{ board.category }}</td>
-                            <td>{{ board.profile }}</td>
-                            <td>{{ board.shape }}</td>
-                            <td>{{ board.side_cut }}</td>
-                            <td>{{ board.stance }}</td>
-                            <td>{{ board.setback }}</td>
-                            <td><a href="{{ board.url }}" target="_blank">
-                                {% if board.price != null %}
-                                    ${{ board.price }}
-                                {% else %}
-                                    N/A
-                                {% endif %}</a></td>
-                        </tr>
-                    {% endfor %}
-                </table>
-                </div>
-                {% elsif brand.maximum != null %}
-                <p><a class="text-reset" href="{{ brand.url }}" target="_blank">{{ brand.name }}</a> doesn't make any ultrawide boards (their largest is {{ brand.maximum }}cm).</p>
-                {% endif %}
-            </div>
-        </div>
-    </div>
-</div>
-{% endfor %}
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].boards.size == 0" | where_exp:"brand", "brand[category].maximum > 0" | sort:"solid.maximum" | reverse %}
+{% include brand-list.html %}
 
+{% comment %}Brands that make custom boards{% endcomment %}
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].maximum == -1" | sort:"name" %}
+{% include brand-list.html %}
+
+{% comment %}Allow special casing the brands with wide boards that I think should go at the bottom{% endcomment %}
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].maximum == 0" | sort:"solid.maximum" | reverse %}
+{% include brand-list.html %}
+
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].boards.size == 0" | where_exp:"brand", "brand[category].maximum == null" | sort:"name" %}
+{% include brand-list.html %}
 <br><br><br><br>
 
 {% include contact-form.html %}

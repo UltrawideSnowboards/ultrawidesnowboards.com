@@ -1,0 +1,32 @@
+---
+layout: default
+title: Ultrawide Snowboards
+---
+
+<div class="row">
+    <div class="col-sm">
+        <div class="card">
+            <div class="card-body">
+                <h1>Splitboards</h1>
+
+                <p>The supply of big split boards is even more limited than solid boards. The list below is everything that is 27.5cm or wider and 155cm or longer. Unfortunately, it's not much. You might be better off splitting your own board or going custom.</p>
+
+                <p>Check out the <a href="/">home page</a> for more general information on ultrawide boards.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% assign category = 'splitboards' %}
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand.splitboards.boards.size > 0" %}
+{% include brand-list.html %}
+
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand.splitboards.boards.size == 0" | where_exp:"brand", "brand.splitboards.maximum > 0" | sort:"splitboards.maximum" | reverse %}
+{% include brand-list.html %}
+
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand.splitboards.boards.size == 0" | where_exp:"brand", "brand.splitboards.maximum == null" | sort:"name" %}
+{% include brand-list.html %}
+
+
+<br><br><br><br>
+{% include contact-form.html %}
