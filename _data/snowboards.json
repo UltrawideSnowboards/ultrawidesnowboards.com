@@ -1440,11 +1440,26 @@
             "logo": "donek/logo.png",
             "solid": {
                 "maximum": -1,
-                "notes": "Donek does custom snowboards, so you can get essentially anything you like. Expect to spend quite a bit more for a nice board though.",
+                "notes": "Donek does custom snowboards, so you can get essentially anything you like.",
                 "boards": []
             },
             "splitboards": {
                 "notes": "Donek does custom snowboards, so you can probably get them to make you a splitboard.",
+                "maximum": null,
+                "boards": []
+            }
+        },
+        {
+            "name": "MTN Local Snowboards",
+            "url": "https://mtnlocalsnowboards.com/",
+            "logo": "mtnlocal/logo.gif",
+            "solid": {
+                "maximum": -1,
+                "notes": "MTN Local does custom snowboards, so you can get essentially anything you like. One happy customer reports a 33.3cm waist.",
+                "boards": []
+            },
+            "splitboards": {
+                "notes": "MTN Local does custom splitboards, so you can get essentially anything you like.",
                 "maximum": null,
                 "boards": []
             }
