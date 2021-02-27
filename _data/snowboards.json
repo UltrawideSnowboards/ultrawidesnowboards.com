@@ -1,6 +1,121 @@
 {
     "brands": [
         {
+            "name": "LTB Snowboards",
+            "url": "http://www.ltbsnowboards.com/",
+            "logo": "ltb/logo.jpg",
+            "solid": {
+                "notes": "EU buyers can order directly from their webstore. US buyers can contact them directly and they'll send a paypal invoice plus 50 EUR shipping.",
+                "maximum": 32,
+                "boards": [
+                    {
+                        "image": "ltb/dream.jpg",
+                        "name": "Dream DR178XXW",
+                        "length": 177.8,
+                        "waist_width": 32,
+                        "side_cut": 5,
+                        "stance": null,
+                        "setback": null,
+                        "price": "950 (800Eur)",
+                        "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-dream-snowboard",
+                        "profile": null,
+                        "category": "Freestyle/Freeride",
+                        "shape": "Twin"
+                    },
+                    {
+                        "image": "ltb/decent.jpg",
+                        "name": "Decent DDC165XXW",
+                        "length": 166.1,
+                        "waist_width": 32,
+                        "side_cut": 5,
+                        "stance": null,
+                        "setback": null,
+                        "price": "950 (800Eur)",
+                        "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-decent-snowboard",
+                        "profile": null,
+                        "category": "Freestyle",
+                        "shape": "Twin"
+                    },
+                    {
+                        "image": "ltb/crude.jpg",
+                        "name": "Crude DC165XXW",
+                        "length": 165.3,
+                        "waist_width": 29.3,
+                        "side_cut": 10,
+                        "stance": null,
+                        "setback": null,
+                        "price": "950 (800EUR)",
+                        "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-crude-snowboard",
+                        "profile": null,
+                        "category": "Freeride",
+                        "shape": "Directional"
+                    },
+                    {
+                        "image": "ltb/surge.jpg",
+                        "name": "Surge 163XXW",
+                        "length": 163,
+                        "waist_width": 29.2,
+                        "side_cut": 7,
+                        "stance": null,
+                        "setback": "50mm",
+                        "price": "950 (800Eur)",
+                        "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-surge-snowboard",
+                        "profile": null,
+                        "category": "Freeride",
+                        "shape": "Directional"
+                    },
+                    {
+                        "image": "ltb/cutter.jpg",
+                        "name": "Cutter 166XXW",
+                        "length": 166,
+                        "waist_width": 28.6,
+                        "side_cut": 9.163,
+                        "stance": null,
+                        "setback": "10mm",
+                        "price": "700 (590Eur)",
+                        "url": "http://www.ltbsnowboards.com/freestyle-snowboards/ltb-cutter-black-snowboard",
+                        "profile": "Camber",
+                        "category": "Freestyle/Backcountry",
+                        "shape": "Twin"
+                    },
+                    {
+                        "image": "ltb/p-team.jpg",
+                        "name": "P Team 166XXW",
+                        "length": 166,
+                        "waist_width": 28.6,
+                        "side_cut": 9.163,
+                        "stance": null,
+                        "setback": "10mm",
+                        "price": "730 (620Eur)",
+                        "url": "http://www.ltbsnowboards.com/freestyle-snowboards/ltb-p-team-wood-snowboard",
+                        "profile": "Power Rocker",
+                        "category": null,
+                        "shape": "Twin"
+                    }
+                ]
+            },
+            "splitboards": {
+                "notes": null,
+                "maximum": null,
+                "boards": [
+                    {
+                        "image": "ltb/life-split.jpg",
+                        "name": "Life Splitboard DL186XXW",
+                        "length": 186.1,
+                        "waist_width": 27.7,
+                        "side_cut": 7.8,
+                        "stance": null,
+                        "setback": null,
+                        "price": "950 (800Eur)",
+                        "url": "http://www.ltbsnowboards.com/split-snowboards/ltb-life-splitboard",
+                        "profile": null,
+                        "category": null,
+                        "shape": "Directional"
+                    }
+                ]
+            }
+        },
+        {
             "name": "Marhar Snowboards",
             "url": "https://www.marharsnowboards.com/",
             "logo": "marhar/logo.webp",
@@ -1316,121 +1431,6 @@
                         "category": "Powder",
                         "shape": "Directional"
                     },
-                ]
-            }
-        },
-        {
-            "name": "LTB Snowboards",
-            "url": "http://www.ltbsnowboards.com/",
-            "logo": "ltb/logo.jpg",
-            "solid": {
-                "notes": "LTB makes the biggest boards around, but ship direct from manufacturer and delivers to the EU only. Since there's no US delivery I'm putting it at the end of the list.",
-                "maximum": 0,
-                "boards": [
-                    {
-                        "image": "ltb/dream.jpg",
-                        "name": "Dream DR178XXW",
-                        "length": 177.8,
-                        "waist_width": 32,
-                        "side_cut": 5,
-                        "stance": null,
-                        "setback": null,
-                        "price": "950 (800Eur)",
-                        "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-dream-snowboard",
-                        "profile": null,
-                        "category": "Freestyle/Freeride",
-                        "shape": "Twin"
-                    },
-                    {
-                        "image": "ltb/decent.jpg",
-                        "name": "Decent DDC165XXW",
-                        "length": 166.1,
-                        "waist_width": 32,
-                        "side_cut": 5,
-                        "stance": null,
-                        "setback": null,
-                        "price": "950 (800Eur)",
-                        "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-decent-snowboard",
-                        "profile": null,
-                        "category": "Freestyle",
-                        "shape": "Twin"
-                    },
-                    {
-                        "image": "ltb/crude.jpg",
-                        "name": "Crude DC165XXW",
-                        "length": 165.3,
-                        "waist_width": 29.3,
-                        "side_cut": 10,
-                        "stance": null,
-                        "setback": null,
-                        "price": "950 (800EUR)",
-                        "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-crude-snowboard",
-                        "profile": null,
-                        "category": "Freeride",
-                        "shape": "Directional"
-                    },
-                    {
-                        "image": "ltb/surge.jpg",
-                        "name": "Surge 163XXW",
-                        "length": 163,
-                        "waist_width": 29.2,
-                        "side_cut": 7,
-                        "stance": null,
-                        "setback": "50mm",
-                        "price": "950 (800Eur)",
-                        "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-surge-snowboard",
-                        "profile": null,
-                        "category": "Freeride",
-                        "shape": "Directional"
-                    },
-                    {
-                        "image": "ltb/cutter.jpg",
-                        "name": "Cutter 166XXW",
-                        "length": 166,
-                        "waist_width": 28.6,
-                        "side_cut": 9.163,
-                        "stance": null,
-                        "setback": "10mm",
-                        "price": "700 (590Eur)",
-                        "url": "http://www.ltbsnowboards.com/freestyle-snowboards/ltb-cutter-black-snowboard",
-                        "profile": "Camber",
-                        "category": "Freestyle/Backcountry",
-                        "shape": "Twin"
-                    },
-                    {
-                        "image": "ltb/p-team.jpg",
-                        "name": "P Team 166XXW",
-                        "length": 166,
-                        "waist_width": 28.6,
-                        "side_cut": 9.163,
-                        "stance": null,
-                        "setback": "10mm",
-                        "price": "730 (620Eur)",
-                        "url": "http://www.ltbsnowboards.com/freestyle-snowboards/ltb-p-team-wood-snowboard",
-                        "profile": "Power Rocker",
-                        "category": null,
-                        "shape": "Twin"
-                    }
-                ]
-            },
-            "splitboards": {
-                "notes": null,
-                "maximum": null,
-                "boards": [
-                    {
-                        "image": "ltb/life-split.jpg",
-                        "name": "Life Splitboard DL186XXW",
-                        "length": 186.1,
-                        "waist_width": 27.7,
-                        "side_cut": 7.8,
-                        "stance": null,
-                        "setback": null,
-                        "price": "950 (800Eur)",
-                        "url": "http://www.ltbsnowboards.com/split-snowboards/ltb-life-splitboard",
-                        "profile": null,
-                        "category": null,
-                        "shape": "Directional"
-                    }
                 ]
             }
         },
