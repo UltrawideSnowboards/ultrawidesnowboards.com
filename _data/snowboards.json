@@ -858,7 +858,7 @@
             "logo": "bataleon/logo.png",
             "url": "https://bataleon.com/",
             "solid": {
-                "notes": null,
+                "notes": "On the Bataleon website they list a 172W Stallion, but their size table is missing details about that model. Unconfirmed reports that the waist width is 28.2cm.",
                 "maximum": null,
                 "boards": [
                     {
