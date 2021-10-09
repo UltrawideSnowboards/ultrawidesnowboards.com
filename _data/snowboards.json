@@ -168,6 +168,130 @@
                 "notes": "EU buyers can order directly from their webstore. US buyers can contact them directly and they'll send a paypal invoice plus 50 EUR shipping. Crude is also available with different top graphics."
             },
             "url": "http://www.ltbsnowboards.com/"
+        },
+        {
+            "logo": "2021/marhar/logo.png",
+            "name": "Marhar Snowboards",
+            "short_name": "marhar",
+            "solid": {
+                "boards": [],
+                "maxmimum": 27.3,
+                "notes": "The Lumberjack could be an option, but the waist is slightly too small to make it to this list."
+            },
+            "splitboards": {
+                "boards": [],
+                "maxmimum": null,
+                "notes": null
+            },
+            "url": "https://www.marharsnowboards.com/"
+        },
+        {
+            "logo": "2021/gentemstick/logo.png",
+            "name": "Gentemstick",
+            "short_name": "gentemstick",
+            "solid": {
+                "boards": [
+                    {
+                        "category": null,
+                        "image": "2021/gentemstick/barracuda.png",
+                        "length": 158.6,
+                        "name": "Barracuda",
+                        "price": "\u00a5123200",
+                        "profile": "Accel Camber",
+                        "setback": "10mm",
+                        "shape": "Directional",
+                        "short_name": "barracuda",
+                        "side_cut": 9.0,
+                        "stance": "500-600mm",
+                        "url": "https://gentemstick.com/productsDetail/id_367/",
+                        "waist_width": 28.7
+                    },
+                    {
+                        "category": null,
+                        "image": "2021/gentemstick/bigfish.png",
+                        "length": 163.0,
+                        "name": "Big Fish",
+                        "price": "\u00a5125400",
+                        "profile": "Accel Camber",
+                        "setback": "48mm",
+                        "shape": "Directional",
+                        "short_name": "bigfish",
+                        "side_cut": 9.2,
+                        "stance": "520-600mm",
+                        "url": "https://gentemstick.com/productsDetail/id_369/",
+                        "waist_width": 28.7
+                    },
+                    {
+                        "category": null,
+                        "image": "2021/gentemstick/superfishcloudliner.png",
+                        "length": 176.0,
+                        "name": "Super Fish Cloud Liner",
+                        "price": "\u00a5125400",
+                        "profile": "Accel Camber",
+                        "setback": "35mm",
+                        "shape": "Directional",
+                        "short_name": "superfishcloudliner",
+                        "side_cut": 10.5,
+                        "stance": "510-650mm",
+                        "url": "https://gentemstick.com/productsDetail/id_372/",
+                        "waist_width": 28.9
+                    },
+                    {
+                        "category": null,
+                        "image": "2021/gentemstick/chaser.png",
+                        "length": 156.0,
+                        "name": "The Chaser",
+                        "price": null,
+                        "profile": "Accel Camber",
+                        "setback": 0,
+                        "shape": "Directional",
+                        "short_name": "chaser",
+                        "side_cut": "8.3/7.6",
+                        "stance": "510-590mm",
+                        "url": "https://gentemstick.com/productsDetail/id_376/",
+                        "waist_width": 28.5
+                    },
+                    {
+                        "category": "All Mountain",
+                        "image": "2021/gentemstick/flyfisk.png",
+                        "length": 164.0,
+                        "name": "Fly Fisk",
+                        "price": "\u00a5121000",
+                        "profile": "Accel Camber",
+                        "setback": "0",
+                        "shape": "Directional",
+                        "short_name": "flyfisk",
+                        "side_cut": 9.0,
+                        "stance": "540-660mm",
+                        "url": "https://gentemstick.com/productsDetail/id_378/",
+                        "waist_width": 28.7
+                    }
+                ],
+                "maxmimum": null,
+                "notes": "Ships from Japan. North America shipping is ¥21,600, Europe shipping is ¥32,400."
+            },
+            "splitboards": {
+                "boards": [
+                    {
+                        "category": null,
+                        "image": "2021/gentemstick/flyfiskchopsticks.png",
+                        "length": 164.0,
+                        "name": "Fly Fisk Chopsticks",
+                        "price": "\u00a5160600",
+                        "profile": "Accel Camber",
+                        "setback": "0",
+                        "shape": "Directional",
+                        "short_name": "flyfiskchopsticks",
+                        "side_cut": 9.0,
+                        "stance": "515-690mm",
+                        "url": "https://gentemstick.com/productsDetail/id_390/",
+                        "waist_width": 28.7
+                    }
+                ],
+                "maxmimum": null,
+                "notes": "Ships from Japan. North America shipping is ¥21,600, Europe shipping is ¥32,400."
+            },
+            "url": "https://gentemstick.com/"
         }
     ]
 }
