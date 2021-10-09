@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-import curses
+
 import json
 import re
-from curses import panel, wrapper
 from pathlib import Path
 from typing import Callable, Dict, List, Optional
 
@@ -18,7 +17,7 @@ def read_data_file() -> Dict:
 
 def write_data_file(data) -> None:
     with open(DATA_FILE, 'w') as f:
-        json.dump(f, data, indent=4, sort_keys=True)
+        json.dump(data, f, indent=4, sort_keys=True)
 
 
 def check_url_is_valid(url: str) -> Optional[str]:
@@ -29,8 +28,6 @@ def check_url_is_valid(url: str) -> Optional[str]:
         return None
 
 
-
-
 def download_picture(url: str, destination: Path) -> None:
     picture_request = requests.get(url)
     if picture_request.status_code != 200:
@@ -39,89 +36,43 @@ def download_picture(url: str, destination: Path) -> None:
         f.write(picture_request.content)
 
 
-def menu(items: List[str], stdscreen) -> int:
-    # Adapted from https://stackoverflow.com/a/14205494
-    window = stdscreen.subwin(0, 0)
-    window.keypad(1)
-    menu_panel = panel.new_panel(window)
-    menu_panel.hide()
-    panel.update_panels()
-
-    position = 0
-
-    menu_panel.top()
-    menu_panel.show()
-    window.clear()
-
+def menu(items: List[str], prompt:str='Please select one of the following:') -> int:
+    print(prompt)
+    for i, item in enumerate(items):
+        print(f'    {i}) {item}')
     while True:
-        window.refresh()
-        curses.doupdate()
-        for index, item in enumerate(items):
-            if index == position:
-                mode = curses.A_REVERSE
-            else:
-                mode = curses.A_NORMAL
+        try:
+            result = int(input('-> '))
+        except ValueError:
+            print('Must input an int')
+            continue
 
-            msg = "%d. %s" % (index, item)
-            window.addstr(1 + index, 1, msg, mode)
-
-        key = window.getch()
-
-        if key in [curses.KEY_ENTER, ord("\n")]:
-            if position == len(items) - 1:
-                break
-            else:
-                return position
-
-        elif key == curses.KEY_UP:
-            position -= 1
-            if position < 0:
-                position = 0
-
-        elif key == curses.KEY_DOWN:
-            position += 1
-            if position >= len(items):
-                position = len(items) - 1
-
-    window.clear()
-    menu_panel.hide()
-    panel.update_panels()
-    curses.doupdate()
-
-
-def printline(screen, prompt: str, y=None):
-    if y is None:
-        screen.addstr(screen.getyx()[0], 0, prompt)
-    else:
-        screen.addstr(y, 0, prompt)
-    screen.move(screen.getyx()[0] + 1, 0)  # Move to next line down
-    screen.refresh()
-
-
-def get_input(screen, prompt: str, check_function: Callable[[str], Optional[str]] = None) -> str:
-    screen.addstr(screen.getyx()[0], 0, prompt)
-    screen.refresh()
-
-    result = ''
-    while True:
-        key = screen.getch()
-        if key in [curses.KEY_ENTER, ord('\n')]:
-            screen.move(screen.getyx()[0] + 1, 0)  # Move to next line down
-            result_str = str(result)
-            if check_function is None:
-                return result_str
-            check_result = check_function(result_str)
-            if check_result is None:
-                return result_str
-            else:
-                printline(screen, check_result)
-                result = ''
-                screen.addstr(screen.getyx()[0], 0, prompt)
-                screen.refresh()
+        if result >= 0 and result < len(items):
+            return result
         else:
-            result += chr(key)
-            screen.addch(key)
-            screen.refresh()
+            print(f'Must chose from 0 to {len(items) - 1}')
+
+
+def get_input(prompt: str, check_function: Callable[[str], Optional[str]] = None) -> Optional[str]:
+    result_str = input(prompt)
+    if result_str == '':
+        result_str = None
+    if check_function is None:
+        return result_str
+    check_result = check_function(result_str)
+    if check_result is None:
+        return result_str
+    else:
+        print(check_result)
+        return(get_input(prompt, check_function))
+
+
+def get_input_float(prompt: str) -> Optional[float]:
+    result = get_input(prompt, check_float)
+    try:
+        return float(result)
+    except ValueError:
+        return None
 
 
 def check_short_name(short_name: str) -> Optional[str]:
@@ -136,17 +87,26 @@ def check_short_name(short_name: str) -> Optional[str]:
             return 'Short name already exists'
 
 
-def add_brand(screen):
-    screen.clear()
-    printline(screen, 'Adding new brand.', y=0)
-    short_name = get_input(screen, 'Short Name: ', check_short_name)
+def check_float(value: str) -> Optional[str]:
+    try:
+        float(value)
+        return None
+    except ValueError:
+        if value == '':
+            return None
+        else:
+            return 'Must be a float'
+
+def add_brand():
+    print('Adding new brand.')
+    short_name = get_input('Short Name: ', check_short_name)
     image_dir = Path(f'assets/img/vendors/2021/{short_name}')
 
-    human_name = get_input(screen, 'Human Name: ')
+    human_name = get_input('Human Name: ')
     # TODO: figure out where to insert the brand in the brand list
 
-    url = get_input(screen, 'URL: ', check_url_is_valid)
-    logo_url = get_input(screen, 'Logo URL: ', check_url_is_valid)
+    url = get_input('URL: ', check_url_is_valid)
+    logo_url = get_input('Logo URL: ', check_url_is_valid)
 
     extension_tuple = logo_url.rsplit('.', 1)
     if len(extension_tuple) != 2:
@@ -157,6 +117,7 @@ def add_brand(screen):
 
     data = read_data_file()
     data['brands'].append({
+        'short_name': short_name,
         'name': human_name,
         'url': url,
         'logo': f'2021/{short_name}/{image_name}',
@@ -173,33 +134,75 @@ def add_brand(screen):
     })
 
     write_data_file(data)
-
-    printline(screen, f'You put in {short_name}')
-    screen.getkey()
+    print(f'You have added {short_name}')
 
 
 def add_snowboard():
-    pass
+    data = read_data_file()
+    brand_names = [i['name'] for i in data['brands']]
+
+    brand_index = menu(brand_names, 'Select brand name:')
+    brand_short_name = data['brands'][brand_index]['short_name']
+    short_name = get_input('Board short name: ', check_short_name)
+
+    image_url = get_input('Image URL: ', check_url_is_valid)
+    extension_tuple = image_url.rsplit('.', 1)
+    if len(extension_tuple) != 2:
+        raise Exception('ERROR: logo URL does not have an extension')
+
+    image_name = f'{short_name}.{extension_tuple[1]}'
+    image_dir = Path(f'assets/img/vendors/2021/{brand_short_name}')
+    download_picture(image_url, image_dir / image_name)
+
+    url = get_input('URL: ', check_url_is_valid)
+
+    snowboard_types = ['solid', 'splitboards']
+    board_type = snowboard_types[menu(snowboard_types, 'Select the type of snowboard')]
+
+    human_name = get_input('Model Human Name: ')
+    length = get_input_float('Length (cm): ')
+    waist_width = get_input_float('Waist width (cm): ')
+    side_cut = get_input_float('Side cut (m): ')
+    stance = get_input('Stance: ')
+    setback = get_input('Setback: ')
+    price = get_input('Price: ')
+    profile = get_input('Profile: ')
+    category = get_input('Category: ')
+    shape = get_input('Shape: ')
+
+    data['brands'][brand_index][board_type]['boards'].append({
+        'image': f'2021/{brand_short_name}/{image_name}',
+        'short_name': short_name,
+        'name': human_name,
+        'length': length,
+        'waist_width': waist_width,
+        'side_cut': side_cut,
+        'stance': stance,
+        'setback': setback,
+        'price': price,
+        'url': url,
+        'profile': profile,
+        'category': category,
+        'shape': shape
+    })
+
+    write_data_file(data)
+    print(f'You have added {short_name}')
 
 
-def main(screen):
-    screen.clear()
-
-    screen.addstr(0, 0, 'Welcome to the snowboard import program')
-    screen.addstr(1, 0, 'Please select an option:')
+def main():
+    print('Welcome to the snowboard import program')
+    print('Please select an option:')
 
     menu_items = ['Add Brand', 'Add Snowboard']
 
-    selected = menu(menu_items, screen)
+    selected = menu(menu_items)
 
     if selected == 0:
-        add_brand(screen)
+        add_brand()
     elif selected == 1:
-        add_snowboard(screen)
-
-    # screen.refresh()
-    # screen.getkey()
+        add_snowboard()
 
 
 if __name__ == '__main__':
-    wrapper(main)
+    main()
