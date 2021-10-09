@@ -268,7 +268,7 @@
                     }
                 ],
                 "maxmimum": null,
-                "notes": "Ships from Japan. North America shipping is ¥21,600, Europe shipping is ¥32,400."
+                "notes": "Ships from Japan. North America shipping is \u00a521,600, Europe shipping is \u00a532,400."
             },
             "splitboards": {
                 "boards": [
@@ -289,9 +289,56 @@
                     }
                 ],
                 "maxmimum": null,
-                "notes": "Ships from Japan. North America shipping is ¥21,600, Europe shipping is ¥32,400."
+                "notes": "Ships from Japan. North America shipping is \u00a521,600, Europe shipping is \u00a532,400."
             },
             "url": "https://gentemstick.com/"
+        },
+        {
+            "logo": "2021/libtech/logo.svg",
+            "name": "Lib Tech",
+            "short_name": "libtech",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Freeride",
+                        "image": "2021/libtech/stumpape.jpg",
+                        "length": 163.0,
+                        "name": "Stump Ape",
+                        "price": "$620",
+                        "profile": "C2x Rocker/camber hybrid",
+                        "setback": "2in",
+                        "shape": "Directional",
+                        "short_name": "stumpape",
+                        "side_cut": 8.0,
+                        "stance": "19.5in-24.25in",
+                        "url": "https://www.lib-tech.com/stumpape",
+                        "waist_width": 28.4
+                    },
+                    {
+                        "category": "All Mountain",
+                        "image": "2021/libtech/skunkape.jpg",
+                        "length": 173.0,
+                        "name": "Skunk Ape",
+                        "price": "$620",
+                        "profile": "C2 rocker camber hybrid",
+                        "setback": "0.5in",
+                        "shape": "Directional Twin",
+                        "short_name": "skunkape",
+                        "side_cut": 8.6,
+                        "stance": "21in-26in",
+                        "url": "https://www.lib-tech.com/skunk-ape",
+                        "waist_width": 28.5
+                    }
+                ],
+                "maxmimum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maxmimum": 26.8,
+                "notes": null
+            },
+            "url": "https://www.lib-tech.com/"
         }
     ]
 }
