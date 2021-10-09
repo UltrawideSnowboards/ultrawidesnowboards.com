@@ -4,7 +4,7 @@
         <div class="card">
             <div class="card-body">
                 {% if brand.logo != null %}
-                <p><img src="{{ site.github.url }}/assets/img/{{ brand.logo }}" class="brand-logo-hero img-fluid" alt="{{ brand.name }} logo"></img></p>
+                <p><img src="{{ site.github.url }}/assets/img/vendors/{{ brand.logo }}" class="brand-logo-hero img-fluid" alt="{{ brand.name }} logo"></img></p>
                 {% else %}
                 <h2>{{ brand.name }}</h2>
                 {% endif %}
@@ -31,7 +31,7 @@
                         </thead>
                         {% for board in brand[category].boards %}
                             <tr>
-                                <td><a href="{{ board.url }}" target="_blank"><img src="{{ site.github.url }}/assets/img/{{ board.image }}" class="snowboard"><img></a></td>
+                                <td><a href="{{ board.url }}" target="_blank"><img src="{{ site.github.url }}/assets/img/vendors/{{ board.image }}" class="snowboard"><img></a></td>
                                 <td>{{ board.name }}</td>
                                 <td>{{ board.length }}</td>
                                 <td>{{ board.waist_width }}</td>
@@ -55,7 +55,7 @@
                     <p><a class="text-reset" href="{{ brand.url }}" target="_blank">{{ brand.name }}</a> doesn't make any ultrawide boards (their largest is {{ brand[category].maximum }} cm).</p>
                 {% elsif brand[category].notes == null %}
                     <p><a class="text-reset" href="{{ brand.url }}" target="_blank">{{ brand.name }}</a> doesn't make any {% case category %}
-                        {% when "solid" %}normal snowboards
+                        {% when "solid" %}normal (non-split) snowboards
                         {% when "splitboards" %}splitboards
                         {% else %}snowboards
                         {% endcase %}

@@ -36,7 +36,7 @@ def download_picture(url: str, destination: Path) -> None:
         f.write(picture_request.content)
 
 
-def menu(items: List[str], prompt:str='Please select one of the following:') -> int:
+def menu(items: List[str], prompt: str = 'Please select one of the following:') -> int:
     print(prompt)
     for i, item in enumerate(items):
         print(f'    {i}) {item}')
@@ -78,13 +78,10 @@ def get_input_float(prompt: str) -> Optional[float]:
 def check_short_name(short_name: str) -> Optional[str]:
     if not re.match('[a-z]+', short_name):
         return 'Must be a lowercase name'
+    elif Path(f'assets/img/vendors/2021/{short_name}').exists():
+        return 'Short name already exists'
     else:
-        try:  # TODO: convert to is_exists
-            image_dir = Path(f'assets/img/vendors/2021/{short_name}')
-            image_dir.mkdir()  # This will fail if it already exists
-            return None
-        except Exception:
-            return 'Short name already exists'
+        return None
 
 
 def check_float(value: str) -> Optional[str]:
@@ -97,10 +94,12 @@ def check_float(value: str) -> Optional[str]:
         else:
             return 'Must be a float'
 
+
 def add_brand():
     print('Adding new brand.')
     short_name = get_input('Short Name: ', check_short_name)
     image_dir = Path(f'assets/img/vendors/2021/{short_name}')
+    image_dir.mkdir()
 
     human_name = get_input('Human Name: ')
     # TODO: figure out where to insert the brand in the brand list

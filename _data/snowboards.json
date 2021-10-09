@@ -1,4 +1,173 @@
 {
     "brands": [
+        {
+            "logo": "2021/gnu/logo.svg",
+            "name": "Gnu",
+            "short_name": "gnu",
+            "solid": {
+                "boards": [],
+                "maxmimum": 27,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maxmimum": 26.5,
+                "notes": null
+            },
+            "url": "https://www.gnu.com/"
+        },
+        {
+            "logo": "2021/ltb/logo.png",
+            "name": "LTB Snowboards",
+            "short_name": "ltb",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Backcountry Freestyle/Freeride",
+                        "image": "2021/ltb/dream.jpg",
+                        "length": 177.8,
+                        "name": "Dream",
+                        "price": "800 EUR",
+                        "profile": null,
+                        "setback": null,
+                        "shape": "Twin",
+                        "short_name": "dream",
+                        "side_cut": 5.0,
+                        "stance": null,
+                        "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-dream-snowboard",
+                        "waist_width": 32.0
+                    },
+                    {
+                        "category": "Freestyle",
+                        "image": "2021/ltb/decent.jpg",
+                        "length": 166.1,
+                        "name": "Decent",
+                        "price": "800 EUR",
+                        "profile": null,
+                        "setback": null,
+                        "shape": "Twin",
+                        "short_name": "decent",
+                        "side_cut": 5.0,
+                        "stance": null,
+                        "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-decent-snowboard",
+                        "waist_width": 32.0
+                    },
+                    {
+                        "category": "Powder",
+                        "image": "2021/ltb/crude.jpg",
+                        "length": 165.3,
+                        "name": "Crude",
+                        "price": "800 EUR",
+                        "profile": null,
+                        "setback": "28mm",
+                        "shape": "Ultratapered Directional",
+                        "short_name": "crude",
+                        "side_cut": 10.0,
+                        "stance": null,
+                        "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-crude-snowboard",
+                        "waist_width": 29.3
+                    },
+                    {
+                        "category": "Allrounder",
+                        "image": "2021/ltb/life.jpg",
+                        "length": 191.9,
+                        "name": "Life",
+                        "price": "800 EUR",
+                        "profile": null,
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "life",
+                        "side_cut": 7.8,
+                        "stance": null,
+                        "url": "http://www.ltbsnowboards.com/freeride-snowboards/life1",
+                        "waist_width": 27.7
+                    },
+                    {
+                        "category": "Freeride",
+                        "image": "2021/ltb/surge.jpg",
+                        "length": 163.0,
+                        "name": "Surge",
+                        "price": "800 EUR",
+                        "profile": null,
+                        "setback": "50mm",
+                        "shape": "Ultra Tapered",
+                        "short_name": "surge",
+                        "side_cut": 7.0,
+                        "stance": null,
+                        "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-surge-snowboard",
+                        "waist_width": 29.2
+                    },
+                    {
+                        "category": "Freestyle and Backcountry",
+                        "image": "2021/ltb/cutter.jpg",
+                        "length": 166.0,
+                        "name": "Cutter",
+                        "price": "589 EUR",
+                        "profile": null,
+                        "setback": "10mm",
+                        "shape": "Twin",
+                        "short_name": "cutter",
+                        "side_cut": 9.163,
+                        "stance": null,
+                        "url": "http://www.ltbsnowboards.com/freestyle-snowboards/ltb-cutter-snowboard",
+                        "waist_width": 28.6
+                    },
+                    {
+                        "category": null,
+                        "image": "2021/ltb/pteam.jpg",
+                        "length": 166.0,
+                        "name": "P Team",
+                        "price": "619 EUR",
+                        "profile": "Power Rocker",
+                        "setback": "10mm",
+                        "shape": "Twin",
+                        "short_name": "pteam",
+                        "side_cut": 9.163,
+                        "stance": null,
+                        "url": "http://www.ltbsnowboards.com/freestyle-snowboards/ltb-p-team-wood-snowboard",
+                        "waist_width": 28.6
+                    }
+                ],
+                "maxmimum": null,
+                "notes": "EU buyers can order directly from their webstore. US buyers can contact them directly and they'll send a paypal invoice plus 50 EUR shipping. Cutter and P Team are each also available with different top graphics."
+            },
+            "splitboards": {
+                "boards": [
+                    {
+                        "category": null,
+                        "image": "2021/ltb/crudesplit.jpg",
+                        "length": 165.3,
+                        "name": "Crude",
+                        "price": "900 EUR",
+                        "profile": null,
+                        "setback": "28mm",
+                        "shape": "Ultra Tapered Directional",
+                        "short_name": "crudesplit",
+                        "side_cut": 10.0,
+                        "stance": null,
+                        "url": "http://www.ltbsnowboards.com/split-snowboards/ltb-crude-splitboard",
+                        "waist_width": 29.3
+                    },
+                    {
+                        "category": "Allrounder",
+                        "image": "2021/ltb/lifesplit.jpg",
+                        "length": 186.1,
+                        "name": "Life",
+                        "price": "800 EUR",
+                        "profile": null,
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "lifesplit",
+                        "side_cut": 7.8,
+                        "stance": null,
+                        "url": "http://www.ltbsnowboards.com/split-snowboards/ltb-life-splitboard",
+                        "waist_width": 27.7
+                    }
+                ],
+                "maxmimum": null,
+                "notes": "EU buyers can order directly from their webstore. US buyers can contact them directly and they'll send a paypal invoice plus 50 EUR shipping. Crude is also available with different top graphics."
+            },
+            "url": "http://www.ltbsnowboards.com/"
+        }
     ]
 }
