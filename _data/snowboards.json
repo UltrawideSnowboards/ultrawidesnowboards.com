@@ -786,11 +786,184 @@
                         "url": "https://www.winterstick.com/shop/day-dreamer-21-22-splitboard/",
                         "waist_width": 27.5
                     }
-                ],,
+                ],
                 "maxmimum": null,
                 "notes": "Winterstick will customize the width of a board for $100 more. Shown here are the stock ultrawide snowboards. All models available as a splitboard."
             },
             "url": "https://www.winterstick.com/"
+        },
+        {
+            "logo": "2021/ride/logo.jpeg",
+            "name": "Ride Snowboards",
+            "short_name": "ride",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "All Mountain, Park, Powder",
+                        "image": "2021/ride/warpig.webp",
+                        "length": 158.0,
+                        "name": "Warpig",
+                        "price": "$530",
+                        "profile": "Rocker",
+                        "setback": "0",
+                        "shape": "Directional",
+                        "short_name": "warpig",
+                        "side_cut": "5.9-7.2",
+                        "stance": null,
+                        "url": "https://ridesnowboards.com/en-us/p/warpig-snowboard",
+                        "waist_width": 27.7
+                    },
+                    {
+                        "category": "All Mountain, Park, Powder",
+                        "image": "2021/ride/superpig.webp",
+                        "length": 158.0,
+                        "name": "Superpig",
+                        "price": "$590",
+                        "profile": "Hybrid Camber",
+                        "setback": "0",
+                        "shape": "Directional",
+                        "short_name": "superpig",
+                        "side_cut": "5.9-7.2",
+                        "stance": null,
+                        "url": "https://ridesnowboards.com/en-us/p/superpig-snowboard",
+                        "waist_width": 27.7
+                    },
+                    {
+                        "category": "All Mountain, Park, Powder",
+                        "image": "2021/ride/twinpig.webp",
+                        "length": 156.0,
+                        "name": "Twinpig",
+                        "price": "$500",
+                        "profile": "Hybrid Rocker",
+                        "setback": "0",
+                        "shape": "Asymmetrical Twin",
+                        "short_name": "twinpig",
+                        "side_cut": "6.9/5.9/4.9",
+                        "stance": null,
+                        "url": "https://ridesnowboards.com/en-us/p/twinpig-snowboard",
+                        "waist_width": 27.5
+                    }
+                ],
+                "maxmimum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [
+                    {
+                        "category": null,
+                        "image": "2021/ride/splitpig.webp",
+                        "length": 158.0,
+                        "name": "Splitpig Package",
+                        "price": "$1050",
+                        "profile": "Hybrid Camber",
+                        "setback": "0",
+                        "shape": "Directional",
+                        "short_name": "splitpig",
+                        "side_cut": "5.9-7.2",
+                        "stance": null,
+                        "url": "https://ridesnowboards.com/en-us/p/splitpig",
+                        "waist_width": 27.7
+                    }
+                ],
+                "maxmimum": null,
+                "notes": null
+            },
+            "url": "https://ridesnowboards.com/"
+        },
+        {
+            "logo": "2021/moss/logo.png",
+            "name": "Moss Snowstick",
+            "short_name": "moss",
+            "solid": {
+                "boards": [
+                    {
+                        "category": null,
+                        "image": "2021/moss/swallow.jpg",
+                        "length": 170.0,
+                        "name": "Swallow",
+                        "price": "$1020",
+                        "profile": "Snowsurf Camber",
+                        "setback": "10mm",
+                        "shape": "Directional",
+                        "short_name": "swallow",
+                        "side_cut": "10.2/7.3",
+                        "stance": "480mm-600mm",
+                        "url": "http://www.mosssnowstick.com/21-22/70-swallow",
+                        "waist_width": 27.7
+                    },
+                    {
+                        "category": null,
+                        "image": "2021/moss/wingswallow.jpg",
+                        "length": 157.2,
+                        "name": "Wing Swallow",
+                        "price": "$1050",
+                        "profile": "Snowsurf Camber",
+                        "setback": "90mm",
+                        "shape": "Directional",
+                        "short_name": "wingswallow",
+                        "side_cut": "8.6/6.6",
+                        "stance": "480mm-600mm",
+                        "url": "http://www.mosssnowstick.com/21-22/wing-swallow-57",
+                        "waist_width": 28.4
+                    }
+                ],
+                "maxmimum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maxmimum": null,
+                "notes": null
+            },
+            "url": "http://www.mosssnowstick.com/"
+        },
+        {
+            "logo": "2021/nidecker/logo.png",
+            "name": "Nidecker",
+            "short_name": "nidecker",
+            "solid": {
+                "boards": [],
+                "maxmimum": 27.0,
+                "notes": "Last year they had their 'Escape' model, but it looks like that's been dropped for the 2021/2022 season."
+            },
+            "splitboards": {
+                "boards": [],
+                "maxmimum": null,
+                "notes": null
+            },
+            "url": "https://www.nidecker.com/en/"
+        },
+        {
+            "logo": "2021/endeavor/logo.jpeg",
+            "name": "Endeavor Snowboards",
+            "short_name": "endeavor",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Powder",
+                        "image": "2021/endeavor/archetype.jpg",
+                        "length": 160.0,
+                        "name": "Archetype",
+                        "price": "$550",
+                        "profile": "Hover Camber",
+                        "setback": "0",
+                        "shape": "Directional",
+                        "short_name": "archetype",
+                        "side_cut": 8.7,
+                        "stance": "19in-25in",
+                        "url": "https://usa.endeavorsnowboards.com/collections/snowboards/products/endeavor-archetype-snowboard",
+                        "waist_width": 27.6
+                    }
+                ],
+                "maxmimum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maxmimum": null,
+                "notes": null
+            },
+            "url": "https://usa.endeavorsnowboards.com/"
         }
     ]
 }
