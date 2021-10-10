@@ -1,6 +1,7 @@
 {
     "brands": [
         {
+            "custom_option": false,
             "logo": "2021/ltb/logo.png",
             "name": "LTB Snowboards",
             "short_name": "ltb",
@@ -154,6 +155,7 @@
             "url": "http://www.ltbsnowboards.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/gentemstick/logo.png",
             "name": "Gentemstick",
             "short_name": "gentemstick",
@@ -262,6 +264,7 @@
             "url": "https://gentemstick.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/libtech/logo.png",
             "name": "Lib Tech",
             "short_name": "libtech",
@@ -309,6 +312,7 @@
             "url": "https://www.lib-tech.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/bataleon/logo.png",
             "name": "Bataleon",
             "short_name": "bataleon",
@@ -356,6 +360,7 @@
             "url": "https://bataleon.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/korua/logo.png",
             "name": "Korua Shapes",
             "short_name": "korua",
@@ -464,9 +469,13 @@
             "url": "https://www.koruashapes.com/"
         },
         {
+            "custom_option": true,
             "logo": "2021/deviation/logo.png",
             "name": "Deviation Works",
             "short_name": "deviation",
+            "custom": {
+                "notes": "Deviation Works offers a custom option starting at $1000."
+            },
             "solid": {
                 "boards": [
                     {
@@ -496,6 +505,7 @@
             "url": "https://deviationworks.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/moss/logo.png",
             "name": "Moss Snowstick",
             "short_name": "moss",
@@ -543,6 +553,7 @@
             "url": "http://www.mosssnowstick.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/westonbackcountry/logo.png?v=1630108331",
             "name": "Weston Backcountry",
             "short_name": "westonbackcountry",
@@ -666,9 +677,13 @@
             "url": "https://westonbackcountry.com/"
         },
         {
+            "custom_option": true,
             "logo": "2021/winterstick/logo.jpg",
             "name": "Winterstick",
             "short_name": "winterstick",
+            "custom": {
+                "notes": "Winterstick will customize the width of a board for $100 more. Shown here are the stock ultrawide snowboards. All models available as a splitboard."
+            },
             "solid": {
                 "boards": [
                     {
@@ -744,6 +759,7 @@
             "url": "https://www.winterstick.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/neversummer/logo.png",
             "name": "Never Summer",
             "short_name": "neversummer",
@@ -776,6 +792,7 @@
             "url": "https://www.neversummer.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/cardiff/logo.png",
             "name": "Cardiff Snowcraft",
             "short_name": "cardiff",
@@ -824,6 +841,7 @@
             "url": "https://www.cardiffsnow.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/capita/logo.png",
             "name": "Capita Snowboarding",
             "short_name": "capita",
@@ -871,6 +889,7 @@
             "url": "https://capitasnowboarding.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/stompede/logo.png",
             "name": "Stompede Snowboards",
             "short_name": "stompede",
@@ -903,6 +922,7 @@
             "url": "https://www.stompede-snowboards.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/endeavor/logo.jpeg",
             "name": "Endeavor Snowboards",
             "short_name": "endeavor",
@@ -935,6 +955,7 @@
             "url": "https://usa.endeavorsnowboards.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/niche/logo.png",
             "name": "Niche Snowboards",
             "short_name": "niche",
@@ -967,6 +988,7 @@
             "url": "https://nichesnowboards.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/jones/logo.jpeg",
             "name": "Jones Snowboards",
             "short_name": "jones",
@@ -1015,6 +1037,7 @@
             "url": "https://www.jonessnowboards.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/ktwo/logo.png",
             "name": "K2",
             "short_name": "ktwo",
@@ -1047,6 +1070,7 @@
             "url": "https://k2snow.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/ride/logo.jpeg",
             "name": "Ride Snowboards",
             "short_name": "ride",
@@ -1125,6 +1149,7 @@
             "url": "https://ridesnowboards.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/salomon/logo.png",
             "name": "Salomon",
             "short_name": "salomon",
@@ -1157,6 +1182,7 @@
             "url": "https://www.salomon.com/en-us"
         },
         {
+            "custom_option": false,
             "logo": "2021/telos/logo.webp",
             "name": "Telos Snowboards",
             "short_name": "telos",
@@ -1205,6 +1231,7 @@
             "url": "https://telossnowboards.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/nitro/logo.png",
             "name": "Nitro",
             "short_name": "nitro",
@@ -1221,6 +1248,7 @@
             "url": "https://nitrosnowboards.com/en"
         },
         {
+            "custom_option": false,
             "logo": "2021/kemper/logo.webp",
             "name": "Kemper Snowboards",
             "short_name": "kemper",
@@ -1237,6 +1265,7 @@
             "url": "https://kemper-snowboards.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/arbor/logo.webp",
             "name": "Arbor Collective",
             "short_name": "arbor",
@@ -1253,6 +1282,7 @@
             "url": "https://www.arborcollective.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/marhar/logo.png",
             "name": "Marhar Snowboards",
             "short_name": "marhar",
@@ -1269,6 +1299,7 @@
             "url": "https://www.marharsnowboards.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/habitual/logo.webp",
             "name": "Habitual Snowboard Co",
             "short_name": "habitual",
@@ -1285,6 +1316,7 @@
             "url": "https://www.habitualsnow.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/hightide/logo.png",
             "name": "Hightide Mfg",
             "short_name": "hightide",
@@ -1301,6 +1333,7 @@
             "url": "https://hightidemfg.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/rome/logo.jpeg",
             "name": "Rome Snowboards",
             "short_name": "rome",
@@ -1317,6 +1350,7 @@
             "url": "https://romesnowboards.com"
         },
         {
+            "custom_option": false,
             "logo": "2021/gnu/logo.svg",
             "name": "Gnu",
             "short_name": "gnu",
@@ -1333,6 +1367,7 @@
             "url": "https://www.gnu.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/nidecker/logo.png",
             "name": "Nidecker",
             "short_name": "nidecker",
@@ -1349,6 +1384,7 @@
             "url": "https://www.nidecker.com/en/"
         },
         {
+            "custom_option": false,
             "logo": "2021/burton/logo.jpeg",
             "name": "Burton",
             "short_name": "burton",
@@ -1365,6 +1401,7 @@
             "url": "https://www.burton.com/us/en/home"
         },
         {
+            "custom_option": false,
             "logo": "2021/head/logo.png",
             "name": "Head",
             "short_name": "head",
@@ -1381,9 +1418,13 @@
             "url": "https://www.head.com/en_US/home"
         },
         {
+            "custom_option": true,
             "logo": "2021/prior/logo.webp",
             "name": "Prior Snow",
             "short_name": "prior",
+            "custom": {
+                "notes": "Custom boards start at $1400."
+            },
             "solid": {
                 "boards": [],
                 "maximum": 27.0,
@@ -1397,6 +1438,7 @@
             "url": "https://www.priorsnow.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/borealis/logo.webp",
             "name": "Borealis Snowboards",
             "short_name": "borealis",
@@ -1413,6 +1455,7 @@
             "url": "https://www.borealis-snowboards.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/venture/logo.webp",
             "name": "Venture Snowboards",
             "short_name": "venture",
@@ -1429,6 +1472,7 @@
             "url": "https://venturesnowboards.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/rossignol/logo.png",
             "name": "Rossignol",
             "short_name": "rossignol",
@@ -1445,6 +1489,7 @@
             "url": "https://www.rossignol.com/us/"
         },
         {
+            "custom_option": false,
             "logo": "2021/academy/logo.jpg",
             "name": "Academy Snowboard Co.",
             "short_name": "academy",
@@ -1461,6 +1506,7 @@
             "url": "https://www.academysnowboards.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/knwn/logo.webp",
             "name": "Knwn Mfg.",
             "short_name": "knwn",
@@ -1477,6 +1523,7 @@
             "url": "https://knwnmfg.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/yes/logo.jpeg",
             "name": "Yes Snowboard",
             "short_name": "yes",
@@ -1493,6 +1540,7 @@
             "url": "https://www.yesnowboard.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/lobster/logo.jpeg",
             "name": "Lobster Snowboards",
             "short_name": "lobster",
@@ -1509,6 +1557,7 @@
             "url": "https://lobstersnowboards.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/snoplanks/logo.png",
             "name": "Snoplanks",
             "short_name": "snoplanks",
@@ -1525,6 +1574,7 @@
             "url": "https://www.snoplanks.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/sims/logo.png",
             "name": "Sims Collective",
             "short_name": "sims",
@@ -1541,6 +1591,7 @@
             "url": "https://www.simscollective.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/trapper/logo.webp",
             "name": "Trapper Snowboards",
             "short_name": "trapper",
@@ -1557,6 +1608,7 @@
             "url": "https://trappersnowboards.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/voile/logo.png",
             "name": "Voile",
             "short_name": "voile",
@@ -1573,6 +1625,7 @@
             "url": "https://www.voile.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/slash/logo.png",
             "name": "Slash by GiGi",
             "short_name": "slash",
@@ -1589,6 +1642,7 @@
             "url": "https://slashsnow.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/dc/logo.jpeg",
             "name": "DC",
             "short_name": "dc",
@@ -1605,6 +1659,7 @@
             "url": "https://www.dcshoes.com/mens-snowboard-decks/"
         },
         {
+            "custom_option": false,
             "logo": "2021/ipp/logo.jpg",
             "name": "The Interior Plain Project",
             "short_name": "ipp",
@@ -1621,9 +1676,13 @@
             "url": "http://www.theipproject.com/"
         },
         {
+            "custom_option": true,
             "logo": "2021/spline/logo.png",
             "name": "Spline Snowboards",
             "short_name": "spline",
+            "custom": {
+                "notes": "Spline has a standard lineup, but starting at $2000CAD they'll make a custom board for your. Their standard lineup maxes out at 26.1cm waist width."
+            },
             "solid": {
                 "boards": [],
                 "maximum": 26.1,
@@ -1637,6 +1696,7 @@
             "url": "https://www.splinesnowboards.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/chimera/logo.png",
             "name": "Chimera Backcountry Snowboards",
             "short_name": "chimera",
@@ -1653,6 +1713,7 @@
             "url": "https://chimerasnowboards.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/deusexmachina/logo.png",
             "name": "Deus Ex Machina",
             "short_name": "deusexmachina",
@@ -1669,6 +1730,7 @@
             "url": "https://shop.us.deuscustoms.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/unitedshapes/logo.FAKE",
             "name": "United Shapes",
             "short_name": "unitedshapes",
@@ -1685,6 +1747,7 @@
             "url": "https://www.unitedshapes.us/"
         },
         {
+            "custom_option": false,
             "logo": "2021/dinosaurswilldie/logo.jpg",
             "name": "Dinosaurs Will Die",
             "short_name": "dinosaurswilldie",
@@ -1701,6 +1764,7 @@
             "url": "https://dinosaurswilldie.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/northwave/logo.png",
             "name": "Northwave",
             "short_name": "northwave",
@@ -1717,6 +1781,7 @@
             "url": "https://northwave.us/"
         },
         {
+            "custom_option": false,
             "logo": "2021/chomonix/logo.png",
             "name": "Chamonix Collection",
             "short_name": "chomonix",
@@ -1733,6 +1798,7 @@
             "url": "https://chamonixcollection.com/"
         },
         {
+            "custom_option": false,
             "logo": "2021/pallas/logo.png",
             "name": "Pallas Snowboards",
             "short_name": "pallas",

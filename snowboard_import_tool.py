@@ -100,6 +100,13 @@ def check_float(value: Optional[str]) -> Optional[str]:
         return 'Must be a float'
 
 
+def check_yes_no(value: Optional[str]) -> Optional[str]:
+    if value is None or value.lower() not in ['y', 'n']:
+        return 'Must type Y or N'
+    else:
+        return None
+
+
 def add_brand():
     print('Adding new brand.')
     short_name = get_input('Short Name: ', check_short_name)
@@ -111,6 +118,8 @@ def add_brand():
 
     url = get_input('URL: ', check_url_is_valid)
     logo_url = get_input('Logo URL: ', check_url_is_valid)
+
+    custom_option = get_input('Brand does custom sizes? Y/N', check_yes_no).lower() == 'y'
 
     if logo_url is not None:
         extension_tuple = logo_url.rsplit('.', 1)
@@ -135,6 +144,10 @@ def add_brand():
         'name': human_name,
         'url': url,
         'logo': f'2021/{short_name}/{image_name}',
+        'custom_option': custom_option,
+        'custom': {
+            'notes': None
+        },
         'solid': {
             'notes': None,
             'maximum': None,

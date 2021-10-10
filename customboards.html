@@ -1,0 +1,25 @@
+---
+layout: default
+title: Ultrawide Snowboards
+---
+
+<div class="row">
+    <div class="col-sm">
+        <div class="card">
+            <div class="card-body">
+                <h1>Custom Board Manufacturers</h1>
+
+                <p>If you want a particular shape, material, size, or profile you may need to comission a custom board. Listed below are manufacturers that offer custom board services.</p>
+
+                <p>Check out the <a href="/">home page</a> for more general information on ultrawide boards.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% assign category = 'custom' %}
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand.custom_option == true" %}
+{% include brand-list.html %}
+
+<br><br><br><br>
+{% include contact-form.html %}
