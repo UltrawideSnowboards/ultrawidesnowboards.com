@@ -776,6 +776,54 @@
             "url": "https://www.neversummer.com/"
         },
         {
+            "logo": "2021/cardiff/logo.png",
+            "name": "Cardiff Snowcraft",
+            "short_name": "cardiff",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Cutback Freeride",
+                        "image": "2021/cardiff/swell.png",
+                        "length": 164.0,
+                        "name": "The Swell",
+                        "price": "$750",
+                        "profile": "HALFcamber60",
+                        "setback": "20mm",
+                        "shape": "Surf Inspired Directional",
+                        "short_name": "swell",
+                        "side_cut": 8.1,
+                        "stance": null,
+                        "url": "https://www.cardiffsnow.com/products/the-swell",
+                        "waist_width": 27.5
+                    }
+                ],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [
+                    {
+                        "category": "Alternative Freeride",
+                        "image": "2021/cardiff/powgoda.png",
+                        "length": 162.0,
+                        "name": "The Powgoda",
+                        "price": "$900",
+                        "profile": "HALFcamber50",
+                        "setback": "7mm",
+                        "shape": "Freepow Directional",
+                        "short_name": "powgoda",
+                        "side_cut": 8.5,
+                        "stance": null,
+                        "url": "https://www.cardiffsnow.com/products/the-powgoda",
+                        "waist_width": 28.0
+                    }
+                ],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.cardiffsnow.com/"
+        },
+        {
             "logo": "2021/capita/logo.png",
             "name": "Capita Snowboarding",
             "short_name": "capita",
@@ -1253,70 +1301,6 @@
             "url": "https://www.borealis-snowboards.com/"
         },
         {
-            "logo": "2021/snoplanks/logo.png",
-            "name": "Snoplanks",
-            "short_name": "snoplanks",
-            "solid": {
-                "boards": [],
-                "maximum": 26.75,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 26.25,
-                "notes": null
-            },
-            "url": "https://www.snoplanks.com/"
-        },
-        {
-            "logo": "2021/cardiff/logo.png",
-            "name": "Cardiff Snowcraft",
-            "short_name": "cardiff",
-            "solid": {
-                "boards": [
-                    {
-                        "category": "Cutback Freeride",
-                        "image": "2021/cardiff/swell.png",
-                        "length": 164.0,
-                        "name": "The Swell",
-                        "price": "$750",
-                        "profile": "HALFcamber60",
-                        "setback": "20mm",
-                        "shape": "Surf Inspired Directional",
-                        "short_name": "swell",
-                        "side_cut": 8.1,
-                        "stance": null,
-                        "url": "https://www.cardiffsnow.com/products/the-swell",
-                        "waist_width": 27.5
-                    }
-                ],
-                "maximum": null,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [
-                    {
-                        "category": "Alternative Freeride",
-                        "image": "2021/cardiff/powgoda.png",
-                        "length": 162.0,
-                        "name": "The Powgoda",
-                        "price": "$900",
-                        "profile": "HALFcamber50",
-                        "setback": "7mm",
-                        "shape": "Freepow Directional",
-                        "short_name": "powgoda",
-                        "side_cut": 8.5,
-                        "stance": null,
-                        "url": "https://www.cardiffsnow.com/products/the-powgoda",
-                        "waist_width": 28.0
-                    }
-                ],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://www.cardiffsnow.com/"
-        },
-        {
             "logo": "2021/rossignol/logo.png",
             "name": "Rossignol",
             "short_name": "rossignol",
@@ -1331,6 +1315,22 @@
                 "notes": null
             },
             "url": "https://www.rossignol.com/us/"
+        },
+        {
+            "logo": "2021/snoplanks/logo.png",
+            "name": "Snoplanks",
+            "short_name": "snoplanks",
+            "solid": {
+                "boards": [],
+                "maximum": 26.75,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.25,
+                "notes": null
+            },
+            "url": "https://www.snoplanks.com/"
         }
     ]
 }
