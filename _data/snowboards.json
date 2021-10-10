@@ -1123,6 +1123,150 @@
                 "notes": null
             },
             "url": "https://www.snoplanks.com/"
+        },
+        {
+            "logo": "2021/deviation/logo.png",
+            "name": "Deviation Works",
+            "short_name": "deviation",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Freeride",
+                        "image": "2021/deviation/momentgenerator.png",
+                        "length": 168.0,
+                        "name": "Moment Generator",
+                        "price": "$600",
+                        "profile": "Camber",
+                        "setback": null,
+                        "shape": "Directional Twin",
+                        "short_name": "momentgenerator",
+                        "side_cut": 9.2,
+                        "stance": null,
+                        "url": "https://deviationworks.com/collections/snowboards/products/moment-generator",
+                        "waist_width": 28.3
+                    }
+                ],
+                "maximum": null,
+                "notes": "Deviation Works offers a custom option starting at $1000."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://deviationworks.com/"
+        },
+        {
+            "logo": "2021/arbor/logo.webp",
+            "name": "Arbor Collective",
+            "short_name": "arbor",
+            "solid": {
+                "boards": [],
+                "maximum": 27.35,
+                "notes": "Most of the boards on their website are missing size information."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.3,
+                "notes": "Most of the boards on their website are missing size information."
+            },
+            "url": "https://www.arborcollective.com/"
+        },
+        {
+            "logo": "2021/hightide/logo.png",
+            "name": "Hightide Mfg",
+            "short_name": "hightide",
+            "solid": {
+                "boards": [],
+                "maximum": 27.2,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://hightidemfg.com/"
+        },
+        {
+            "logo": "2021/burton/logo.jpeg",
+            "name": "Burton",
+            "short_name": "burton",
+            "solid": {
+                "boards": [],
+                "maximum": 27.0,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 27.0,
+                "notes": null
+            },
+            "url": "https://www.burton.com/us/en/home"
+        },
+        {
+            "logo": "2021/head/logo.png",
+            "name": "Head",
+            "short_name": "head",
+            "solid": {
+                "boards": [],
+                "maximum": 27.0,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.head.com/en_US/home"
+        },
+        {
+            "logo": "2021/kemper/logo.webp",
+            "name": "Kemper Snowboards",
+            "short_name": "kemper",
+            "solid": {
+                "boards": [],
+                "maximum": 27.4,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 27.4,
+                "notes": null
+            },
+            "url": "https://kemper-snowboards.com/"
+        },
+        {
+            "logo": "2021/prior/logo.webp",
+            "name": "Prior Snow",
+            "short_name": "prior",
+            "solid": {
+                "boards": [],
+                "maximum": 27.0,
+                "notes": "Custom boards start at $1400."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Custom boards start at $1400."
+            },
+            "url": "https://www.priorsnow.com/"
+        },
+        {
+            "logo": "2021/borealis/logo.webp",
+            "name": "Borealis Snowboards",
+            "short_name": "borealis",
+            "solid": {
+                "boards": [],
+                "maximum": 27.0,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.0,
+                "notes": null
+            },
+            "url": "https://www.borealis-snowboards.com/"
         }
     ]
 }

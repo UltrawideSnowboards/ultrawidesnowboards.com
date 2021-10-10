@@ -21,10 +21,10 @@ title: Ultrawide Snowboards
 {% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand.splitboards.boards.size > 0" %}
 {% include brand-list.html %}
 
-{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand.splitboards.boards.size == 0" | where_exp:"brand", "brand.splitboards.maximum > 0" | sort:"splitboards.maximum" | reverse %}
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand.splitboards.boards.size == 0" | where_exp:"brand", "brand.splitboards.maximum > 0" %}
 {% include brand-list.html %}
 
-{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand.splitboards.boards.size == 0" | where_exp:"brand", "brand.splitboards.maximum == null" | sort:"name" %}
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand.splitboards.boards.size == 0" | where_exp:"brand", "brand.splitboards.maximum == null" %}
 {% include brand-list.html %}
 
 

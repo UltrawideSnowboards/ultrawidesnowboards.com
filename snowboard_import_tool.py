@@ -2,6 +2,7 @@
 
 import json
 import re
+import shutil
 from pathlib import Path
 from typing import Callable, Dict, List, Optional
 
@@ -118,8 +119,15 @@ def add_brand():
 
         image_name = f'logo.{extension_tuple[1]}'
         download_picture(logo_url, image_dir / image_name)
-    else:
-        image_name = 'logo.FAKE'
+    else:  # User provided blank URL, so let's copy the old 2020 logo.
+        old_image_dir = Path(f'assets/img/vendors/2020/{short_name}')
+        if old_image_dir.exists():
+            old_image_path = str(list(old_image_dir.glob('logo.*'))[0])
+            image_name = f'logo.{old_image_path.rsplit(".", 1)[1]}'
+            shutil.copy2(old_image_path, image_dir / image_name)
+            print('Found and copied old image')
+        else:
+            image_name = 'logo.FAKE'
 
     data = read_data_file()
     data['brands'].append({

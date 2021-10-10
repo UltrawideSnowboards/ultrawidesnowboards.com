@@ -37,9 +37,11 @@ title: Ultrawide Snowboards
 
                 <h1>What's new in 2021-2022?</h1>
 
-                <p>Honestly, not much has changed. The choices are still very limited, and some suppliers like Never Summer and Nidecker have dropped ultrawide models. Others, like Korua, have added a few more.</p>
+                <p>Honestly, not much has changed. The choices are still very limited, and some suppliers like Never Summer and Nidecker have dropped ultrawide models. Others, like Korua, have added a few more. Deviation Works has entered the ultrawide market this year.</p>
 
                 <p>The market remains saturated with short, wide, directional boards. There aren't that many choices for a long (170+) twin board without moving to a custom design.</p>
+
+                <p>A few brands are very slow with updating their website: Jones. We'll add them once the 2021-2022 lineup is announced.</p>
 
                 <p>Check out the {{ site.data.snowboards.brands.size }} brands in the 2021-2022 lineup!</p>
             </div>
@@ -52,18 +54,18 @@ title: Ultrawide Snowboards
 {% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].boards.size > 0" | where_exp:"brand", "brand[category].maximum != 0" %}
 {% include brand-list.html %}
 
-{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].boards.size == 0" | where_exp:"brand", "brand[category].maximum > 0" | sort:"solid.maximum" | reverse %}
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].boards.size == 0" | where_exp:"brand", "brand[category].maximum > 0" %}
 {% include brand-list.html %}
 
 {% comment %}Brands that make custom boards{% endcomment %}
-{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].maximum == -1" | sort:"name" %}
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].maximum == -1" %}
 {% include brand-list.html %}
 
 {% comment %}Allow special casing the brands with wide boards that I think should go at the bottom{% endcomment %}
-{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].maximum == 0" | sort:"solid.maximum" | reverse %}
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].maximum == 0" %}
 {% include brand-list.html %}
 
-{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].boards.size == 0" | where_exp:"brand", "brand[category].maximum == null" | sort:"name" %}
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].boards.size == 0" | where_exp:"brand", "brand[category].maximum == null" %}
 {% include brand-list.html %}
 <br><br><br><br>
 
