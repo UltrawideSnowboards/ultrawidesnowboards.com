@@ -964,6 +964,165 @@
                 "notes": null
             },
             "url": "https://usa.endeavorsnowboards.com/"
+        },
+        {
+            "logo": "2021/telos/logo.webp",
+            "name": "Telos Snowboards",
+            "short_name": "telos",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "All Mountain",
+                        "image": "2021/telos/backslash.jpg",
+                        "length": 158.0,
+                        "name": "Back/Slash",
+                        "price": "$600",
+                        "profile": "Setback Camber with Nose Rocker",
+                        "setback": "25mm",
+                        "shape": "Volume Shifted Directional",
+                        "short_name": "backslash",
+                        "side_cut": "7.3/9.6",
+                        "stance": "51cm-63cm",
+                        "url": "https://telossnowboards.com/collections/21-22-snowboards/products/back-slash-rated-radical",
+                        "waist_width": 27.6
+                    }
+                ],
+                "maxmimum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [
+                    {
+                        "category": "All Mountain",
+                        "image": "2021/telos/backslashsplit.png",
+                        "length": 158.0,
+                        "name": "Back/Slash",
+                        "price": "$900",
+                        "profile": "Setback Camber with Nose Rocker",
+                        "setback": "25mm",
+                        "shape": "Volume Shifted Directional",
+                        "short_name": "backslashsplit",
+                        "side_cut": "7.3/9.6",
+                        "stance": "51cm-63cm",
+                        "url": "https://telossnowboards.com/collections/21-22-snowboards/products/back-slash-splitboard",
+                        "waist_width": 27.6
+                    }
+                ],
+                "maxmimum": null,
+                "notes": null
+            },
+            "url": "https://telossnowboards.com/"
+        },
+        {
+            "logo": "2021/snoplanks/logo.png",
+            "name": "Snoplanks",
+            "short_name": "snoplanks",
+            "solid": {
+                "boards": [],
+                "maxmimum": 26.75,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maxmimum": 26.25,
+                "notes": null
+            },
+            "url": "https://www.snoplanks.com/"
+        },
+        {
+            "logo": "2021/bataleon/logo.png",
+            "name": "Bataleon",
+            "short_name": "bataleon",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "All Mountain",
+                        "image": "2021/bataleon/stallion.jpg?v=1632227826",
+                        "length": 172.0,
+                        "name": "Stallion",
+                        "price": "$650",
+                        "profile": "Dynamic Camber",
+                        "setback": "0",
+                        "shape": "Directional Twin",
+                        "short_name": "stallion",
+                        "side_cut": 8.7,
+                        "stance": "55cm-67cm",
+                        "url": "https://bataleon.com/products/bataleon-stallion-snowboard-2021-2022",
+                        "waist_width": 27.9
+                    },
+                    {
+                        "category": "Powder",
+                        "image": "2021/bataleon/partywave.jpg",
+                        "length": 157.0,
+                        "name": "Party Wave",
+                        "price": "$450",
+                        "profile": "Mellow Camber",
+                        "setback": "10mm",
+                        "shape": "Directional Tapered",
+                        "short_name": "partywave",
+                        "side_cut": 9.0,
+                        "stance": "53.5cm-61.5cm",
+                        "url": "https://bataleon.com/products/bataleon-party-wave-snowboard-2021-2022",
+                        "waist_width": 28.1
+                    }
+                ],
+                "maxmimum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maxmimum": null,
+                "notes": null
+            },
+            "url": "https://bataleon.com/"
+        },
+        {
+            "logo": "2021/niche/logo.png",
+            "name": "Niche Snowboards",
+            "short_name": "niche",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "All Mountain",
+                        "image": "2021/niche/pyre.jpg",
+                        "length": 160.0,
+                        "name": "Pyre",
+                        "price": "$480",
+                        "profile": "Back-seat Camber",
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "pyre",
+                        "side_cut": 7.5,
+                        "stance": null,
+                        "url": "https://nichesnowboards.com/product/pyre-2/",
+                        "waist_width": 27.5
+                    }
+                ],
+                "maxmimum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maxmimum": 25.8,
+                "notes": null
+            },
+            "url": "https://nichesnowboards.com/"
+        },
+        {
+            "logo": "2021/nitro/logo.png",
+            "name": "Nitro",
+            "short_name": "nitro",
+            "solid": {
+                "boards": [],
+                "maxmimum": 27.4,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maxmimum": 26.6,
+                "notes": null
+            },
+            "url": "https://nitrosnowboards.com/en"
         }
     ]
 }
