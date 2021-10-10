@@ -526,6 +526,193 @@
                 "notes": "Technically, the Split Bean snowboard has a 28.1cm waist, but at 144cm long it's much too short for most big foot riders."
             },
             "url": "https://k2snow.com/"
+        },
+        {
+            "logo": "2021/capita/logo.png",
+            "name": "Capita Snowboarding",
+            "short_name": "capita",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Powder All Mountain",
+                        "image": "2021/capita/powderracers.png",
+                        "length": 157.0,
+                        "name": "Powder Racers",
+                        "price": "?",
+                        "profile": "Surf Rocker",
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "powderracers",
+                        "side_cut": 6.9,
+                        "stance": "64.6cm max",
+                        "url": "https://capitasnowboarding.com/collections/snowboards-mens/products/powder-racer",
+                        "waist_width": 27.8
+                    },
+                    {
+                        "category": "Powder All Mountain",
+                        "image": "2021/capita/powdertwin.png",
+                        "length": 162.0,
+                        "name": "Powder Twin",
+                        "price": "?",
+                        "profile": "Surf Rocker Twin",
+                        "setback": null,
+                        "shape": "Twin",
+                        "short_name": "powdertwin",
+                        "side_cut": 6.8,
+                        "stance": "64.1cm max",
+                        "url": "https://capitasnowboarding.com/collections/snowboards-mens/products/powder-twin",
+                        "waist_width": 27.8
+                    }
+                ],
+                "maxmimum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maxmimum": null,
+                "notes": null
+            },
+            "url": "https://capitasnowboarding.com/"
+        },
+        {
+            "logo": "2021/salomon/logo.png",
+            "name": "Salomon",
+            "short_name": "salomon",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Freeride",
+                        "image": "2021/salomon/hpswollenyvelt.webp",
+                        "length": 157.0,
+                        "name": "HPS - Wolle Nyvelt",
+                        "price": "$650",
+                        "profile": null,
+                        "setback": null,
+                        "shape": "Tapered Directional",
+                        "short_name": "hpswollenyvelt",
+                        "side_cut": 7.8,
+                        "stance": "65.6cm max",
+                        "url": "https://www.salomon.com/en-us/shop/product/hps-wolle-nyvelt-lg8314.html#color=61739",
+                        "waist_width": 27.8
+                    }
+                ],
+                "maxmimum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maxmimum": 26.1,
+                "notes": null
+            },
+            "url": "https://www.salomon.com/en-us"
+        },
+        {
+            "logo": "2021/korua/logo.png",
+            "name": "Korua Shapes",
+            "short_name": "korua",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Powder",
+                        "image": "2021/korua/dart.jpg",
+                        "length": 160.0,
+                        "name": "Dart",
+                        "price": "450 EUR",
+                        "profile": "Float Camber",
+                        "setback": "20mm",
+                        "shape": "Directional",
+                        "short_name": "dart",
+                        "side_cut": 8.6,
+                        "stance": "50cm-64cm",
+                        "url": "https://www.koruashapes.com/classic/model/dart",
+                        "waist_width": 27.8
+                    },
+                    {
+                        "category": "Carving",
+                        "image": "2021/korua/caferacer.jpg",
+                        "length": 164.0,
+                        "name": "Cafe Racer",
+                        "price": "450 EUR",
+                        "profile": "Full Camber",
+                        "setback": "20mm",
+                        "shape": "Directional",
+                        "short_name": "caferacer",
+                        "side_cut": 8.6,
+                        "stance": "50cm-64cm",
+                        "url": "https://www.koruashapes.com/classic/model/cafe-racer",
+                        "waist_width": 27.8
+                    },
+                    {
+                        "category": "Powder",
+                        "image": "2021/korua/tugboat.jpg",
+                        "length": 167.0,
+                        "name": "Tugboat",
+                        "price": "500 EUR",
+                        "profile": "Float Camber",
+                        "setback": "25mm",
+                        "shape": "Directional",
+                        "short_name": "tugboat",
+                        "side_cut": 8.8,
+                        "stance": "50cm-64cm",
+                        "url": "https://www.koruashapes.com/concept/model/tugboat",
+                        "waist_width": 28.6
+                    },
+                    {
+                        "category": "Powder",
+                        "image": "2021/korua/blindganger.jpg",
+                        "length": 161.0,
+                        "name": "Blindganger",
+                        "price": "500 EUR",
+                        "profile": "Rocker",
+                        "setback": "60mm",
+                        "shape": "Directional",
+                        "short_name": "blindganger",
+                        "side_cut": 9.8,
+                        "stance": "50cm-64cm",
+                        "url": "https://www.koruashapes.com/concept/model/blindganger",
+                        "waist_width": 28.3
+                    },
+                    {
+                        "category": "Powder",
+                        "image": "2021/korua/obelix.jpg",
+                        "length": 157.0,
+                        "name": "Obelix",
+                        "price": "500 EUR",
+                        "profile": "Full Rocker",
+                        "setback": "20mm",
+                        "shape": "Directional Twin",
+                        "short_name": "obelix",
+                        "side_cut": 9.8,
+                        "stance": "50cm-64cm",
+                        "url": "https://www.koruashapes.com/concept/model/obelix",
+                        "waist_width": 28.4
+                    }
+                ],
+                "maxmimum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [
+                    {
+                        "category": "Powder",
+                        "image": "2021/korua/dartsplit.jpg",
+                        "length": 162.0,
+                        "name": "Dart",
+                        "price": "700 EUR",
+                        "profile": "Float Camber",
+                        "setback": "20mm",
+                        "shape": "Directional",
+                        "short_name": "dartsplit",
+                        "side_cut": 8.6,
+                        "stance": "50cm-64cm",
+                        "url": "https://www.koruashapes.com/splitboards/model/dart-split",
+                        "waist_width": 27.5
+                    }
+                ],
+                "maxmimum": null,
+                "notes": null
+            },
+            "url": "https://www.koruashapes.com/"
         }
     ]
 }

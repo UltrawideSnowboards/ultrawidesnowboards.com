@@ -20,8 +20,8 @@ def write_data_file(data) -> None:
         json.dump(data, f, indent=4, sort_keys=True)
 
 
-def check_url_is_valid(url: str) -> Optional[str]:
-    if url == None:  # Allow bypassing
+def check_url_is_valid(url: Optional[str]) -> Optional[str]:
+    if url is None:  # Allow bypassing
         return None
 
     request = requests.get(url)
@@ -56,8 +56,8 @@ def menu(items: List[str], prompt: str = 'Please select one of the following:') 
             print(f'Must chose from 0 to {len(items) - 1}')
 
 
-def get_input(prompt: str, check_function: Callable[[str], Optional[str]] = None) -> Optional[str]:
-    result_str = input(prompt)
+def get_input(prompt: str, check_function: Callable[[Optional[str]], Optional[str]] = None) -> Optional[str]:
+    result_str: Optional[str] = input(prompt)
     if result_str == '':
         result_str = None
     if check_function is None:
@@ -78,7 +78,9 @@ def get_input_float(prompt: str) -> Optional[float]:
         return None
 
 
-def check_short_name(short_name: str) -> Optional[str]:
+def check_short_name(short_name: Optional[str]) -> Optional[str]:
+    if short_name is None:
+        return 'Can not be an empty string'
     if not re.match('[a-z]+', short_name):
         return 'Must be a lowercase name'
     elif Path(f'assets/img/vendors/2021/{short_name}').exists():
@@ -87,15 +89,14 @@ def check_short_name(short_name: str) -> Optional[str]:
         return None
 
 
-def check_float(value: str) -> Optional[str]:
+def check_float(value: Optional[str]) -> Optional[str]:
+    if value is None:
+        return None
     try:
         float(value)
         return None
     except ValueError:
-        if value == '':
-            return None
-        else:
-            return 'Must be a float'
+        return 'Must be a float'
 
 
 def add_brand():
@@ -110,7 +111,7 @@ def add_brand():
     url = get_input('URL: ', check_url_is_valid)
     logo_url = get_input('Logo URL: ', check_url_is_valid)
 
-    if logo_url != None:
+    if logo_url is not None:
         extension_tuple = logo_url.rsplit('.', 1)
         if len(extension_tuple) != 2:
             raise Exception('ERROR: logo URL does not have an extension')
@@ -151,7 +152,7 @@ def add_snowboard():
     short_name = get_input('Board short name: ', check_short_name)
 
     image_url = get_input('Image URL: ', check_url_is_valid)
-    if image_url != None:
+    if image_url is not None:
         extension_tuple = image_url.rsplit('.', 1)
         if len(extension_tuple) != 2:
             raise Exception('ERROR: logo URL does not have an extension')
