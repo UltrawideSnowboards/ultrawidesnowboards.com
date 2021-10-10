@@ -183,7 +183,7 @@ def add_snowboard():
     side_cut = get_input('Side cut (m): ')
     try:
         side_cut = float(side_cut)
-    except ValueError:
+    except (ValueError, TypeError):  # ValueError for strings, TypeError for None
         pass
 
     stance = get_input('Stance: ')
