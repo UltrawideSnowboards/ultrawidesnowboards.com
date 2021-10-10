@@ -771,7 +771,7 @@
             "splitboards": {
                 "boards": [],
                 "maximum": 27.0,
-                "notes": "Due to supply chain issues Never Summer has cut the Westbound and Heritage boards from their lineup this year. Some additional models may have DF versions added in January 2022, please contact Never Summer to be added to a mailing list for announcements."
+                "notes": null
             },
             "url": "https://www.neversummer.com/"
         },
@@ -1477,7 +1477,7 @@
             "url": "https://knwnmfg.com/"
         },
         {
-            "logo": "2021/yes/logo.svg",
+            "logo": "2021/yes/logo.jpeg",
             "name": "Yes Snowboard",
             "short_name": "yes",
             "solid": {
