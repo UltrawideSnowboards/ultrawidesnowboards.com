@@ -689,7 +689,7 @@
                     }
                 ],
                 "maxmimum": null,
-                "notes": null
+                "notes": "Shipping to the USA is 50 EUR."
             },
             "splitboards": {
                 "boards": [
@@ -710,9 +710,87 @@
                     }
                 ],
                 "maxmimum": null,
-                "notes": null
+                "notes": "Shipping to the USA is 50 EUR."
             },
             "url": "https://www.koruashapes.com/"
+        },
+        {
+            "logo": "2021/winterstick/logo.jpg",
+            "name": "Winterstick",
+            "short_name": "winterstick",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Powder",
+                        "image": "2021/winterstick/roundtail.png",
+                        "length": 168.0,
+                        "name": "Roundtail",
+                        "price": "$1000",
+                        "profile": "Camber",
+                        "setback": "50mm",
+                        "shape": "Directional",
+                        "short_name": "roundtail",
+                        "side_cut": 9.5,
+                        "stance": null,
+                        "url": "https://www.winterstick.com/shop/roundtail-21-22/",
+                        "waist_width": 27.8
+                    },
+                    {
+                        "category": "Powder",
+                        "image": "2021/winterstick/daydreamer.png",
+                        "length": 167.0,
+                        "name": "Day Dreamer",
+                        "price": "$1200",
+                        "profile": "Camber",
+                        "setback": "50mm",
+                        "shape": "Directional",
+                        "short_name": "daydreamer",
+                        "side_cut": 9.0,
+                        "stance": null,
+                        "url": "https://www.winterstick.com/shop/day-dreamer-21-22-solid/",
+                        "waist_width": 27.5
+                    }
+                ],
+                "maxmimum": null,
+                "notes": "Winterstick will customize the width of a board for $100 more. Shown here are the stock ultrawide snowboards. All models available as a splitboard."
+            },
+            "splitboards": {
+                "boards": [
+                    {
+                        "category": "Powder",
+                        "image": "2021/winterstick/roundtail.png",
+                        "length": 168.0,
+                        "name": "Roundtail",
+                        "price": "$1200",
+                        "profile": "Camber",
+                        "setback": "50mm",
+                        "shape": "Directional",
+                        "short_name": "roundtail",
+                        "side_cut": 9.5,
+                        "stance": null,
+                        "url": "https://www.winterstick.com/shop/roundtail-splitboard-21-22/",
+                        "waist_width": 27.8
+                    },
+                    {
+                        "category": "Powder",
+                        "image": "2021/winterstick/daydreamer.png",
+                        "length": 167.0,
+                        "name": "Day Dreamer",
+                        "price": "$1400",
+                        "profile": "Camber",
+                        "setback": "50mm",
+                        "shape": "Directional",
+                        "short_name": "daydreamer",
+                        "side_cut": 9.0,
+                        "stance": null,
+                        "url": "https://www.winterstick.com/shop/day-dreamer-21-22-splitboard/",
+                        "waist_width": 27.5
+                    }
+                ],,
+                "maxmimum": null,
+                "notes": "Winterstick will customize the width of a board for $100 more. Shown here are the stock ultrawide snowboards. All models available as a splitboard."
+            },
+            "url": "https://www.winterstick.com/"
         }
     ]
 }
