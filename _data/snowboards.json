@@ -759,6 +759,72 @@
             "url": "https://www.winterstick.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/soul/logo.png",
+            "name": "Soul Waterman",
+            "short_name": "soul",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Carving",
+                        "image": "2021/soul/fukai.png",
+                        "length": 168.0,
+                        "name": "Fukai",
+                        "price": "$700",
+                        "profile": null,
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "fukai",
+                        "side_cut": null,
+                        "stance": null,
+                        "url": "https://www.soulwaterman.com/collections/soulstick/products/fukai",
+                        "waist_width": 27.8
+                    },
+                    {
+                        "category": "Carving",
+                        "image": "2021/soul/pitchwing.png",
+                        "length": 157.0,
+                        "name": "Pitch Wing",
+                        "price": "$650",
+                        "profile": "Full Camber",
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "pitchwing",
+                        "side_cut": null,
+                        "stance": "500mm-580mm",
+                        "url": "https://www.soulwaterman.com/collections/soulstick/products/pitchwingpro",
+                        "waist_width": 28.5
+                    },
+                    {
+                        "category": "Powder",
+                        "image": "2021/soul/blower.png",
+                        "length": 162.0,
+                        "name": "Blower",
+                        "price": "$650",
+                        "profile": null,
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "blower",
+                        "side_cut": null,
+                        "stance": "480mm-600mm",
+                        "url": "https://www.soulwaterman.com/collections/soulstick/products/blower-162cm",
+                        "waist_width": 27.6
+                    }
+                ],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.soulwaterman.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/neversummer/logo.png",
             "name": "Never Summer",
@@ -1913,72 +1979,6 @@
                 "notes": null
             },
             "url": "https://www.unitedshapes.us/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/soul/logo.png",
-            "name": "Soul Waterman",
-            "short_name": "soul",
-            "solid": {
-                "boards": [
-                    {
-                        "category": "Carving",
-                        "image": "2021/soul/fukai.png",
-                        "length": 168.0,
-                        "name": "Fukai",
-                        "price": "$700",
-                        "profile": null,
-                        "setback": null,
-                        "shape": "Directional",
-                        "short_name": "fukai",
-                        "side_cut": null,
-                        "stance": null,
-                        "url": "https://www.soulwaterman.com/collections/soulstick/products/fukai",
-                        "waist_width": 27.8
-                    },
-                    {
-                        "category": "Carving",
-                        "image": "2021/soul/pitchwing.png",
-                        "length": 157.0,
-                        "name": "Pitch Wing",
-                        "price": "$650",
-                        "profile": "Full Camber",
-                        "setback": null,
-                        "shape": "Directional",
-                        "short_name": "pitchwing",
-                        "side_cut": null,
-                        "stance": "500mm-580mm",
-                        "url": "https://www.soulwaterman.com/collections/soulstick/products/pitchwingpro",
-                        "waist_width": 28.5
-                    },
-                    {
-                        "category": "Powder",
-                        "image": "2021/soul/blower.png",
-                        "length": 162.0,
-                        "name": "Blower",
-                        "price": "$650",
-                        "profile": null,
-                        "setback": null,
-                        "shape": "Directional",
-                        "short_name": "blower",
-                        "side_cut": null,
-                        "stance": "480mm-600mm",
-                        "url": "https://www.soulwaterman.com/collections/soulstick/products/blower-162cm",
-                        "waist_width": 27.6
-                    }
-                ],
-                "maximum": null,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://www.soulwaterman.com/"
         }
     ]
 }
