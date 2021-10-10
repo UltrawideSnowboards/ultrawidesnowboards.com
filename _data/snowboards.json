@@ -469,13 +469,13 @@
             "url": "https://www.koruashapes.com/"
         },
         {
+            "custom": {
+                "notes": "Deviation Works offers a custom option starting at $1000."
+            },
             "custom_option": true,
             "logo": "2021/deviation/logo.png",
             "name": "Deviation Works",
             "short_name": "deviation",
-            "custom": {
-                "notes": "Deviation Works offers a custom option starting at $1000."
-            },
             "solid": {
                 "boards": [
                     {
@@ -677,13 +677,13 @@
             "url": "https://westonbackcountry.com/"
         },
         {
+            "custom": {
+                "notes": "Winterstick will customize the width of a board for $100 more. Shown here are the stock ultrawide snowboards. All models available as a splitboard."
+            },
             "custom_option": true,
             "logo": "2021/winterstick/logo.jpg",
             "name": "Winterstick",
             "short_name": "winterstick",
-            "custom": {
-                "notes": "Winterstick will customize the width of a board for $100 more. Shown here are the stock ultrawide snowboards. All models available as a splitboard."
-            },
             "solid": {
                 "boards": [
                     {
@@ -1418,13 +1418,13 @@
             "url": "https://www.head.com/en_US/home"
         },
         {
+            "custom": {
+                "notes": "Custom boards start at $1400."
+            },
             "custom_option": true,
             "logo": "2021/prior/logo.webp",
             "name": "Prior Snow",
             "short_name": "prior",
-            "custom": {
-                "notes": "Custom boards start at $1400."
-            },
             "solid": {
                 "boards": [],
                 "maximum": 27.0,
@@ -1676,13 +1676,13 @@
             "url": "http://www.theipproject.com/"
         },
         {
+            "custom": {
+                "notes": "Spline has a standard lineup, but starting at $2000CAD they'll make a custom board for your. Their standard lineup maxes out at 26.1cm waist width."
+            },
             "custom_option": true,
             "logo": "2021/spline/logo.png",
             "name": "Spline Snowboards",
             "short_name": "spline",
-            "custom": {
-                "notes": "Spline has a standard lineup, but starting at $2000CAD they'll make a custom board for your. Their standard lineup maxes out at 26.1cm waist width."
-            },
             "solid": {
                 "boards": [],
                 "maximum": 26.1,
@@ -1813,6 +1813,106 @@
                 "notes": "Pallas does not make men's snowboards"
             },
             "url": "https://pallassnowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": "Donek is well known for their ultrawide custom boards. Prices start at around $700."
+            },
+            "custom_option": true,
+            "logo": "2021/donek/logo.png",
+            "name": "Donek Custom Snowboards",
+            "short_name": "donek",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Donek only makes custom boards."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": null
+        },
+        {
+            "custom": {
+                "notes": "Custom boards start at $675."
+            },
+            "custom_option": true,
+            "logo": "2021/mtnlocal/logo.gif",
+            "name": "MTN Local Snowboards",
+            "short_name": "mtnlocal",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "MTN Local only makes custom snowboards."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": "MTN Local only makes custom snowboards."
+            },
+            "url": "https://mtnlocalsnowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": "Custom board prices not listed."
+            },
+            "custom_option": true,
+            "logo": "2021/kindred/logo.webp",
+            "name": "Kindred Snowboards",
+            "short_name": "kindred",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Kindred only makes custom snowboards."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Kindred only makes custom snowboards."
+            },
+            "url": "http://www.kindredsnowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/aotea/logo.webp",
+            "name": "Aotea Shapes",
+            "short_name": "aotea",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Aotea makes each board on demand but there's no option to customize the size. Ships from NZ."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Aotea makes each board on demand but there's no option to customize the size. Ships from NZ."
+            },
+            "url": "https://www.aoteashapes.com/"
+        },
+        {
+            "custom": {
+                "notes": "Custom options are available. Prices are not listed."
+            },
+            "custom_option": true,
+            "logo": "2021/franco/logo.png",
+            "name": "Franco Snowshapes",
+            "short_name": "franco",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Franco only makes custom boards."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.francosnowshapes.com/"
         }
     ]
 }

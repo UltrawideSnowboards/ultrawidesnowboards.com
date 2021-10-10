@@ -119,7 +119,7 @@ def add_brand():
     url = get_input('URL: ', check_url_is_valid)
     logo_url = get_input('Logo URL: ', check_url_is_valid)
 
-    custom_option = get_input('Brand does custom sizes? Y/N', check_yes_no).lower() == 'y'
+    custom_option = get_input('Brand does custom sizes? Y/N: ', check_yes_no).lower() == 'y'
 
     if logo_url is not None:
         extension_tuple = logo_url.rsplit('.', 1)
