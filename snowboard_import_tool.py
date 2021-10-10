@@ -235,7 +235,7 @@ def sort_list():
             data['brands'][i][board_type]['boards'] = sorted(data['brands'][i][board_type]['boards'], key=lambda board: -1 * board['length'] * board['waist_width'])
 
     # Sort each brand by solid board size then by splitboard size
-    def brand_sort_function(brand: Dict) -> int:
+    def brand_sort_function(brand: Dict) -> float:
         if len(brand['solid']['boards']) > 0:
             assert type(brand['solid']['boards'][0]['length']) is float, f'Brand {brand["short_name"]} does not have the right type for solid->boards->0->length.'
             assert type(brand['solid']['boards'][0]['waist_width']) is float, f'Brand {brand["short_name"]} does not have the right type for solid->boards->0->waist_width.'
@@ -250,8 +250,9 @@ def sort_list():
         elif brand['splitboards']['maximum'] is not None:
             assert type(brand['splitboards']['maximum']) is float, f'Brand {brand["short_name"]} does not have the right type for split->maximum.'
             return -1 * brand['splitboards']['maximum']
-        else:
-            return 0
+        # At this point we have no data about the snowboards. It's either not released yet or it's a custom only house.
+        else:  # sort by first letter of brand name
+            return ord(brand['short_name'][0])
 
     data['brands'] = sorted(data['brands'], key=brand_sort_function)
 

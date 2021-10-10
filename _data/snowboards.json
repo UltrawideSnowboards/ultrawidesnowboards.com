@@ -1713,72 +1713,24 @@
             "url": "https://chimerasnowboards.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
             "custom_option": false,
-            "logo": "2021/deusexmachina/logo.png",
-            "name": "Deus Ex Machina",
-            "short_name": "deusexmachina",
+            "logo": "2021/aotea/logo.webp",
+            "name": "Aotea Shapes",
+            "short_name": "aotea",
             "solid": {
                 "boards": [],
                 "maximum": null,
-                "notes": "The website has 404 links for the board specs, so unable to confirm for the 2021-2022 season. Last year they maxed out at 26.5"
+                "notes": "Aotea makes each board on demand but there's no option to customize the size. Ships from NZ."
             },
             "splitboards": {
                 "boards": [],
                 "maximum": null,
-                "notes": null
+                "notes": "Aotea makes each board on demand but there's no option to customize the size. Ships from NZ."
             },
-            "url": "https://shop.us.deuscustoms.com/"
-        },
-        {
-            "custom_option": false,
-            "logo": "2021/unitedshapes/logo.FAKE",
-            "name": "United Shapes",
-            "short_name": "unitedshapes",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": "United Shapes has not released their 2021-2022 lineup yet."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://www.unitedshapes.us/"
-        },
-        {
-            "custom_option": false,
-            "logo": "2021/dinosaurswilldie/logo.jpg",
-            "name": "Dinosaurs Will Die",
-            "short_name": "dinosaurswilldie",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": "DWD has not released their 2021-2022 lineup yet."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://dinosaurswilldie.com/"
-        },
-        {
-            "custom_option": false,
-            "logo": "2021/northwave/logo.png",
-            "name": "Northwave",
-            "short_name": "northwave",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": "Northwave does not publish board dimensions."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://northwave.us/"
+            "url": "https://www.aoteashapes.com/"
         },
         {
             "custom_option": false,
@@ -1799,20 +1751,37 @@
         },
         {
             "custom_option": false,
-            "logo": "2021/pallas/logo.png",
-            "name": "Pallas Snowboards",
-            "short_name": "pallas",
+            "logo": "2021/deusexmachina/logo.png",
+            "name": "Deus Ex Machina",
+            "short_name": "deusexmachina",
             "solid": {
                 "boards": [],
                 "maximum": null,
-                "notes": "Pallas does not make men's snowboards"
+                "notes": "The website has 404 links for the board specs, so unable to confirm for the 2021-2022 season. Last year they maxed out at 26.5"
             },
             "splitboards": {
                 "boards": [],
                 "maximum": null,
-                "notes": "Pallas does not make men's snowboards"
+                "notes": null
             },
-            "url": "https://pallassnowboards.com/"
+            "url": "https://shop.us.deuscustoms.com/"
+        },
+        {
+            "custom_option": false,
+            "logo": "2021/dinosaurswilldie/logo.jpg",
+            "name": "Dinosaurs Will Die",
+            "short_name": "dinosaurswilldie",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "DWD has not released their 2021-2022 lineup yet."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://dinosaurswilldie.com/"
         },
         {
             "custom": {
@@ -1836,23 +1805,23 @@
         },
         {
             "custom": {
-                "notes": "Custom boards start at $675."
+                "notes": "Custom options are available. Prices are not listed."
             },
             "custom_option": true,
-            "logo": "2021/mtnlocal/logo.gif",
-            "name": "MTN Local Snowboards",
-            "short_name": "mtnlocal",
+            "logo": "2021/franco/logo.png",
+            "name": "Franco Snowshapes",
+            "short_name": "franco",
             "solid": {
                 "boards": [],
                 "maximum": null,
-                "notes": "MTN Local only makes custom snowboards."
+                "notes": "Franco only makes custom boards."
             },
             "splitboards": {
                 "boards": [],
                 "maximum": null,
-                "notes": "MTN Local only makes custom snowboards."
+                "notes": null
             },
-            "url": "https://mtnlocalsnowboards.com/"
+            "url": "https://www.francosnowshapes.com/"
         },
         {
             "custom": {
@@ -1876,43 +1845,74 @@
         },
         {
             "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/aotea/logo.webp",
-            "name": "Aotea Shapes",
-            "short_name": "aotea",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": "Aotea makes each board on demand but there's no option to customize the size. Ships from NZ."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": "Aotea makes each board on demand but there's no option to customize the size. Ships from NZ."
-            },
-            "url": "https://www.aoteashapes.com/"
-        },
-        {
-            "custom": {
-                "notes": "Custom options are available. Prices are not listed."
+                "notes": "Custom boards start at $675."
             },
             "custom_option": true,
-            "logo": "2021/franco/logo.png",
-            "name": "Franco Snowshapes",
-            "short_name": "franco",
+            "logo": "2021/mtnlocal/logo.gif",
+            "name": "MTN Local Snowboards",
+            "short_name": "mtnlocal",
             "solid": {
                 "boards": [],
                 "maximum": null,
-                "notes": "Franco only makes custom boards."
+                "notes": "MTN Local only makes custom snowboards."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": "MTN Local only makes custom snowboards."
+            },
+            "url": "https://mtnlocalsnowboards.com/"
+        },
+        {
+            "custom_option": false,
+            "logo": "2021/northwave/logo.png",
+            "name": "Northwave",
+            "short_name": "northwave",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Northwave does not publish board dimensions."
             },
             "splitboards": {
                 "boards": [],
                 "maximum": null,
                 "notes": null
             },
-            "url": "https://www.francosnowshapes.com/"
+            "url": "https://northwave.us/"
+        },
+        {
+            "custom_option": false,
+            "logo": "2021/pallas/logo.png",
+            "name": "Pallas Snowboards",
+            "short_name": "pallas",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Pallas does not make men's snowboards"
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Pallas does not make men's snowboards"
+            },
+            "url": "https://pallassnowboards.com/"
+        },
+        {
+            "custom_option": false,
+            "logo": "2021/unitedshapes/logo.FAKE",
+            "name": "United Shapes",
+            "short_name": "unitedshapes",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "United Shapes has not released their 2021-2022 lineup yet."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.unitedshapes.us/"
         }
     ]
 }
