@@ -464,6 +464,38 @@
             "url": "https://www.koruashapes.com/"
         },
         {
+            "logo": "2021/deviation/logo.png",
+            "name": "Deviation Works",
+            "short_name": "deviation",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Freeride",
+                        "image": "2021/deviation/momentgenerator.png",
+                        "length": 168.0,
+                        "name": "Moment Generator",
+                        "price": "$600",
+                        "profile": "Camber",
+                        "setback": null,
+                        "shape": "Directional Twin",
+                        "short_name": "momentgenerator",
+                        "side_cut": 9.2,
+                        "stance": null,
+                        "url": "https://deviationworks.com/collections/snowboards/products/moment-generator",
+                        "waist_width": 28.3
+                    }
+                ],
+                "maximum": null,
+                "notes": "Deviation Works offers a custom option starting at $1000."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://deviationworks.com/"
+        },
+        {
             "logo": "2021/moss/logo.png",
             "name": "Moss Snowstick",
             "short_name": "moss",
@@ -1061,6 +1093,38 @@
             "url": "https://nitrosnowboards.com/en"
         },
         {
+            "logo": "2021/kemper/logo.webp",
+            "name": "Kemper Snowboards",
+            "short_name": "kemper",
+            "solid": {
+                "boards": [],
+                "maximum": 27.4,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 27.4,
+                "notes": null
+            },
+            "url": "https://kemper-snowboards.com/"
+        },
+        {
+            "logo": "2021/arbor/logo.webp",
+            "name": "Arbor Collective",
+            "short_name": "arbor",
+            "solid": {
+                "boards": [],
+                "maximum": 27.35,
+                "notes": "Most of the boards on their website are missing size information."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.3,
+                "notes": "Most of the boards on their website are missing size information."
+            },
+            "url": "https://www.arborcollective.com/"
+        },
+        {
             "logo": "2021/marhar/logo.png",
             "name": "Marhar Snowboards",
             "short_name": "marhar",
@@ -1075,6 +1139,22 @@
                 "notes": null
             },
             "url": "https://www.marharsnowboards.com/"
+        },
+        {
+            "logo": "2021/hightide/logo.png",
+            "name": "Hightide Mfg",
+            "short_name": "hightide",
+            "solid": {
+                "boards": [],
+                "maximum": 27.2,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://hightidemfg.com/"
         },
         {
             "logo": "2021/gnu/logo.svg",
@@ -1109,86 +1189,6 @@
             "url": "https://www.nidecker.com/en/"
         },
         {
-            "logo": "2021/snoplanks/logo.png",
-            "name": "Snoplanks",
-            "short_name": "snoplanks",
-            "solid": {
-                "boards": [],
-                "maximum": 26.75,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 26.25,
-                "notes": null
-            },
-            "url": "https://www.snoplanks.com/"
-        },
-        {
-            "logo": "2021/deviation/logo.png",
-            "name": "Deviation Works",
-            "short_name": "deviation",
-            "solid": {
-                "boards": [
-                    {
-                        "category": "Freeride",
-                        "image": "2021/deviation/momentgenerator.png",
-                        "length": 168.0,
-                        "name": "Moment Generator",
-                        "price": "$600",
-                        "profile": "Camber",
-                        "setback": null,
-                        "shape": "Directional Twin",
-                        "short_name": "momentgenerator",
-                        "side_cut": 9.2,
-                        "stance": null,
-                        "url": "https://deviationworks.com/collections/snowboards/products/moment-generator",
-                        "waist_width": 28.3
-                    }
-                ],
-                "maximum": null,
-                "notes": "Deviation Works offers a custom option starting at $1000."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://deviationworks.com/"
-        },
-        {
-            "logo": "2021/arbor/logo.webp",
-            "name": "Arbor Collective",
-            "short_name": "arbor",
-            "solid": {
-                "boards": [],
-                "maximum": 27.35,
-                "notes": "Most of the boards on their website are missing size information."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 26.3,
-                "notes": "Most of the boards on their website are missing size information."
-            },
-            "url": "https://www.arborcollective.com/"
-        },
-        {
-            "logo": "2021/hightide/logo.png",
-            "name": "Hightide Mfg",
-            "short_name": "hightide",
-            "solid": {
-                "boards": [],
-                "maximum": 27.2,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://hightidemfg.com/"
-        },
-        {
             "logo": "2021/burton/logo.jpeg",
             "name": "Burton",
             "short_name": "burton",
@@ -1221,22 +1221,6 @@
             "url": "https://www.head.com/en_US/home"
         },
         {
-            "logo": "2021/kemper/logo.webp",
-            "name": "Kemper Snowboards",
-            "short_name": "kemper",
-            "solid": {
-                "boards": [],
-                "maximum": 27.4,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 27.4,
-                "notes": null
-            },
-            "url": "https://kemper-snowboards.com/"
-        },
-        {
             "logo": "2021/prior/logo.webp",
             "name": "Prior Snow",
             "short_name": "prior",
@@ -1267,6 +1251,22 @@
                 "notes": null
             },
             "url": "https://www.borealis-snowboards.com/"
+        },
+        {
+            "logo": "2021/snoplanks/logo.png",
+            "name": "Snoplanks",
+            "short_name": "snoplanks",
+            "solid": {
+                "boards": [],
+                "maximum": 26.75,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.25,
+                "notes": null
+            },
+            "url": "https://www.snoplanks.com/"
         }
     ]
 }
