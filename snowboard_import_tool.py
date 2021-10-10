@@ -21,9 +21,12 @@ def write_data_file(data) -> None:
 
 
 def check_url_is_valid(url: str) -> Optional[str]:
+    if url == None:  # Allow bypassing
+        return None
+
     request = requests.get(url)
     if request.status_code != 200:
-        return f'URL is not valid (status code {request.status_code}'
+        return f'URL is not valid (status code {request.status_code})'
     else:
         return None
 
@@ -107,12 +110,15 @@ def add_brand():
     url = get_input('URL: ', check_url_is_valid)
     logo_url = get_input('Logo URL: ', check_url_is_valid)
 
-    extension_tuple = logo_url.rsplit('.', 1)
-    if len(extension_tuple) != 2:
-        raise Exception('ERROR: logo URL does not have an extension')
+    if logo_url != None:
+        extension_tuple = logo_url.rsplit('.', 1)
+        if len(extension_tuple) != 2:
+            raise Exception('ERROR: logo URL does not have an extension')
 
-    image_name = f'logo.{extension_tuple[1]}'
-    download_picture(logo_url, image_dir / image_name)
+        image_name = f'logo.{extension_tuple[1]}'
+        download_picture(logo_url, image_dir / image_name)
+    else:
+        image_name = 'logo.FAKE'
 
     data = read_data_file()
     data['brands'].append({
@@ -145,13 +151,16 @@ def add_snowboard():
     short_name = get_input('Board short name: ', check_short_name)
 
     image_url = get_input('Image URL: ', check_url_is_valid)
-    extension_tuple = image_url.rsplit('.', 1)
-    if len(extension_tuple) != 2:
-        raise Exception('ERROR: logo URL does not have an extension')
+    if image_url != None:
+        extension_tuple = image_url.rsplit('.', 1)
+        if len(extension_tuple) != 2:
+            raise Exception('ERROR: logo URL does not have an extension')
 
-    image_name = f'{short_name}.{extension_tuple[1]}'
-    image_dir = Path(f'assets/img/vendors/2021/{brand_short_name}')
-    download_picture(image_url, image_dir / image_name)
+        image_name = f'{short_name}.{extension_tuple[1]}'
+        image_dir = Path(f'assets/img/vendors/2021/{brand_short_name}')
+        download_picture(image_url, image_dir / image_name)
+    else:
+        image_name = f'{short_name}.FAKE'
 
     url = get_input('URL: ', check_url_is_valid)
 
@@ -161,7 +170,13 @@ def add_snowboard():
     human_name = get_input('Model Human Name: ')
     length = get_input_float('Length (cm): ')
     waist_width = get_input_float('Waist width (cm): ')
-    side_cut = get_input_float('Side cut (m): ')
+
+    side_cut = get_input('Side cut (m): ')
+    try:
+        side_cut = float(side_cut)
+    except ValueError:
+        pass
+
     stance = get_input('Stance: ')
     setback = get_input('Setback: ')
     price = get_input('Price: ')
