@@ -205,11 +205,21 @@ def add_snowboard():
     print(f'You have added {short_name}')
 
 
+def sort_list():
+    data = read_data_file()
+
+    for i in range(0, len(data['brands'])):
+        for board_type in ['solid', 'splitboards']:
+            data['brands'][i][board_type]['boards'] = sorted(data['brands'][i][board_type]['boards'], key=lambda board: -1 * board['length'] * board['waist_width'])
+
+    write_data_file(data)
+
+
 def main():
     print('Welcome to the snowboard import program')
     print('Please select an option:')
 
-    menu_items = ['Add Brand', 'Add Snowboard']
+    menu_items = ['Add Brand', 'Add Snowboard', 'Sort List']
 
     selected = menu(menu_items)
 
@@ -217,6 +227,8 @@ def main():
         add_brand()
     elif selected == 1:
         add_snowboard()
+    elif selected == 2:
+        sort_list()
 
 
 if __name__ == '__main__':

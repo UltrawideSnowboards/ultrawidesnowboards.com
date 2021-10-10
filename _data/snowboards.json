@@ -38,6 +38,21 @@
                         "waist_width": 32.0
                     },
                     {
+                        "category": "Allrounder",
+                        "image": "2021/ltb/life.jpg",
+                        "length": 191.9,
+                        "name": "Life",
+                        "price": "800 EUR",
+                        "profile": null,
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "life",
+                        "side_cut": 7.8,
+                        "stance": null,
+                        "url": "http://www.ltbsnowboards.com/freeride-snowboards/life1",
+                        "waist_width": 27.7
+                    },
+                    {
                         "category": "Freestyle",
                         "image": "2021/ltb/decent.jpg",
                         "length": 166.1,
@@ -66,21 +81,6 @@
                         "stance": null,
                         "url": "http://www.ltbsnowboards.com/freeride-snowboards/ltb-crude-snowboard",
                         "waist_width": 29.3
-                    },
-                    {
-                        "category": "Allrounder",
-                        "image": "2021/ltb/life.jpg",
-                        "length": 191.9,
-                        "name": "Life",
-                        "price": "800 EUR",
-                        "profile": null,
-                        "setback": null,
-                        "shape": "Directional",
-                        "short_name": "life",
-                        "side_cut": 7.8,
-                        "stance": null,
-                        "url": "http://www.ltbsnowboards.com/freeride-snowboards/life1",
-                        "waist_width": 27.7
                     },
                     {
                         "category": "Freeride",
@@ -134,21 +134,6 @@
             "splitboards": {
                 "boards": [
                     {
-                        "category": null,
-                        "image": "2021/ltb/crudesplit.jpg",
-                        "length": 165.3,
-                        "name": "Crude",
-                        "price": "900 EUR",
-                        "profile": null,
-                        "setback": "28mm",
-                        "shape": "Ultra Tapered Directional",
-                        "short_name": "crudesplit",
-                        "side_cut": 10.0,
-                        "stance": null,
-                        "url": "http://www.ltbsnowboards.com/split-snowboards/ltb-crude-splitboard",
-                        "waist_width": 29.3
-                    },
-                    {
                         "category": "Allrounder",
                         "image": "2021/ltb/lifesplit.jpg",
                         "length": 186.1,
@@ -162,6 +147,21 @@
                         "stance": null,
                         "url": "http://www.ltbsnowboards.com/split-snowboards/ltb-life-splitboard",
                         "waist_width": 27.7
+                    },
+                    {
+                        "category": null,
+                        "image": "2021/ltb/crudesplit.jpg",
+                        "length": 165.3,
+                        "name": "Crude",
+                        "price": "900 EUR",
+                        "profile": null,
+                        "setback": "28mm",
+                        "shape": "Ultra Tapered Directional",
+                        "short_name": "crudesplit",
+                        "side_cut": 10.0,
+                        "stance": null,
+                        "url": "http://www.ltbsnowboards.com/split-snowboards/ltb-crude-splitboard",
+                        "waist_width": 29.3
                     }
                 ],
                 "maxmimum": null,
@@ -193,17 +193,32 @@
                 "boards": [
                     {
                         "category": null,
-                        "image": "2021/gentemstick/barracuda.png",
-                        "length": 158.6,
-                        "name": "Barracuda",
-                        "price": "\u00a5123200",
+                        "image": "2021/gentemstick/superfishcloudliner.png",
+                        "length": 176.0,
+                        "name": "Super Fish Cloud Liner",
+                        "price": "\u00a5125400",
                         "profile": "Accel Camber",
-                        "setback": "10mm",
+                        "setback": "35mm",
                         "shape": "Directional",
-                        "short_name": "barracuda",
+                        "short_name": "superfishcloudliner",
+                        "side_cut": 10.5,
+                        "stance": "510-650mm",
+                        "url": "https://gentemstick.com/productsDetail/id_372/",
+                        "waist_width": 28.9
+                    },
+                    {
+                        "category": "All Mountain",
+                        "image": "2021/gentemstick/flyfisk.png",
+                        "length": 164.0,
+                        "name": "Fly Fisk",
+                        "price": "\u00a5121000",
+                        "profile": "Accel Camber",
+                        "setback": "0",
+                        "shape": "Directional",
+                        "short_name": "flyfisk",
                         "side_cut": 9.0,
-                        "stance": "500-600mm",
-                        "url": "https://gentemstick.com/productsDetail/id_367/",
+                        "stance": "540-660mm",
+                        "url": "https://gentemstick.com/productsDetail/id_378/",
                         "waist_width": 28.7
                     },
                     {
@@ -223,18 +238,18 @@
                     },
                     {
                         "category": null,
-                        "image": "2021/gentemstick/superfishcloudliner.png",
-                        "length": 176.0,
-                        "name": "Super Fish Cloud Liner",
-                        "price": "\u00a5125400",
+                        "image": "2021/gentemstick/barracuda.png",
+                        "length": 158.6,
+                        "name": "Barracuda",
+                        "price": "\u00a5123200",
                         "profile": "Accel Camber",
-                        "setback": "35mm",
+                        "setback": "10mm",
                         "shape": "Directional",
-                        "short_name": "superfishcloudliner",
-                        "side_cut": 10.5,
-                        "stance": "510-650mm",
-                        "url": "https://gentemstick.com/productsDetail/id_372/",
-                        "waist_width": 28.9
+                        "short_name": "barracuda",
+                        "side_cut": 9.0,
+                        "stance": "500-600mm",
+                        "url": "https://gentemstick.com/productsDetail/id_367/",
+                        "waist_width": 28.7
                     },
                     {
                         "category": null,
@@ -250,21 +265,6 @@
                         "stance": "510-590mm",
                         "url": "https://gentemstick.com/productsDetail/id_376/",
                         "waist_width": 28.5
-                    },
-                    {
-                        "category": "All Mountain",
-                        "image": "2021/gentemstick/flyfisk.png",
-                        "length": 164.0,
-                        "name": "Fly Fisk",
-                        "price": "\u00a5121000",
-                        "profile": "Accel Camber",
-                        "setback": "0",
-                        "shape": "Directional",
-                        "short_name": "flyfisk",
-                        "side_cut": 9.0,
-                        "stance": "540-660mm",
-                        "url": "https://gentemstick.com/productsDetail/id_378/",
-                        "waist_width": 28.7
                     }
                 ],
                 "maxmimum": null,
@@ -300,21 +300,6 @@
             "solid": {
                 "boards": [
                     {
-                        "category": "Freeride",
-                        "image": "2021/libtech/stumpape.jpg",
-                        "length": 163.0,
-                        "name": "Stump Ape",
-                        "price": "$620",
-                        "profile": "C2x Rocker/camber hybrid",
-                        "setback": "2in",
-                        "shape": "Directional",
-                        "short_name": "stumpape",
-                        "side_cut": 8.0,
-                        "stance": "19.5in-24.25in",
-                        "url": "https://www.lib-tech.com/stumpape",
-                        "waist_width": 28.4
-                    },
-                    {
                         "category": "All Mountain",
                         "image": "2021/libtech/skunkape.jpg",
                         "length": 173.0,
@@ -328,6 +313,21 @@
                         "stance": "21in-26in",
                         "url": "https://www.lib-tech.com/skunk-ape",
                         "waist_width": 28.5
+                    },
+                    {
+                        "category": "Freeride",
+                        "image": "2021/libtech/stumpape.jpg",
+                        "length": 163.0,
+                        "name": "Stump Ape",
+                        "price": "$620",
+                        "profile": "C2x Rocker/camber hybrid",
+                        "setback": "2in",
+                        "shape": "Directional",
+                        "short_name": "stumpape",
+                        "side_cut": 8.0,
+                        "stance": "19.5in-24.25in",
+                        "url": "https://www.lib-tech.com/stumpape",
+                        "waist_width": 28.4
                     }
                 ],
                 "maxmimum": null,
@@ -379,36 +379,6 @@
             "solid": {
                 "boards": [
                     {
-                        "category": "Freestyle Pow",
-                        "image": "2021/westonbackcountry/hatchet.jpg",
-                        "length": 156.0,
-                        "name": "Hatchet",
-                        "price": "$650",
-                        "profile": "Rocker Camber",
-                        "setback": "0",
-                        "shape": "Directional Twinish",
-                        "short_name": "hatchet",
-                        "side_cut": 7.1,
-                        "stance": null,
-                        "url": "https://westonbackcountry.com/collections/snowboards/products/hatchet-snowboard-21-22",
-                        "waist_width": 28.0
-                    },
-                    {
-                        "category": "Freeride + All Mountain",
-                        "image": "2021/westonbackcountry/ridgeline.jpg",
-                        "length": 166.0,
-                        "name": "Ridgeline",
-                        "price": "$600",
-                        "profile": "Rocker Camber",
-                        "setback": "20mm",
-                        "shape": "Directional",
-                        "short_name": "ridgeline",
-                        "side_cut": "10.2/8.3/8/9.3",
-                        "stance": null,
-                        "url": "https://westonbackcountry.com/collections/snowboards/products/ridgeline-snowboard-21-22",
-                        "waist_width": 27.6
-                    },
-                    {
                         "category": "Backcountry",
                         "image": "2021/westonbackcountry/backwoods.jpg",
                         "length": 167.0,
@@ -437,6 +407,36 @@
                         "stance": null,
                         "url": "https://westonbackcountry.com/collections/snowboards/products/timber-snowboard",
                         "waist_width": 28.2
+                    },
+                    {
+                        "category": "Freeride + All Mountain",
+                        "image": "2021/westonbackcountry/ridgeline.jpg",
+                        "length": 166.0,
+                        "name": "Ridgeline",
+                        "price": "$600",
+                        "profile": "Rocker Camber",
+                        "setback": "20mm",
+                        "shape": "Directional",
+                        "short_name": "ridgeline",
+                        "side_cut": "10.2/8.3/8/9.3",
+                        "stance": null,
+                        "url": "https://westonbackcountry.com/collections/snowboards/products/ridgeline-snowboard-21-22",
+                        "waist_width": 27.6
+                    },
+                    {
+                        "category": "Freestyle Pow",
+                        "image": "2021/westonbackcountry/hatchet.jpg",
+                        "length": 156.0,
+                        "name": "Hatchet",
+                        "price": "$650",
+                        "profile": "Rocker Camber",
+                        "setback": "0",
+                        "shape": "Directional Twinish",
+                        "short_name": "hatchet",
+                        "side_cut": 7.1,
+                        "stance": null,
+                        "url": "https://westonbackcountry.com/collections/snowboards/products/hatchet-snowboard-21-22",
+                        "waist_width": 28.0
                     }
                 ],
                 "maxmimum": null,
@@ -445,19 +445,19 @@
             "splitboards": {
                 "boards": [
                     {
-                        "category": "Freestyle Pow",
-                        "image": "2021/westonbackcountry/hatchetsplitboard.jpg",
-                        "length": 156.0,
-                        "name": "Hatchet",
-                        "price": "$950",
+                        "category": "Backcountry",
+                        "image": "2021/westonbackcountry/backwoodssplitboard.jpg",
+                        "length": 167.0,
+                        "name": "Backwoods",
+                        "price": "$900",
                         "profile": "Rocker Camber",
-                        "setback": "0",
-                        "shape": "Directional Twinish",
-                        "short_name": "hatchetsplitboard",
-                        "side_cut": 7.1,
+                        "setback": "10mm",
+                        "shape": "Directional",
+                        "short_name": "backwoodssplitboard",
+                        "side_cut": "8/7.2/8.4",
                         "stance": null,
-                        "url": "https://westonbackcountry.com/collections/splitboards/products/hatchet-splitboard-21-22",
-                        "waist_width": 28.0
+                        "url": "https://westonbackcountry.com/collections/splitboards/products/backwoods-splitboard-x-john-fellows-21-22",
+                        "waist_width": 28.1
                     },
                     {
                         "category": "Freeride + All Mountain",
@@ -475,19 +475,19 @@
                         "waist_width": 27.6
                     },
                     {
-                        "category": "Backcountry",
-                        "image": "2021/westonbackcountry/backwoodssplitboard.jpg",
-                        "length": 167.0,
-                        "name": "Backwoods",
-                        "price": "$900",
+                        "category": "Freestyle Pow",
+                        "image": "2021/westonbackcountry/hatchetsplitboard.jpg",
+                        "length": 156.0,
+                        "name": "Hatchet",
+                        "price": "$950",
                         "profile": "Rocker Camber",
-                        "setback": "10mm",
-                        "shape": "Directional",
-                        "short_name": "backwoodssplitboard",
-                        "side_cut": "8/7.2/8.4",
+                        "setback": "0",
+                        "shape": "Directional Twinish",
+                        "short_name": "hatchetsplitboard",
+                        "side_cut": 7.1,
                         "stance": null,
-                        "url": "https://westonbackcountry.com/collections/splitboards/products/backwoods-splitboard-x-john-fellows-21-22",
-                        "waist_width": 28.1
+                        "url": "https://westonbackcountry.com/collections/splitboards/products/hatchet-splitboard-21-22",
+                        "waist_width": 28.0
                     }
                 ],
                 "maxmimum": null,
@@ -535,21 +535,6 @@
                 "boards": [
                     {
                         "category": "Powder All Mountain",
-                        "image": "2021/capita/powderracers.png",
-                        "length": 157.0,
-                        "name": "Powder Racers",
-                        "price": "?",
-                        "profile": "Surf Rocker",
-                        "setback": null,
-                        "shape": "Directional",
-                        "short_name": "powderracers",
-                        "side_cut": 6.9,
-                        "stance": "64.6cm max",
-                        "url": "https://capitasnowboarding.com/collections/snowboards-mens/products/powder-racer",
-                        "waist_width": 27.8
-                    },
-                    {
-                        "category": "Powder All Mountain",
                         "image": "2021/capita/powdertwin.png",
                         "length": 162.0,
                         "name": "Powder Twin",
@@ -561,6 +546,21 @@
                         "side_cut": 6.8,
                         "stance": "64.1cm max",
                         "url": "https://capitasnowboarding.com/collections/snowboards-mens/products/powder-twin",
+                        "waist_width": 27.8
+                    },
+                    {
+                        "category": "Powder All Mountain",
+                        "image": "2021/capita/powderracers.png",
+                        "length": 157.0,
+                        "name": "Powder Racers",
+                        "price": "?",
+                        "profile": "Surf Rocker",
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "powderracers",
+                        "side_cut": 6.9,
+                        "stance": "64.6cm max",
+                        "url": "https://capitasnowboarding.com/collections/snowboards-mens/products/powder-racer",
                         "waist_width": 27.8
                     }
                 ],
@@ -614,18 +614,18 @@
                 "boards": [
                     {
                         "category": "Powder",
-                        "image": "2021/korua/dart.jpg",
-                        "length": 160.0,
-                        "name": "Dart",
-                        "price": "450 EUR",
+                        "image": "2021/korua/tugboat.jpg",
+                        "length": 167.0,
+                        "name": "Tugboat",
+                        "price": "500 EUR",
                         "profile": "Float Camber",
-                        "setback": "20mm",
+                        "setback": "25mm",
                         "shape": "Directional",
-                        "short_name": "dart",
-                        "side_cut": 8.6,
+                        "short_name": "tugboat",
+                        "side_cut": 8.8,
                         "stance": "50cm-64cm",
-                        "url": "https://www.koruashapes.com/classic/model/dart",
-                        "waist_width": 27.8
+                        "url": "https://www.koruashapes.com/concept/model/tugboat",
+                        "waist_width": 28.6
                     },
                     {
                         "category": "Carving",
@@ -641,21 +641,6 @@
                         "stance": "50cm-64cm",
                         "url": "https://www.koruashapes.com/classic/model/cafe-racer",
                         "waist_width": 27.8
-                    },
-                    {
-                        "category": "Powder",
-                        "image": "2021/korua/tugboat.jpg",
-                        "length": 167.0,
-                        "name": "Tugboat",
-                        "price": "500 EUR",
-                        "profile": "Float Camber",
-                        "setback": "25mm",
-                        "shape": "Directional",
-                        "short_name": "tugboat",
-                        "side_cut": 8.8,
-                        "stance": "50cm-64cm",
-                        "url": "https://www.koruashapes.com/concept/model/tugboat",
-                        "waist_width": 28.6
                     },
                     {
                         "category": "Powder",
@@ -686,6 +671,21 @@
                         "stance": "50cm-64cm",
                         "url": "https://www.koruashapes.com/concept/model/obelix",
                         "waist_width": 28.4
+                    },
+                    {
+                        "category": "Powder",
+                        "image": "2021/korua/dart.jpg",
+                        "length": 160.0,
+                        "name": "Dart",
+                        "price": "450 EUR",
+                        "profile": "Float Camber",
+                        "setback": "20mm",
+                        "shape": "Directional",
+                        "short_name": "dart",
+                        "side_cut": 8.6,
+                        "stance": "50cm-64cm",
+                        "url": "https://www.koruashapes.com/classic/model/dart",
+                        "waist_width": 27.8
                     }
                 ],
                 "maxmimum": null,
