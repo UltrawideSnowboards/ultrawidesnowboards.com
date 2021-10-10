@@ -1,22 +1,6 @@
 {
     "brands": [
         {
-            "logo": "2021/gnu/logo.svg",
-            "name": "Gnu",
-            "short_name": "gnu",
-            "solid": {
-                "boards": [],
-                "maxmimum": 27,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maxmimum": 26.5,
-                "notes": null
-            },
-            "url": "https://www.gnu.com/"
-        },
-        {
             "logo": "2021/ltb/logo.png",
             "name": "LTB Snowboards",
             "short_name": "ltb",
@@ -128,7 +112,7 @@
                         "waist_width": 28.6
                     }
                 ],
-                "maxmimum": null,
+                "maximum": null,
                 "notes": "EU buyers can order directly from their webstore. US buyers can contact them directly and they'll send a paypal invoice plus 50 EUR shipping. Cutter and P Team are each also available with different top graphics."
             },
             "splitboards": {
@@ -164,26 +148,10 @@
                         "waist_width": 29.3
                     }
                 ],
-                "maxmimum": null,
+                "maximum": null,
                 "notes": "EU buyers can order directly from their webstore. US buyers can contact them directly and they'll send a paypal invoice plus 50 EUR shipping. Crude is also available with different top graphics."
             },
             "url": "http://www.ltbsnowboards.com/"
-        },
-        {
-            "logo": "2021/marhar/logo.png",
-            "name": "Marhar Snowboards",
-            "short_name": "marhar",
-            "solid": {
-                "boards": [],
-                "maxmimum": 27.3,
-                "notes": "The Lumberjack could be an option, but the waist is slightly too small to make it to this list."
-            },
-            "splitboards": {
-                "boards": [],
-                "maxmimum": null,
-                "notes": null
-            },
-            "url": "https://www.marharsnowboards.com/"
         },
         {
             "logo": "2021/gentemstick/logo.png",
@@ -267,7 +235,7 @@
                         "waist_width": 28.5
                     }
                 ],
-                "maxmimum": null,
+                "maximum": null,
                 "notes": "Ships from Japan. North America shipping is \u00a521,600, Europe shipping is \u00a532,400."
             },
             "splitboards": {
@@ -288,7 +256,7 @@
                         "waist_width": 28.7
                     }
                 ],
-                "maxmimum": null,
+                "maximum": null,
                 "notes": "Ships from Japan. North America shipping is \u00a521,600, Europe shipping is \u00a532,400."
             },
             "url": "https://gentemstick.com/"
@@ -330,281 +298,62 @@
                         "waist_width": 28.4
                     }
                 ],
-                "maxmimum": null,
+                "maximum": null,
                 "notes": null
             },
             "splitboards": {
                 "boards": [],
-                "maxmimum": 26.8,
+                "maximum": 26.8,
                 "notes": null
             },
             "url": "https://www.lib-tech.com/"
         },
         {
-            "logo": "2021/neversummer/logo.png",
-            "name": "Never Summer",
-            "short_name": "neversummer",
+            "logo": "2021/bataleon/logo.png",
+            "name": "Bataleon",
+            "short_name": "bataleon",
             "solid": {
                 "boards": [
-                    {
-                        "category": "All Mountain Twin",
-                        "image": "2021/neversummer/protosynthesis.png",
-                        "length": 162.0,
-                        "name": "ProtoSynthesis",
-                        "price": "$620",
-                        "profile": "Shock Wave Rocker Camber",
-                        "setback": null,
-                        "shape": "True Twin",
-                        "short_name": "protosynthesis",
-                        "side_cut": 7.83,
-                        "stance": null,
-                        "url": "https://www.neversummer.com/shop/snowboards/mens-2022-protosynthesis-snowboard/",
-                        "waist_width": 28.2
-                    }
-                ],
-                "maxmimum": null,
-                "notes": "Due to supply chain issues Never Summer has cut the Westbound and Heritage boards from their lineup this year. Some additional models may have DF versions added in January 2022, please contact Never Summer to be added to a mailing list for announcements."
-            },
-            "splitboards": {
-                "boards": [],
-                "maxmimum": 27.0,
-                "notes": "Due to supply chain issues Never Summer has cut the Westbound and Heritage boards from their lineup this year. Some additional models may have DF versions added in January 2022, please contact Never Summer to be added to a mailing list for announcements."
-            },
-            "url": "https://www.neversummer.com/"
-        },
-        {
-            "logo": "2021/westonbackcountry/logo.png?v=1630108331",
-            "name": "Weston Backcountry",
-            "short_name": "westonbackcountry",
-            "solid": {
-                "boards": [
-                    {
-                        "category": "Backcountry",
-                        "image": "2021/westonbackcountry/backwoods.jpg",
-                        "length": 167.0,
-                        "name": "Backwoods",
-                        "price": "$600",
-                        "profile": "Rocker Camber",
-                        "setback": "10mm",
-                        "shape": "Directional",
-                        "short_name": "backwoods",
-                        "side_cut": "8/7.2/8.4",
-                        "stance": null,
-                        "url": "https://westonbackcountry.com/collections/snowboards/products/backwoods-snowboard-x-john-fellows-21-22",
-                        "waist_width": 28.1
-                    },
                     {
                         "category": "All Mountain",
-                        "image": "2021/westonbackcountry/timber.jpg",
-                        "length": 166.0,
-                        "name": "Timber",
-                        "price": "$400",
-                        "profile": "Rocker Camber",
-                        "setback": "0",
-                        "shape": "Twin",
-                        "short_name": "timber",
-                        "side_cut": 8.0,
-                        "stance": null,
-                        "url": "https://westonbackcountry.com/collections/snowboards/products/timber-snowboard",
-                        "waist_width": 28.2
-                    },
-                    {
-                        "category": "Freeride + All Mountain",
-                        "image": "2021/westonbackcountry/ridgeline.jpg",
-                        "length": 166.0,
-                        "name": "Ridgeline",
-                        "price": "$600",
-                        "profile": "Rocker Camber",
-                        "setback": "20mm",
-                        "shape": "Directional",
-                        "short_name": "ridgeline",
-                        "side_cut": "10.2/8.3/8/9.3",
-                        "stance": null,
-                        "url": "https://westonbackcountry.com/collections/snowboards/products/ridgeline-snowboard-21-22",
-                        "waist_width": 27.6
-                    },
-                    {
-                        "category": "Freestyle Pow",
-                        "image": "2021/westonbackcountry/hatchet.jpg",
-                        "length": 156.0,
-                        "name": "Hatchet",
+                        "image": "2021/bataleon/stallion.jpg?v=1632227826",
+                        "length": 172.0,
+                        "name": "Stallion",
                         "price": "$650",
-                        "profile": "Rocker Camber",
+                        "profile": "Dynamic Camber",
                         "setback": "0",
-                        "shape": "Directional Twinish",
-                        "short_name": "hatchet",
-                        "side_cut": 7.1,
-                        "stance": null,
-                        "url": "https://westonbackcountry.com/collections/snowboards/products/hatchet-snowboard-21-22",
-                        "waist_width": 28.0
-                    }
-                ],
-                "maxmimum": null,
-                "notes": "Backwoods has an additional graphics option."
-            },
-            "splitboards": {
-                "boards": [
-                    {
-                        "category": "Backcountry",
-                        "image": "2021/westonbackcountry/backwoodssplitboard.jpg",
-                        "length": 167.0,
-                        "name": "Backwoods",
-                        "price": "$900",
-                        "profile": "Rocker Camber",
-                        "setback": "10mm",
-                        "shape": "Directional",
-                        "short_name": "backwoodssplitboard",
-                        "side_cut": "8/7.2/8.4",
-                        "stance": null,
-                        "url": "https://westonbackcountry.com/collections/splitboards/products/backwoods-splitboard-x-john-fellows-21-22",
-                        "waist_width": 28.1
-                    },
-                    {
-                        "category": "Freeride + All Mountain",
-                        "image": "2021/westonbackcountry/ridgelinesplitboard.jpg?",
-                        "length": 166.0,
-                        "name": "Ridgeline",
-                        "price": "$900",
-                        "profile": "Rocker Camber",
-                        "setback": "20",
-                        "shape": "Directional",
-                        "short_name": "ridgelinesplitboard",
-                        "side_cut": "10.2/8.3/8/9.3",
-                        "stance": null,
-                        "url": "https://westonbackcountry.com/collections/splitboards/products/ridgeline-splitboard-21-22",
-                        "waist_width": 27.6
-                    },
-                    {
-                        "category": "Freestyle Pow",
-                        "image": "2021/westonbackcountry/hatchetsplitboard.jpg",
-                        "length": 156.0,
-                        "name": "Hatchet",
-                        "price": "$950",
-                        "profile": "Rocker Camber",
-                        "setback": "0",
-                        "shape": "Directional Twinish",
-                        "short_name": "hatchetsplitboard",
-                        "side_cut": 7.1,
-                        "stance": null,
-                        "url": "https://westonbackcountry.com/collections/splitboards/products/hatchet-splitboard-21-22",
-                        "waist_width": 28.0
-                    }
-                ],
-                "maxmimum": null,
-                "notes": "Backwoods also has an additional Carbon model and a different graphics model."
-            },
-            "url": "https://westonbackcountry.com/"
-        },
-        {
-            "logo": "2021/ktwo/logo.png",
-            "name": "K2",
-            "short_name": "ktwo",
-            "solid": {
-                "boards": [
-                    {
-                        "category": "All Mountain, Powder",
-                        "image": "2021/ktwo/partyplatter.webp",
-                        "length": 157.0,
-                        "name": "Party Platter",
-                        "price": "$500",
-                        "profile": "Combination Camber",
-                        "setback": "0",
-                        "shape": "Directional",
-                        "short_name": "partyplatter",
-                        "side_cut": 7.8,
-                        "stance": "23in",
-                        "url": "https://k2snow.com/en-us/p/k2-party-platter-unisex-snowboard",
+                        "shape": "Directional Twin",
+                        "short_name": "stallion",
+                        "side_cut": 8.7,
+                        "stance": "55cm-67cm",
+                        "url": "https://bataleon.com/products/bataleon-stallion-snowboard-2021-2022",
                         "waist_width": 27.9
-                    }
-                ],
-                "maxmimum": null,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maxmimum": null,
-                "notes": "Technically, the Split Bean snowboard has a 28.1cm waist, but at 144cm long it's much too short for most big foot riders."
-            },
-            "url": "https://k2snow.com/"
-        },
-        {
-            "logo": "2021/capita/logo.png",
-            "name": "Capita Snowboarding",
-            "short_name": "capita",
-            "solid": {
-                "boards": [
-                    {
-                        "category": "Powder All Mountain",
-                        "image": "2021/capita/powdertwin.png",
-                        "length": 162.0,
-                        "name": "Powder Twin",
-                        "price": "?",
-                        "profile": "Surf Rocker Twin",
-                        "setback": null,
-                        "shape": "Twin",
-                        "short_name": "powdertwin",
-                        "side_cut": 6.8,
-                        "stance": "64.1cm max",
-                        "url": "https://capitasnowboarding.com/collections/snowboards-mens/products/powder-twin",
-                        "waist_width": 27.8
                     },
                     {
-                        "category": "Powder All Mountain",
-                        "image": "2021/capita/powderracers.png",
+                        "category": "Powder",
+                        "image": "2021/bataleon/partywave.jpg",
                         "length": 157.0,
-                        "name": "Powder Racers",
-                        "price": "?",
-                        "profile": "Surf Rocker",
-                        "setback": null,
-                        "shape": "Directional",
-                        "short_name": "powderracers",
-                        "side_cut": 6.9,
-                        "stance": "64.6cm max",
-                        "url": "https://capitasnowboarding.com/collections/snowboards-mens/products/powder-racer",
-                        "waist_width": 27.8
+                        "name": "Party Wave",
+                        "price": "$450",
+                        "profile": "Mellow Camber",
+                        "setback": "10mm",
+                        "shape": "Directional Tapered",
+                        "short_name": "partywave",
+                        "side_cut": 9.0,
+                        "stance": "53.5cm-61.5cm",
+                        "url": "https://bataleon.com/products/bataleon-party-wave-snowboard-2021-2022",
+                        "waist_width": 28.1
                     }
                 ],
-                "maxmimum": null,
+                "maximum": null,
                 "notes": null
             },
             "splitboards": {
                 "boards": [],
-                "maxmimum": null,
+                "maximum": null,
                 "notes": null
             },
-            "url": "https://capitasnowboarding.com/"
-        },
-        {
-            "logo": "2021/salomon/logo.png",
-            "name": "Salomon",
-            "short_name": "salomon",
-            "solid": {
-                "boards": [
-                    {
-                        "category": "Freeride",
-                        "image": "2021/salomon/hpswollenyvelt.webp",
-                        "length": 157.0,
-                        "name": "HPS - Wolle Nyvelt",
-                        "price": "$650",
-                        "profile": null,
-                        "setback": null,
-                        "shape": "Tapered Directional",
-                        "short_name": "hpswollenyvelt",
-                        "side_cut": 7.8,
-                        "stance": "65.6cm max",
-                        "url": "https://www.salomon.com/en-us/shop/product/hps-wolle-nyvelt-lg8314.html#color=61739",
-                        "waist_width": 27.8
-                    }
-                ],
-                "maxmimum": null,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maxmimum": 26.1,
-                "notes": null
-            },
-            "url": "https://www.salomon.com/en-us"
+            "url": "https://bataleon.com/"
         },
         {
             "logo": "2021/korua/logo.png",
@@ -688,7 +437,7 @@
                         "waist_width": 27.8
                     }
                 ],
-                "maxmimum": null,
+                "maximum": null,
                 "notes": "Shipping to the USA is 50 EUR."
             },
             "splitboards": {
@@ -709,10 +458,180 @@
                         "waist_width": 27.5
                     }
                 ],
-                "maxmimum": null,
+                "maximum": null,
                 "notes": "Shipping to the USA is 50 EUR."
             },
             "url": "https://www.koruashapes.com/"
+        },
+        {
+            "logo": "2021/moss/logo.png",
+            "name": "Moss Snowstick",
+            "short_name": "moss",
+            "solid": {
+                "boards": [
+                    {
+                        "category": null,
+                        "image": "2021/moss/swallow.jpg",
+                        "length": 170.0,
+                        "name": "Swallow",
+                        "price": "$1020",
+                        "profile": "Snowsurf Camber",
+                        "setback": "10mm",
+                        "shape": "Directional",
+                        "short_name": "swallow",
+                        "side_cut": "10.2/7.3",
+                        "stance": "480mm-600mm",
+                        "url": "http://www.mosssnowstick.com/21-22/70-swallow",
+                        "waist_width": 27.7
+                    },
+                    {
+                        "category": null,
+                        "image": "2021/moss/wingswallow.jpg",
+                        "length": 157.2,
+                        "name": "Wing Swallow",
+                        "price": "$1050",
+                        "profile": "Snowsurf Camber",
+                        "setback": "90mm",
+                        "shape": "Directional",
+                        "short_name": "wingswallow",
+                        "side_cut": "8.6/6.6",
+                        "stance": "480mm-600mm",
+                        "url": "http://www.mosssnowstick.com/21-22/wing-swallow-57",
+                        "waist_width": 28.4
+                    }
+                ],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "http://www.mosssnowstick.com/"
+        },
+        {
+            "logo": "2021/westonbackcountry/logo.png?v=1630108331",
+            "name": "Weston Backcountry",
+            "short_name": "westonbackcountry",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Backcountry",
+                        "image": "2021/westonbackcountry/backwoods.jpg",
+                        "length": 167.0,
+                        "name": "Backwoods",
+                        "price": "$600",
+                        "profile": "Rocker Camber",
+                        "setback": "10mm",
+                        "shape": "Directional",
+                        "short_name": "backwoods",
+                        "side_cut": "8/7.2/8.4",
+                        "stance": null,
+                        "url": "https://westonbackcountry.com/collections/snowboards/products/backwoods-snowboard-x-john-fellows-21-22",
+                        "waist_width": 28.1
+                    },
+                    {
+                        "category": "All Mountain",
+                        "image": "2021/westonbackcountry/timber.jpg",
+                        "length": 166.0,
+                        "name": "Timber",
+                        "price": "$400",
+                        "profile": "Rocker Camber",
+                        "setback": "0",
+                        "shape": "Twin",
+                        "short_name": "timber",
+                        "side_cut": 8.0,
+                        "stance": null,
+                        "url": "https://westonbackcountry.com/collections/snowboards/products/timber-snowboard",
+                        "waist_width": 28.2
+                    },
+                    {
+                        "category": "Freeride + All Mountain",
+                        "image": "2021/westonbackcountry/ridgeline.jpg",
+                        "length": 166.0,
+                        "name": "Ridgeline",
+                        "price": "$600",
+                        "profile": "Rocker Camber",
+                        "setback": "20mm",
+                        "shape": "Directional",
+                        "short_name": "ridgeline",
+                        "side_cut": "10.2/8.3/8/9.3",
+                        "stance": null,
+                        "url": "https://westonbackcountry.com/collections/snowboards/products/ridgeline-snowboard-21-22",
+                        "waist_width": 27.6
+                    },
+                    {
+                        "category": "Freestyle Pow",
+                        "image": "2021/westonbackcountry/hatchet.jpg",
+                        "length": 156.0,
+                        "name": "Hatchet",
+                        "price": "$650",
+                        "profile": "Rocker Camber",
+                        "setback": "0",
+                        "shape": "Directional Twinish",
+                        "short_name": "hatchet",
+                        "side_cut": 7.1,
+                        "stance": null,
+                        "url": "https://westonbackcountry.com/collections/snowboards/products/hatchet-snowboard-21-22",
+                        "waist_width": 28.0
+                    }
+                ],
+                "maximum": null,
+                "notes": "Backwoods has an additional graphics option."
+            },
+            "splitboards": {
+                "boards": [
+                    {
+                        "category": "Backcountry",
+                        "image": "2021/westonbackcountry/backwoodssplitboard.jpg",
+                        "length": 167.0,
+                        "name": "Backwoods",
+                        "price": "$900",
+                        "profile": "Rocker Camber",
+                        "setback": "10mm",
+                        "shape": "Directional",
+                        "short_name": "backwoodssplitboard",
+                        "side_cut": "8/7.2/8.4",
+                        "stance": null,
+                        "url": "https://westonbackcountry.com/collections/splitboards/products/backwoods-splitboard-x-john-fellows-21-22",
+                        "waist_width": 28.1
+                    },
+                    {
+                        "category": "Freeride + All Mountain",
+                        "image": "2021/westonbackcountry/ridgelinesplitboard.jpg?",
+                        "length": 166.0,
+                        "name": "Ridgeline",
+                        "price": "$900",
+                        "profile": "Rocker Camber",
+                        "setback": "20",
+                        "shape": "Directional",
+                        "short_name": "ridgelinesplitboard",
+                        "side_cut": "10.2/8.3/8/9.3",
+                        "stance": null,
+                        "url": "https://westonbackcountry.com/collections/splitboards/products/ridgeline-splitboard-21-22",
+                        "waist_width": 27.6
+                    },
+                    {
+                        "category": "Freestyle Pow",
+                        "image": "2021/westonbackcountry/hatchetsplitboard.jpg",
+                        "length": 156.0,
+                        "name": "Hatchet",
+                        "price": "$950",
+                        "profile": "Rocker Camber",
+                        "setback": "0",
+                        "shape": "Directional Twinish",
+                        "short_name": "hatchetsplitboard",
+                        "side_cut": 7.1,
+                        "stance": null,
+                        "url": "https://westonbackcountry.com/collections/splitboards/products/hatchet-splitboard-21-22",
+                        "waist_width": 28.0
+                    }
+                ],
+                "maximum": null,
+                "notes": "Backwoods also has an additional Carbon model and a different graphics model."
+            },
+            "url": "https://westonbackcountry.com/"
         },
         {
             "logo": "2021/winterstick/logo.jpg",
@@ -751,7 +670,7 @@
                         "waist_width": 27.5
                     }
                 ],
-                "maxmimum": null,
+                "maximum": null,
                 "notes": "Winterstick will customize the width of a board for $100 more. Shown here are the stock ultrawide snowboards. All models available as a splitboard."
             },
             "splitboards": {
@@ -787,10 +706,185 @@
                         "waist_width": 27.5
                     }
                 ],
-                "maxmimum": null,
+                "maximum": null,
                 "notes": "Winterstick will customize the width of a board for $100 more. Shown here are the stock ultrawide snowboards. All models available as a splitboard."
             },
             "url": "https://www.winterstick.com/"
+        },
+        {
+            "logo": "2021/neversummer/logo.png",
+            "name": "Never Summer",
+            "short_name": "neversummer",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "All Mountain Twin",
+                        "image": "2021/neversummer/protosynthesis.png",
+                        "length": 162.0,
+                        "name": "ProtoSynthesis",
+                        "price": "$620",
+                        "profile": "Shock Wave Rocker Camber",
+                        "setback": null,
+                        "shape": "True Twin",
+                        "short_name": "protosynthesis",
+                        "side_cut": 7.83,
+                        "stance": null,
+                        "url": "https://www.neversummer.com/shop/snowboards/mens-2022-protosynthesis-snowboard/",
+                        "waist_width": 28.2
+                    }
+                ],
+                "maximum": null,
+                "notes": "Due to supply chain issues Never Summer has cut the Westbound and Heritage boards from their lineup this year. Some additional models may have DF versions added in January 2022, please contact Never Summer to be added to a mailing list for announcements."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 27.0,
+                "notes": "Due to supply chain issues Never Summer has cut the Westbound and Heritage boards from their lineup this year. Some additional models may have DF versions added in January 2022, please contact Never Summer to be added to a mailing list for announcements."
+            },
+            "url": "https://www.neversummer.com/"
+        },
+        {
+            "logo": "2021/capita/logo.png",
+            "name": "Capita Snowboarding",
+            "short_name": "capita",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Powder All Mountain",
+                        "image": "2021/capita/powdertwin.png",
+                        "length": 162.0,
+                        "name": "Powder Twin",
+                        "price": "?",
+                        "profile": "Surf Rocker Twin",
+                        "setback": null,
+                        "shape": "Twin",
+                        "short_name": "powdertwin",
+                        "side_cut": 6.8,
+                        "stance": "64.1cm max",
+                        "url": "https://capitasnowboarding.com/collections/snowboards-mens/products/powder-twin",
+                        "waist_width": 27.8
+                    },
+                    {
+                        "category": "Powder All Mountain",
+                        "image": "2021/capita/powderracers.png",
+                        "length": 157.0,
+                        "name": "Powder Racers",
+                        "price": "?",
+                        "profile": "Surf Rocker",
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "powderracers",
+                        "side_cut": 6.9,
+                        "stance": "64.6cm max",
+                        "url": "https://capitasnowboarding.com/collections/snowboards-mens/products/powder-racer",
+                        "waist_width": 27.8
+                    }
+                ],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://capitasnowboarding.com/"
+        },
+        {
+            "logo": "2021/endeavor/logo.jpeg",
+            "name": "Endeavor Snowboards",
+            "short_name": "endeavor",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Powder",
+                        "image": "2021/endeavor/archetype.jpg",
+                        "length": 160.0,
+                        "name": "Archetype",
+                        "price": "$550",
+                        "profile": "Hover Camber",
+                        "setback": "0",
+                        "shape": "Directional",
+                        "short_name": "archetype",
+                        "side_cut": 8.7,
+                        "stance": "19in-25in",
+                        "url": "https://usa.endeavorsnowboards.com/collections/snowboards/products/endeavor-archetype-snowboard",
+                        "waist_width": 27.6
+                    }
+                ],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://usa.endeavorsnowboards.com/"
+        },
+        {
+            "logo": "2021/niche/logo.png",
+            "name": "Niche Snowboards",
+            "short_name": "niche",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "All Mountain",
+                        "image": "2021/niche/pyre.jpg",
+                        "length": 160.0,
+                        "name": "Pyre",
+                        "price": "$480",
+                        "profile": "Back-seat Camber",
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "pyre",
+                        "side_cut": 7.5,
+                        "stance": null,
+                        "url": "https://nichesnowboards.com/product/pyre-2/",
+                        "waist_width": 27.5
+                    }
+                ],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 25.8,
+                "notes": null
+            },
+            "url": "https://nichesnowboards.com/"
+        },
+        {
+            "logo": "2021/ktwo/logo.png",
+            "name": "K2",
+            "short_name": "ktwo",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "All Mountain, Powder",
+                        "image": "2021/ktwo/partyplatter.webp",
+                        "length": 157.0,
+                        "name": "Party Platter",
+                        "price": "$500",
+                        "profile": "Combination Camber",
+                        "setback": "0",
+                        "shape": "Directional",
+                        "short_name": "partyplatter",
+                        "side_cut": 7.8,
+                        "stance": "23in",
+                        "url": "https://k2snow.com/en-us/p/k2-party-platter-unisex-snowboard",
+                        "waist_width": 27.9
+                    }
+                ],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Technically, the Split Bean snowboard has a 28.1cm waist, but at 144cm long it's much too short for most big foot riders."
+            },
+            "url": "https://k2snow.com/"
         },
         {
             "logo": "2021/ride/logo.jpeg",
@@ -844,7 +938,7 @@
                         "waist_width": 27.5
                     }
                 ],
-                "maxmimum": null,
+                "maximum": null,
                 "notes": null
             },
             "splitboards": {
@@ -865,105 +959,42 @@
                         "waist_width": 27.7
                     }
                 ],
-                "maxmimum": null,
+                "maximum": null,
                 "notes": null
             },
             "url": "https://ridesnowboards.com/"
         },
         {
-            "logo": "2021/moss/logo.png",
-            "name": "Moss Snowstick",
-            "short_name": "moss",
+            "logo": "2021/salomon/logo.png",
+            "name": "Salomon",
+            "short_name": "salomon",
             "solid": {
                 "boards": [
                     {
-                        "category": null,
-                        "image": "2021/moss/swallow.jpg",
-                        "length": 170.0,
-                        "name": "Swallow",
-                        "price": "$1020",
-                        "profile": "Snowsurf Camber",
-                        "setback": "10mm",
-                        "shape": "Directional",
-                        "short_name": "swallow",
-                        "side_cut": "10.2/7.3",
-                        "stance": "480mm-600mm",
-                        "url": "http://www.mosssnowstick.com/21-22/70-swallow",
-                        "waist_width": 27.7
-                    },
-                    {
-                        "category": null,
-                        "image": "2021/moss/wingswallow.jpg",
-                        "length": 157.2,
-                        "name": "Wing Swallow",
-                        "price": "$1050",
-                        "profile": "Snowsurf Camber",
-                        "setback": "90mm",
-                        "shape": "Directional",
-                        "short_name": "wingswallow",
-                        "side_cut": "8.6/6.6",
-                        "stance": "480mm-600mm",
-                        "url": "http://www.mosssnowstick.com/21-22/wing-swallow-57",
-                        "waist_width": 28.4
+                        "category": "Freeride",
+                        "image": "2021/salomon/hpswollenyvelt.webp",
+                        "length": 157.0,
+                        "name": "HPS - Wolle Nyvelt",
+                        "price": "$650",
+                        "profile": null,
+                        "setback": null,
+                        "shape": "Tapered Directional",
+                        "short_name": "hpswollenyvelt",
+                        "side_cut": 7.8,
+                        "stance": "65.6cm max",
+                        "url": "https://www.salomon.com/en-us/shop/product/hps-wolle-nyvelt-lg8314.html#color=61739",
+                        "waist_width": 27.8
                     }
                 ],
-                "maxmimum": null,
+                "maximum": null,
                 "notes": null
             },
             "splitboards": {
                 "boards": [],
-                "maxmimum": null,
+                "maximum": 26.1,
                 "notes": null
             },
-            "url": "http://www.mosssnowstick.com/"
-        },
-        {
-            "logo": "2021/nidecker/logo.png",
-            "name": "Nidecker",
-            "short_name": "nidecker",
-            "solid": {
-                "boards": [],
-                "maxmimum": 27.0,
-                "notes": "Last year they had their 'Escape' model, but it looks like that's been dropped for the 2021/2022 season."
-            },
-            "splitboards": {
-                "boards": [],
-                "maxmimum": null,
-                "notes": null
-            },
-            "url": "https://www.nidecker.com/en/"
-        },
-        {
-            "logo": "2021/endeavor/logo.jpeg",
-            "name": "Endeavor Snowboards",
-            "short_name": "endeavor",
-            "solid": {
-                "boards": [
-                    {
-                        "category": "Powder",
-                        "image": "2021/endeavor/archetype.jpg",
-                        "length": 160.0,
-                        "name": "Archetype",
-                        "price": "$550",
-                        "profile": "Hover Camber",
-                        "setback": "0",
-                        "shape": "Directional",
-                        "short_name": "archetype",
-                        "side_cut": 8.7,
-                        "stance": "19in-25in",
-                        "url": "https://usa.endeavorsnowboards.com/collections/snowboards/products/endeavor-archetype-snowboard",
-                        "waist_width": 27.6
-                    }
-                ],
-                "maxmimum": null,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maxmimum": null,
-                "notes": null
-            },
-            "url": "https://usa.endeavorsnowboards.com/"
+            "url": "https://www.salomon.com/en-us"
         },
         {
             "logo": "2021/telos/logo.webp",
@@ -987,7 +1018,7 @@
                         "waist_width": 27.6
                     }
                 ],
-                "maxmimum": null,
+                "maximum": null,
                 "notes": null
             },
             "splitboards": {
@@ -1008,105 +1039,10 @@
                         "waist_width": 27.6
                     }
                 ],
-                "maxmimum": null,
+                "maximum": null,
                 "notes": null
             },
             "url": "https://telossnowboards.com/"
-        },
-        {
-            "logo": "2021/snoplanks/logo.png",
-            "name": "Snoplanks",
-            "short_name": "snoplanks",
-            "solid": {
-                "boards": [],
-                "maxmimum": 26.75,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maxmimum": 26.25,
-                "notes": null
-            },
-            "url": "https://www.snoplanks.com/"
-        },
-        {
-            "logo": "2021/bataleon/logo.png",
-            "name": "Bataleon",
-            "short_name": "bataleon",
-            "solid": {
-                "boards": [
-                    {
-                        "category": "All Mountain",
-                        "image": "2021/bataleon/stallion.jpg?v=1632227826",
-                        "length": 172.0,
-                        "name": "Stallion",
-                        "price": "$650",
-                        "profile": "Dynamic Camber",
-                        "setback": "0",
-                        "shape": "Directional Twin",
-                        "short_name": "stallion",
-                        "side_cut": 8.7,
-                        "stance": "55cm-67cm",
-                        "url": "https://bataleon.com/products/bataleon-stallion-snowboard-2021-2022",
-                        "waist_width": 27.9
-                    },
-                    {
-                        "category": "Powder",
-                        "image": "2021/bataleon/partywave.jpg",
-                        "length": 157.0,
-                        "name": "Party Wave",
-                        "price": "$450",
-                        "profile": "Mellow Camber",
-                        "setback": "10mm",
-                        "shape": "Directional Tapered",
-                        "short_name": "partywave",
-                        "side_cut": 9.0,
-                        "stance": "53.5cm-61.5cm",
-                        "url": "https://bataleon.com/products/bataleon-party-wave-snowboard-2021-2022",
-                        "waist_width": 28.1
-                    }
-                ],
-                "maxmimum": null,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maxmimum": null,
-                "notes": null
-            },
-            "url": "https://bataleon.com/"
-        },
-        {
-            "logo": "2021/niche/logo.png",
-            "name": "Niche Snowboards",
-            "short_name": "niche",
-            "solid": {
-                "boards": [
-                    {
-                        "category": "All Mountain",
-                        "image": "2021/niche/pyre.jpg",
-                        "length": 160.0,
-                        "name": "Pyre",
-                        "price": "$480",
-                        "profile": "Back-seat Camber",
-                        "setback": null,
-                        "shape": "Directional",
-                        "short_name": "pyre",
-                        "side_cut": 7.5,
-                        "stance": null,
-                        "url": "https://nichesnowboards.com/product/pyre-2/",
-                        "waist_width": 27.5
-                    }
-                ],
-                "maxmimum": null,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maxmimum": 25.8,
-                "notes": null
-            },
-            "url": "https://nichesnowboards.com/"
         },
         {
             "logo": "2021/nitro/logo.png",
@@ -1114,15 +1050,79 @@
             "short_name": "nitro",
             "solid": {
                 "boards": [],
-                "maxmimum": 27.4,
+                "maximum": 27.4,
                 "notes": null
             },
             "splitboards": {
                 "boards": [],
-                "maxmimum": 26.6,
+                "maximum": 26.6,
                 "notes": null
             },
             "url": "https://nitrosnowboards.com/en"
+        },
+        {
+            "logo": "2021/marhar/logo.png",
+            "name": "Marhar Snowboards",
+            "short_name": "marhar",
+            "solid": {
+                "boards": [],
+                "maximum": 27.3,
+                "notes": "The Lumberjack could be an option, but the waist is slightly too small to make it to this list."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.marharsnowboards.com/"
+        },
+        {
+            "logo": "2021/gnu/logo.svg",
+            "name": "Gnu",
+            "short_name": "gnu",
+            "solid": {
+                "boards": [],
+                "maximum": 27,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.5,
+                "notes": null
+            },
+            "url": "https://www.gnu.com/"
+        },
+        {
+            "logo": "2021/nidecker/logo.png",
+            "name": "Nidecker",
+            "short_name": "nidecker",
+            "solid": {
+                "boards": [],
+                "maximum": 27.0,
+                "notes": "Last year they had their 'Escape' model, but it looks like that's been dropped for the 2021/2022 season."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.nidecker.com/en/"
+        },
+        {
+            "logo": "2021/snoplanks/logo.png",
+            "name": "Snoplanks",
+            "short_name": "snoplanks",
+            "solid": {
+                "boards": [],
+                "maximum": 26.75,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.25,
+                "notes": null
+            },
+            "url": "https://www.snoplanks.com/"
         }
     ]
 }

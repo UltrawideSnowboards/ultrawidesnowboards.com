@@ -129,12 +129,12 @@ def add_brand():
         'logo': f'2021/{short_name}/{image_name}',
         'solid': {
             'notes': None,
-            'maxmimum': None,
+            'maximum': None,
             'boards': []
         },
         'splitboards': {
             'notes': None,
-            'maxmimum': None,
+            'maximum': None,
             'boards': []
         }
     })
@@ -208,9 +208,25 @@ def add_snowboard():
 def sort_list():
     data = read_data_file()
 
+    # For each brand, sort the boards in the brand
     for i in range(0, len(data['brands'])):
         for board_type in ['solid', 'splitboards']:
             data['brands'][i][board_type]['boards'] = sorted(data['brands'][i][board_type]['boards'], key=lambda board: -1 * board['length'] * board['waist_width'])
+
+    # Sort each brand by solid board size then by splitboard size
+    def brand_sort_function(brand: Dict) -> int:
+        if len(brand['solid']['boards']) > 0:
+            return -1 * brand['solid']['boards'][0]['length'] * brand['solid']['boards'][0]['waist_width']
+        elif len(brand['splitboards']['boards']) > 0:
+            return -1 * brand['splitboards']['boards'][0]['length'] * brand['splitboards']['boards'][0]['waist_width']
+        elif brand['solid']['maximum'] is not None:
+            return -1 * brand['solid']['maximum']
+        elif brand['splitboards']['maximum'] is not None:
+            return -1 * brand['splitboards']['maximum']
+        else:
+            return 0
+
+    data['brands'] = sorted(data['brands'], key=brand_sort_function)
 
     write_data_file(data)
 
