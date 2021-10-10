@@ -363,12 +363,12 @@
                     }
                 ],
                 "maxmimum": null,
-                "notes": "Due to supply chain issues Never Summer has cut the Westbound and Heritage boards from their lineup this year."
+                "notes": "Due to supply chain issues Never Summer has cut the Westbound and Heritage boards from their lineup this year. Some additional models may have DF versions added in January 2022, please contact Never Summer to be added to a mailing list for announcements."
             },
             "splitboards": {
                 "boards": [],
                 "maxmimum": 27.0,
-                "notes": "Due to supply chain issues Never Summer has cut the Westbound and Heritage boards from their lineup this year."
+                "notes": "Due to supply chain issues Never Summer has cut the Westbound and Heritage boards from their lineup this year. Some additional models may have DF versions added in January 2022, please contact Never Summer to be added to a mailing list for announcements."
             },
             "url": "https://www.neversummer.com/"
         },
@@ -494,6 +494,38 @@
                 "notes": "Backwoods also has an additional Carbon model and a different graphics model."
             },
             "url": "https://westonbackcountry.com/"
+        },
+        {
+            "logo": "2021/ktwo/logo.png",
+            "name": "K2",
+            "short_name": "ktwo",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "All Mountain, Powder",
+                        "image": "2021/ktwo/partyplatter.webp",
+                        "length": 157.0,
+                        "name": "Party Platter",
+                        "price": "$500",
+                        "profile": "Combination Camber",
+                        "setback": "0",
+                        "shape": "Directional",
+                        "short_name": "partyplatter",
+                        "side_cut": 7.8,
+                        "stance": "23in",
+                        "url": "https://k2snow.com/en-us/p/k2-party-platter-unisex-snowboard",
+                        "waist_width": 27.9
+                    }
+                ],
+                "maxmimum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maxmimum": null,
+                "notes": "Technically, the Split Bean snowboard has a 28.1cm waist, but at 144cm long it's much too short for most big foot riders."
+            },
+            "url": "https://k2snow.com/"
         }
     ]
 }
