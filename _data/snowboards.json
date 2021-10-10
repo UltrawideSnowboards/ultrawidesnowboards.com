@@ -11,7 +11,7 @@
                         "image": "2021/ltb/dream.jpg",
                         "length": 177.8,
                         "name": "Dream",
-                        "price": "800 EUR",
+                        "price": "$925 (800 EUR)",
                         "profile": null,
                         "setback": null,
                         "shape": "Twin",
@@ -26,7 +26,7 @@
                         "image": "2021/ltb/life.jpg",
                         "length": 191.9,
                         "name": "Life",
-                        "price": "800 EUR",
+                        "price": "$925 (800 EUR)",
                         "profile": null,
                         "setback": null,
                         "shape": "Directional",
@@ -41,7 +41,7 @@
                         "image": "2021/ltb/decent.jpg",
                         "length": 166.1,
                         "name": "Decent",
-                        "price": "800 EUR",
+                        "price": "$925 (800 EUR)",
                         "profile": null,
                         "setback": null,
                         "shape": "Twin",
@@ -56,7 +56,7 @@
                         "image": "2021/ltb/crude.jpg",
                         "length": 165.3,
                         "name": "Crude",
-                        "price": "800 EUR",
+                        "price": "$925 (800 EUR)",
                         "profile": null,
                         "setback": "28mm",
                         "shape": "Ultratapered Directional",
@@ -71,7 +71,7 @@
                         "image": "2021/ltb/surge.jpg",
                         "length": 163.0,
                         "name": "Surge",
-                        "price": "800 EUR",
+                        "price": "$925 (800 EUR)",
                         "profile": null,
                         "setback": "50mm",
                         "shape": "Ultra Tapered",
@@ -86,7 +86,7 @@
                         "image": "2021/ltb/cutter.jpg",
                         "length": 166.0,
                         "name": "Cutter",
-                        "price": "589 EUR",
+                        "price": "$680 (590 EUR)",
                         "profile": null,
                         "setback": "10mm",
                         "shape": "Twin",
@@ -101,7 +101,7 @@
                         "image": "2021/ltb/pteam.jpg",
                         "length": 166.0,
                         "name": "P Team",
-                        "price": "619 EUR",
+                        "price": "$720 (620 EUR)",
                         "profile": "Power Rocker",
                         "setback": "10mm",
                         "shape": "Twin",
@@ -122,7 +122,7 @@
                         "image": "2021/ltb/lifesplit.jpg",
                         "length": 186.1,
                         "name": "Life",
-                        "price": "800 EUR",
+                        "price": "$925 (800 EUR)",
                         "profile": null,
                         "setback": null,
                         "shape": "Directional",
@@ -137,7 +137,7 @@
                         "image": "2021/ltb/crudesplit.jpg",
                         "length": 165.3,
                         "name": "Crude",
-                        "price": "900 EUR",
+                        "price": "$1050 (900 EUR)",
                         "profile": null,
                         "setback": "28mm",
                         "shape": "Ultra Tapered Directional",
@@ -149,7 +149,7 @@
                     }
                 ],
                 "maximum": null,
-                "notes": "EU buyers can order directly from their webstore. US buyers can contact them directly and they'll send a paypal invoice plus 50 EUR shipping. Crude is also available with different top graphics."
+                "notes": "EU buyers can order directly from their webstore. US buyers can contact them directly and they'll send a paypal invoice plus $60 (50 EUR) shipping. Crude is also available with different top graphics."
             },
             "url": "http://www.ltbsnowboards.com/"
         },
@@ -164,7 +164,7 @@
                         "image": "2021/gentemstick/superfishcloudliner.png",
                         "length": 176.0,
                         "name": "Super Fish Cloud Liner",
-                        "price": "\u00a5125400",
+                        "price": "$1120 (\u00a5125400)",
                         "profile": "Accel Camber",
                         "setback": "35mm",
                         "shape": "Directional",
@@ -179,7 +179,7 @@
                         "image": "2021/gentemstick/flyfisk.png",
                         "length": 164.0,
                         "name": "Fly Fisk",
-                        "price": "\u00a5121000",
+                        "price": "$1080 (\u00a5121000)",
                         "profile": "Accel Camber",
                         "setback": "0",
                         "shape": "Directional",
@@ -194,7 +194,7 @@
                         "image": "2021/gentemstick/bigfish.png",
                         "length": 163.0,
                         "name": "Big Fish",
-                        "price": "\u00a5125400",
+                        "price": "$1120 (\u00a5125400)",
                         "profile": "Accel Camber",
                         "setback": "48mm",
                         "shape": "Directional",
@@ -209,7 +209,7 @@
                         "image": "2021/gentemstick/barracuda.png",
                         "length": 158.6,
                         "name": "Barracuda",
-                        "price": "\u00a5123200",
+                        "price": "$1100 (\u00a5123200)",
                         "profile": "Accel Camber",
                         "setback": "10mm",
                         "shape": "Directional",
@@ -224,7 +224,7 @@
                         "image": "2021/gentemstick/chaser.png",
                         "length": 156.0,
                         "name": "The Chaser",
-                        "price": null,
+                        "price": "$1080 (\u00a5121000)",
                         "profile": "Accel Camber",
                         "setback": 0,
                         "shape": "Directional",
@@ -236,7 +236,7 @@
                     }
                 ],
                 "maximum": null,
-                "notes": "Ships from Japan. North America shipping is \u00a521,600, Europe shipping is \u00a532,400."
+                "notes": "Ships from Japan. North America shipping is $200 (\u00a521,600), Europe shipping is $300 (\u00a532,400)."
             },
             "splitboards": {
                 "boards": [
@@ -245,7 +245,7 @@
                         "image": "2021/gentemstick/flyfiskchopsticks.png",
                         "length": 164.0,
                         "name": "Fly Fisk Chopsticks",
-                        "price": "\u00a5160600",
+                        "price": "$1430 (\u00a5160600)",
                         "profile": "Accel Camber",
                         "setback": "0",
                         "shape": "Directional",
@@ -257,7 +257,7 @@
                     }
                 ],
                 "maximum": null,
-                "notes": "Ships from Japan. North America shipping is \u00a521,600, Europe shipping is \u00a532,400."
+                "notes": "Ships from Japan. North America shipping is $200 (\u00a521,600), Europe shipping is $300 (\u00a532,400)."
             },
             "url": "https://gentemstick.com/"
         },
@@ -366,7 +366,7 @@
                         "image": "2021/korua/tugboat.jpg",
                         "length": 167.0,
                         "name": "Tugboat",
-                        "price": "500 EUR",
+                        "price": "$580 (500 EUR)",
                         "profile": "Float Camber",
                         "setback": "25mm",
                         "shape": "Directional",
@@ -381,7 +381,7 @@
                         "image": "2021/korua/caferacer.jpg",
                         "length": 164.0,
                         "name": "Cafe Racer",
-                        "price": "450 EUR",
+                        "price": "$520 (450 EUR)",
                         "profile": "Full Camber",
                         "setback": "20mm",
                         "shape": "Directional",
@@ -396,7 +396,7 @@
                         "image": "2021/korua/blindganger.jpg",
                         "length": 161.0,
                         "name": "Blindganger",
-                        "price": "500 EUR",
+                        "price": "$580 (500 EUR)",
                         "profile": "Rocker",
                         "setback": "60mm",
                         "shape": "Directional",
@@ -411,7 +411,7 @@
                         "image": "2021/korua/obelix.jpg",
                         "length": 157.0,
                         "name": "Obelix",
-                        "price": "500 EUR",
+                        "price": "$580 (500 EUR)",
                         "profile": "Full Rocker",
                         "setback": "20mm",
                         "shape": "Directional Twin",
@@ -426,7 +426,7 @@
                         "image": "2021/korua/dart.jpg",
                         "length": 160.0,
                         "name": "Dart",
-                        "price": "450 EUR",
+                        "price": "$520 (450 EUR)",
                         "profile": "Float Camber",
                         "setback": "20mm",
                         "shape": "Directional",
@@ -438,7 +438,7 @@
                     }
                 ],
                 "maximum": null,
-                "notes": "Shipping to the USA is 50 EUR."
+                "notes": "Shipping to the USA is $60 (50 EUR)."
             },
             "splitboards": {
                 "boards": [
@@ -447,7 +447,7 @@
                         "image": "2021/korua/dartsplit.jpg",
                         "length": 162.0,
                         "name": "Dart",
-                        "price": "700 EUR",
+                        "price": "$810 (700 EUR)",
                         "profile": "Float Camber",
                         "setback": "20mm",
                         "shape": "Directional",
@@ -459,7 +459,7 @@
                     }
                 ],
                 "maximum": null,
-                "notes": "Shipping to the USA is 50 EUR."
+                "notes": "Shipping to the USA is $60 (50 EUR)."
             },
             "url": "https://www.koruashapes.com/"
         },
@@ -1067,7 +1067,7 @@
             "solid": {
                 "boards": [],
                 "maximum": 27.3,
-                "notes": "The Lumberjack could be an option, but the waist is slightly too small to make it to this list."
+                "notes": "The Lumberjack could be an option, but the waist is slightly too small (27.3) to make it to this list."
             },
             "splitboards": {
                 "boards": [],

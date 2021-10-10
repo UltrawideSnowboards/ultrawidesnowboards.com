@@ -43,7 +43,7 @@
                                 <td>{{ board.setback }}</td>
                                 <td><a href="{{ board.url }}" target="_blank">
                                     {% if board.price != null %}
-                                        ${{ board.price }}
+                                        {{ board.price }}
                                     {% else %}
                                         N/A
                                     {% endif %}</a></td>
