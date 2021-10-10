@@ -871,6 +871,38 @@
             "url": "https://capitasnowboarding.com/"
         },
         {
+            "logo": "2021/stompede/logo.png",
+            "name": "Stompede Snowboards",
+            "short_name": "stompede",
+            "solid": {
+                "boards": [],
+                "maximum": 27.2,
+                "notes": "On their website the 150cm is the only Airtime size, but their splitboard version has a 160 with 28.1cm waist. Maybe in the future they'll release the solid wide version."
+            },
+            "splitboards": {
+                "boards": [
+                    {
+                        "category": null,
+                        "image": "2021/stompede/airtimesplit.png",
+                        "length": 160.0,
+                        "name": "Airtime",
+                        "price": "?",
+                        "profile": "Camber",
+                        "setback": "0",
+                        "shape": "True Twin",
+                        "short_name": "airtimesplit",
+                        "side_cut": 8.05,
+                        "stance": "54cm-72cm",
+                        "url": "https://www.stompede-snowboards.com/boards/airtime-split/",
+                        "waist_width": 28.1
+                    }
+                ],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.stompede-snowboards.com/"
+        },
+        {
             "logo": "2021/endeavor/logo.jpeg",
             "name": "Endeavor Snowboards",
             "short_name": "endeavor",
@@ -933,6 +965,54 @@
                 "notes": null
             },
             "url": "https://nichesnowboards.com/"
+        },
+        {
+            "logo": "2021/jones/logo.jpeg",
+            "name": "Jones Snowboards",
+            "short_name": "jones",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Powder",
+                        "image": "2021/jones/stormchaser.jpg",
+                        "length": 160.0,
+                        "name": "Storm Chaser",
+                        "price": "$600",
+                        "profile": "Christenson Surf Rocker",
+                        "setback": "22mm",
+                        "shape": "Directional",
+                        "short_name": "stormchaser",
+                        "side_cut": 7.2,
+                        "stance": null,
+                        "url": "https://www.jonessnowboards.com/snowboarding/205-2333-storm-chaser.html",
+                        "waist_width": 27.5
+                    }
+                ],
+                "maximum": 27.0,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [
+                    {
+                        "category": "Powder",
+                        "image": "2021/jones/stormchasersplit.jpg",
+                        "length": 157.0,
+                        "name": "Storm Chaser",
+                        "price": "$900",
+                        "profile": "Christenson Surf Rocker",
+                        "setback": "22mm",
+                        "shape": "Directional",
+                        "short_name": "stormchasersplit",
+                        "side_cut": 7.1,
+                        "stance": null,
+                        "url": "https://www.jonessnowboards.com/splitboarding/194-2280-storm-chaser-splitboard.html",
+                        "waist_width": 27.5
+                    }
+                ],
+                "maximum": 27.0,
+                "notes": null
+            },
+            "url": "https://www.jonessnowboards.com/"
         },
         {
             "logo": "2021/ktwo/logo.png",
@@ -1189,6 +1269,22 @@
             "url": "https://www.marharsnowboards.com/"
         },
         {
+            "logo": "2021/habitual/logo.webp",
+            "name": "Habitual Snowboard Co",
+            "short_name": "habitual",
+            "solid": {
+                "boards": [],
+                "maximum": 27.3,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.2,
+                "notes": null
+            },
+            "url": "https://www.habitualsnow.com/"
+        },
+        {
             "logo": "2021/hightide/logo.png",
             "name": "Hightide Mfg",
             "short_name": "hightide",
@@ -1205,12 +1301,28 @@
             "url": "https://hightidemfg.com/"
         },
         {
+            "logo": "2021/rome/logo.jpeg",
+            "name": "Rome Snowboards",
+            "short_name": "rome",
+            "solid": {
+                "boards": [],
+                "maximum": 27.2,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Rome carries the Uprise splitboard but does not list the specs."
+            },
+            "url": "https://romesnowboards.com"
+        },
+        {
             "logo": "2021/gnu/logo.svg",
             "name": "Gnu",
             "short_name": "gnu",
             "solid": {
                 "boards": [],
-                "maximum": 27,
+                "maximum": 27.0,
                 "notes": null
             },
             "splitboards": {
@@ -1301,6 +1413,22 @@
             "url": "https://www.borealis-snowboards.com/"
         },
         {
+            "logo": "2021/venture/logo.webp",
+            "name": "Venture Snowboards",
+            "short_name": "venture",
+            "solid": {
+                "boards": [],
+                "maximum": 27.0,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 27.0,
+                "notes": null
+            },
+            "url": "https://venturesnowboards.com/"
+        },
+        {
             "logo": "2021/rossignol/logo.png",
             "name": "Rossignol",
             "short_name": "rossignol",
@@ -1317,22 +1445,6 @@
             "url": "https://www.rossignol.com/us/"
         },
         {
-            "logo": "2021/snoplanks/logo.png",
-            "name": "Snoplanks",
-            "short_name": "snoplanks",
-            "solid": {
-                "boards": [],
-                "maximum": 26.75,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 26.25,
-                "notes": null
-            },
-            "url": "https://www.snoplanks.com/"
-        },
-        {
             "logo": "2021/academy/logo.jpg",
             "name": "Academy Snowboard Co.",
             "short_name": "academy",
@@ -1347,134 +1459,6 @@
                 "notes": null
             },
             "url": "https://www.academysnowboards.com/"
-        },
-        {
-            "logo": "2021/trapper/logo.webp",
-            "name": "Trapper Snowboards",
-            "short_name": "trapper",
-            "solid": {
-                "boards": [],
-                "maximum": 26.6,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 26.6,
-                "notes": null
-            },
-            "url": "https://trappersnowboards.com/"
-        },
-        {
-            "logo": "2021/deusexmachina/logo.png",
-            "name": "Deus Ex Machina",
-            "short_name": "deusexmachina",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": "The website has 404 links for the board specs, so unable to confirm for the 2021-2022 season. Last year they maxed out at 26.5"
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://shop.us.deuscustoms.com/"
-        },
-        {
-            "logo": "2021/slash/logo.png",
-            "name": "Slash by GiGi",
-            "short_name": "slash",
-            "solid": {
-                "boards": [],
-                "maximum": 26.3,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 26.3,
-                "notes": null
-            },
-            "url": "https://slashsnow.com/"
-        },
-        {
-            "logo": "2021/unitedshapes/logo.FAKE",
-            "name": "United Shapes",
-            "short_name": "unitedshapes",
-            "solid": {
-                "boards": [],
-                "maximum": "2021-2022 linup has not been released yet.",
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://www.unitedshapes.us/"
-        },
-        {
-            "logo": "2021/sims/logo.png",
-            "name": "Sims Collective",
-            "short_name": "sims",
-            "solid": {
-                "boards": [],
-                "maximum": 26.7,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://www.simscollective.com/"
-        },
-        {
-            "logo": "2021/dc/logo.jpeg",
-            "name": "DC",
-            "short_name": "dc",
-            "solid": {
-                "boards": [],
-                "maximum": 26.3,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://www.dcshoes.com/mens-snowboard-decks/"
-        },
-        {
-            "logo": "2021/dinosaurswilldie/logo.jpg",
-            "name": "Dinosaurs Will Die",
-            "short_name": "dinosaurswilldie",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": "DWD has not released their 2021-2022 lineup yet."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://dinosaurswilldie.com/"
-        },
-        {
-            "logo": "2021/ipp/logo.jpg",
-            "name": "The Interior Plain Project",
-            "short_name": "ipp",
-            "solid": {
-                "boards": [],
-                "maximum": 26.3,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "http://www.theipproject.com/"
         },
         {
             "logo": "2021/knwn/logo.webp",
@@ -1509,38 +1493,6 @@
             "url": "https://www.yesnowboard.com/"
         },
         {
-            "logo": "2021/rome/logo.jpeg",
-            "name": "Rome Snowboards",
-            "short_name": "rome",
-            "solid": {
-                "boards": [],
-                "maximum": 27.2,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": "Rome carries the Uprise splitboard but does not list the specs."
-            },
-            "url": "https://romesnowboards.com"
-        },
-        {
-            "logo": "2021/venture/logo.webp",
-            "name": "Venture Snowboards",
-            "short_name": "venture",
-            "solid": {
-                "boards": [],
-                "maximum": 27.0,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 27.0,
-                "notes": null
-            },
-            "url": "https://venturesnowboards.com/"
-        },
-        {
             "logo": "2021/lobster/logo.jpeg",
             "name": "Lobster Snowboards",
             "short_name": "lobster",
@@ -1557,84 +1509,52 @@
             "url": "https://lobstersnowboards.com/"
         },
         {
-            "logo": "2021/northwave/logo.png",
-            "name": "Northwave",
-            "short_name": "northwave",
+            "logo": "2021/snoplanks/logo.png",
+            "name": "Snoplanks",
+            "short_name": "snoplanks",
             "solid": {
                 "boards": [],
-                "maximum": null,
-                "notes": "Northwave does not publish board dimensions."
+                "maximum": 26.75,
+                "notes": null
             },
             "splitboards": {
                 "boards": [],
-                "maximum": null,
+                "maximum": 26.25,
                 "notes": null
             },
-            "url": "https://northwave.us/"
+            "url": "https://www.snoplanks.com/"
         },
         {
-            "logo": "2021/habitual/logo.webp",
-            "name": "Habitual Snowboard Co",
-            "short_name": "habitual",
+            "logo": "2021/sims/logo.png",
+            "name": "Sims Collective",
+            "short_name": "sims",
             "solid": {
                 "boards": [],
-                "maximum": 27.3,
+                "maximum": 26.7,
                 "notes": null
             },
             "splitboards": {
                 "boards": [],
-                "maximum": 26.2,
+                "maximum": null,
                 "notes": null
             },
-            "url": "https://www.habitualsnow.com/"
+            "url": "https://www.simscollective.com/"
         },
         {
-            "logo": "2021/chomonix/logo.png",
-            "name": "Chamonix Collection",
-            "short_name": "chomonix",
+            "logo": "2021/trapper/logo.webp",
+            "name": "Trapper Snowboards",
+            "short_name": "trapper",
             "solid": {
                 "boards": [],
-                "maximum": null,
-                "notes": "Chamonix does not publish board dimensions."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": "Chamonix does not publish board dimensions."
-            },
-            "url": "https://chamonixcollection.com/"
-        },
-        {
-            "logo": "2021/stompede/logo.png",
-            "name": "Stompede Snowboards",
-            "short_name": "stompede",
-            "solid": {
-                "boards": [],
-                "maximum": 27.2,
-                "notes": "On their website the 150cm is the only Airtime size, but their splitboard version has a 160 with 28.1cm waist. Maybe in the future they'll release the solid wide version."
-            },
-            "splitboards": {
-                "boards": [
-                    {
-                        "category": null,
-                        "image": "2021/stompede/airtimesplit.png",
-                        "length": 160.0,
-                        "name": "Airtime",
-                        "price": "?",
-                        "profile": "Camber",
-                        "setback": "0",
-                        "shape": "True Twin",
-                        "short_name": "airtimesplit",
-                        "side_cut": 8.05,
-                        "stance": "54cm-72cm",
-                        "url": "https://www.stompede-snowboards.com/boards/airtime-split/",
-                        "waist_width": 28.1
-                    }
-                ],
-                "maximum": null,
+                "maximum": 26.6,
                 "notes": null
             },
-            "url": "https://www.stompede-snowboards.com/"
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.6,
+                "notes": null
+            },
+            "url": "https://trappersnowboards.com/"
         },
         {
             "logo": "2021/voile/logo.png",
@@ -1653,20 +1573,52 @@
             "url": "https://www.voile.com/"
         },
         {
-            "logo": "2021/chimera/logo.png",
-            "name": "Chimera Backcountry Snowboards",
-            "short_name": "chimera",
+            "logo": "2021/slash/logo.png",
+            "name": "Slash by GiGi",
+            "short_name": "slash",
             "solid": {
                 "boards": [],
-                "maximum": null,
-                "notes": "Chimera only makes splitboards, no traditional snowboards."
+                "maximum": 26.3,
+                "notes": null
             },
             "splitboards": {
                 "boards": [],
-                "maximum": 25.9,
+                "maximum": 26.3,
                 "notes": null
             },
-            "url": "https://chimerasnowboards.com/"
+            "url": "https://slashsnow.com/"
+        },
+        {
+            "logo": "2021/dc/logo.jpeg",
+            "name": "DC",
+            "short_name": "dc",
+            "solid": {
+                "boards": [],
+                "maximum": 26.3,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.dcshoes.com/mens-snowboard-decks/"
+        },
+        {
+            "logo": "2021/ipp/logo.jpg",
+            "name": "The Interior Plain Project",
+            "short_name": "ipp",
+            "solid": {
+                "boards": [],
+                "maximum": 26.3,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "http://www.theipproject.com/"
         },
         {
             "logo": "2021/spline/logo.png",
@@ -1685,6 +1637,102 @@
             "url": "https://www.splinesnowboards.com/"
         },
         {
+            "logo": "2021/chimera/logo.png",
+            "name": "Chimera Backcountry Snowboards",
+            "short_name": "chimera",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Chimera only makes splitboards, no traditional snowboards."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 25.9,
+                "notes": null
+            },
+            "url": "https://chimerasnowboards.com/"
+        },
+        {
+            "logo": "2021/deusexmachina/logo.png",
+            "name": "Deus Ex Machina",
+            "short_name": "deusexmachina",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "The website has 404 links for the board specs, so unable to confirm for the 2021-2022 season. Last year they maxed out at 26.5"
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://shop.us.deuscustoms.com/"
+        },
+        {
+            "logo": "2021/unitedshapes/logo.FAKE",
+            "name": "United Shapes",
+            "short_name": "unitedshapes",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "United Shapes has not released their 2021-2022 lineup yet."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.unitedshapes.us/"
+        },
+        {
+            "logo": "2021/dinosaurswilldie/logo.jpg",
+            "name": "Dinosaurs Will Die",
+            "short_name": "dinosaurswilldie",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "DWD has not released their 2021-2022 lineup yet."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://dinosaurswilldie.com/"
+        },
+        {
+            "logo": "2021/northwave/logo.png",
+            "name": "Northwave",
+            "short_name": "northwave",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Northwave does not publish board dimensions."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://northwave.us/"
+        },
+        {
+            "logo": "2021/chomonix/logo.png",
+            "name": "Chamonix Collection",
+            "short_name": "chomonix",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Chamonix does not publish board dimensions."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Chamonix does not publish board dimensions."
+            },
+            "url": "https://chamonixcollection.com/"
+        },
+        {
             "logo": "2021/pallas/logo.png",
             "name": "Pallas Snowboards",
             "short_name": "pallas",
@@ -1699,54 +1747,6 @@
                 "notes": "Pallas does not make men's snowboards"
             },
             "url": "https://pallassnowboards.com/"
-        },
-        {
-            "logo": "2021/jones/logo.jpeg",
-            "name": "Jones Snowboards",
-            "short_name": "jones",
-            "solid": {
-                "boards": [
-                    {
-                        "category": "Powder",
-                        "image": "2021/jones/stormchaser.jpg",
-                        "length": 160.0,
-                        "name": "Storm Chaser",
-                        "price": "$600",
-                        "profile": "Christenson Surf Rocker",
-                        "setback": "22mm",
-                        "shape": "Directional",
-                        "short_name": "stormchaser",
-                        "side_cut": 7.2,
-                        "stance": null,
-                        "url": "https://www.jonessnowboards.com/snowboarding/205-2333-storm-chaser.html",
-                        "waist_width": 27.5
-                    }
-                ],
-                "maximum": 27.0,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [
-                    {
-                        "category": "Powder",
-                        "image": "2021/jones/stormchasersplit.jpg",
-                        "length": 157.0,
-                        "name": "Storm Chaser",
-                        "price": "$900",
-                        "profile": "Christenson Surf Rocker",
-                        "setback": "22mm",
-                        "shape": "Directional",
-                        "short_name": "stormchasersplit",
-                        "side_cut": 7.1,
-                        "stance": null,
-                        "url": "https://www.jonessnowboards.com/splitboarding/194-2280-storm-chaser-splitboard.html",
-                        "waist_width": 27.5
-                    }
-                ],
-                "maximum": 27.0,
-                "notes": null
-            },
-            "url": "https://www.jonessnowboards.com/"
         }
     ]
 }

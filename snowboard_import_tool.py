@@ -224,12 +224,18 @@ def sort_list():
     # Sort each brand by solid board size then by splitboard size
     def brand_sort_function(brand: Dict) -> int:
         if len(brand['solid']['boards']) > 0:
+            assert type(brand['solid']['boards'][0]['length']) is float, f'Brand {brand["short_name"]} does not have the right type for solid->boards->0->length.'
+            assert type(brand['solid']['boards'][0]['waist_width']) is float, f'Brand {brand["short_name"]} does not have the right type for solid->boards->0->waist_width.'
             return -1 * brand['solid']['boards'][0]['length'] * brand['solid']['boards'][0]['waist_width']
         elif len(brand['splitboards']['boards']) > 0:
+            assert type(brand['splitboards']['boards'][0]['length']) is float, f'Brand {brand["short_name"]} does not have the right types for splitboards->boards->0->length.'
+            assert type(brand['splitboards']['boards'][0]['waist_width']) is float, f'Brand {brand["short_name"]} does not have the right types for splitboards->boards->0->waist_width.'
             return -1 * brand['splitboards']['boards'][0]['length'] * brand['splitboards']['boards'][0]['waist_width']
         elif brand['solid']['maximum'] is not None:
+            assert type(brand['solid']['maximum']) is float, f'Brand {brand["short_name"]} does not have the right type for solid->maximum.'
             return -1 * brand['solid']['maximum']
         elif brand['splitboards']['maximum'] is not None:
+            assert type(brand['splitboards']['maximum']) is float, f'Brand {brand["short_name"]} does not have the right type for split->maximum.'
             return -1 * brand['splitboards']['maximum']
         else:
             return 0
