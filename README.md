@@ -56,7 +56,7 @@ find . -type f -name \*.png -not -name "logo.*" -exec bash -c 'mogrify -geometry
 find . -type f -name \*.png -not -name "logo.*" -exec bash -c 'optipng {}' \;
 ```
 
-Resize a logo
+Resize all logos:
 ```bash
 find . -type f -name logo.jpg -exec bash -c 'mogrify -geometry x200 {}' \;
 find . -type f -name logo.jpeg -exec bash -c 'mogrify -geometry x200 {}' \;
