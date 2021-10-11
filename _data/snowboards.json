@@ -881,13 +881,13 @@
                         "shape": "Twin",
                         "short_name": "soulboard",
                         "side_cut": 10.75,
-                        "stance": "460mm-660mm",
+                        "stance": "46cm-66cm",
                         "url": "https://www.sgsnowboards.com/snowboards/soul/",
                         "waist_width": 28.0
                     }
                 ],
-                "maximum": "Ships from Austria.",
-                "notes": null
+                "maximum": null,
+                "notes": "Ships from Austria."
             },
             "splitboards": {
                 "boards": [],
