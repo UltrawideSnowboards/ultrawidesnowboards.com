@@ -48,13 +48,20 @@ Set image to a height of 600px, keep proportional.
 mogrify -geometry x600 superpig.jpeg
 ```
 
-
+Resize all board images:
 ```bash
-mogrify -geometry x300 logo.jpg
+find . -type f -name \*.jpg -not -name "logo.*" -exec bash -c 'mogrify -geometry x400 {}' \;
+find . -type f -name \*.jpeg -not -name "logo.*" -exec bash -c 'mogrify -geometry x400 {}' \;
+find . -type f -name \*.png -not -name "logo.*" -exec bash -c 'mogrify -geometry x400 {}' \;
+find . -type f -name \*.png -not -name "logo.*" -exec bash -c 'optipng {}' \;
 ```
 
+Resize a logo
 ```bash
-optipng filename.png
+find . -type f -name logo.jpg -exec bash -c 'mogrify -geometry x200 {}' \;
+find . -type f -name logo.jpeg -exec bash -c 'mogrify -geometry x200 {}' \;
+find . -type f -name logo.png -exec bash -c 'mogrify -geometry x200 {}' \;
+find . -type f -name logo.png -exec bash -c 'optipng {}' \;
 ```
 
 ```bash
