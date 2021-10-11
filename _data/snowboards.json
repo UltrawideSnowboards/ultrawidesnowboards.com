@@ -155,6 +155,42 @@
             "url": "http://www.ltbsnowboards.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/dupraz/logo.webp",
+            "name": "Dupraz Snow",
+            "short_name": "dupraz",
+            "solid": {
+                "boards": [
+                    {
+                        "category": null,
+                        "image": "2021/dupraz/done.webp",
+                        "length": 193.0,
+                        "name": "D1 6'3",
+                        "price": "$870 (750 EUR)",
+                        "profile": "Aquasmooth Rocker",
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "done",
+                        "side_cut": null,
+                        "stance": "54cm-70cm",
+                        "url": "https://dupraz-snow.com/en/snowboards-d1-6-3/",
+                        "waist_width": 28.0
+                    }
+                ],
+                "maximum": null,
+                "notes": "Ships from France. If shipping to the USA you may have the VAT removed."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 25.8,
+                "notes": null
+            },
+            "url": "https://dupraz-snow.com/en/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/gentemstick/logo.png",
             "name": "Gentemstick",
@@ -825,6 +861,42 @@
             "url": "https://www.soulwaterman.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/sg/logo.png",
+            "name": "SG Snowboards",
+            "short_name": "sg",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Carving",
+                        "image": "2021/sg/soulboard.png",
+                        "length": 164.0,
+                        "name": "Soul",
+                        "price": "$820 (709 EUR)",
+                        "profile": "RCR Rocker",
+                        "setback": "20mm",
+                        "shape": "Twin",
+                        "short_name": "soulboard",
+                        "side_cut": 10.75,
+                        "stance": "460mm-660mm",
+                        "url": "https://www.sgsnowboards.com/snowboards/soul/",
+                        "waist_width": 28.0
+                    }
+                ],
+                "maximum": "Ships from Austria.",
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.sgsnowboards.com"
+        },
+        {
             "custom_option": false,
             "logo": "2021/neversummer/logo.png",
             "name": "Never Summer",
@@ -1416,6 +1488,26 @@
             "url": "https://romesnowboards.com"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/lago/logo.png",
+            "name": "Lago Snowboards",
+            "short_name": "lago",
+            "solid": {
+                "boards": [],
+                "maximum": 27.2,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.lagosnowboards.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/gnu/logo.svg",
             "name": "Gnu",
@@ -1538,6 +1630,26 @@
             "url": "https://venturesnowboards.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/signal/logo.jpg",
+            "name": "Signal Snowboards",
+            "short_name": "signal",
+            "solid": {
+                "boards": [],
+                "maximum": 27.0,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.8,
+                "notes": null
+            },
+            "url": "https://signalsnowboards.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/rossignol/logo.png",
             "name": "Rossignol",
@@ -1623,6 +1735,26 @@
             "url": "https://lobstersnowboards.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/radair/logo.png",
+            "name": "Rad Air",
+            "short_name": "radair",
+            "solid": {
+                "boards": [],
+                "maximum": 26.8,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.rad-air.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/snoplanks/logo.png",
             "name": "Snoplanks",
@@ -1657,6 +1789,26 @@
             "url": "https://www.simscollective.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/amplid/logo.png",
+            "name": "Amplid",
+            "short_name": "amplid",
+            "solid": {
+                "boards": [],
+                "maximum": 26.7,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.5,
+                "notes": null
+            },
+            "url": "https://www.amplid.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/trapper/logo.webp",
             "name": "Trapper Snowboards",
@@ -1672,6 +1824,26 @@
                 "notes": null
             },
             "url": "https://trappersnowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/highsociety/logo.png",
+            "name": "High Society Freeride Company",
+            "short_name": "highsociety",
+            "solid": {
+                "boards": [],
+                "maximum": 26.6,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://highsocietyfreeride.com/"
         },
         {
             "custom_option": false,
@@ -1797,6 +1969,46 @@
                 "notes": "Aotea makes each board on demand but there's no option to customize the size. Ships from NZ."
             },
             "url": "https://www.aoteashapes.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": null,
+            "name": "Atlantis Snowboards",
+            "short_name": "atlantis",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Atlantis Snowboards have not released their 2021-2022 lineup yet."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://atlantissnowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/alloy/logo.jpg",
+            "name": "Alloy Snowboards",
+            "short_name": "alloy",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Alloy does not publish board dimensions."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.facebook.com/Alloy-Snowboards-USA-571209716572276/"
         },
         {
             "custom_option": false,
@@ -1964,23 +2176,6 @@
             "url": "https://pallassnowboards.com/"
         },
         {
-            "custom_option": false,
-            "logo": "2021/unitedshapes/logo.FAKE",
-            "name": "United Shapes",
-            "short_name": "unitedshapes",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": "United Shapes have not released their 2021-2022 lineup yet."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://www.unitedshapes.us/"
-        },
-        {
             "custom": {
                 "notes": null
             },
@@ -2001,216 +2196,21 @@
             "url": "https://www.publicsnowboards.com/"
         },
         {
-            "custom": {
-                "notes": null
-            },
             "custom_option": false,
-            "logo": "2021/lago/logo.png",
-            "name": "Lago Snowboards",
-            "short_name": "lago",
+            "logo": "2021/unitedshapes/logo.FAKE",
+            "name": "United Shapes",
+            "short_name": "unitedshapes",
             "solid": {
                 "boards": [],
-                "maximum": 27.2,
-                "notes": null
+                "maximum": null,
+                "notes": "United Shapes have not released their 2021-2022 lineup yet."
             },
             "splitboards": {
                 "boards": [],
                 "maximum": null,
                 "notes": null
             },
-            "url": "https://www.lagosnowboards.com/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/signal/logo.jpg",
-            "name": "Signal Snowboards",
-            "short_name": "signal",
-            "solid": {
-                "boards": [],
-                "maximum": 27.0,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 26.8,
-                "notes": null
-            },
-            "url": "https://signalsnowboards.com/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/highsociety/logo.png",
-            "name": "High Society Freeride Company",
-            "short_name": "highsociety",
-            "solid": {
-                "boards": [],
-                "maximum": 26.6,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://highsocietyfreeride.com/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": null,
-            "name": "Atlantis Snowboards",
-            "short_name": "atlantis",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": "Atlantis Snowboards have not released their 2021-2022 lineup yet."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://atlantissnowboards.com/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/amplid/logo.png",
-            "name": "Amplid",
-            "short_name": "amplid",
-            "solid": {
-                "boards": [],
-                "maximum": 26.7,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 26.5,
-                "notes": null
-            },
-            "url": "https://www.amplid.com/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/sg/logo.png",
-            "name": "SG Snowboards",
-            "short_name": "sg",
-            "solid": {
-                "boards": [
-                    {
-                        "category": "Carving",
-                        "image": "2021/sg/soulboard.png",
-                        "length": 164.0,
-                        "name": "Soul",
-                        "price": "$820 (709 EUR)",
-                        "profile": "RCR Rocker",
-                        "setback": "20mm",
-                        "shape": "Twin",
-                        "short_name": "soulboard",
-                        "side_cut": 10.75,
-                        "stance": "460mm-660mm",
-                        "url": "https://www.sgsnowboards.com/snowboards/soul/",
-                        "waist_width": 28.0
-                    }
-                ],
-                "maximum": "Ships from Austria.",
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://www.sgsnowboards.com"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/alloy/logo.jpg",
-            "name": "Alloy Snowboards",
-            "short_name": "alloy",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": "Alloy does not publish board dimensions."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://www.facebook.com/Alloy-Snowboards-USA-571209716572276/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/radair/logo.png",
-            "name": "Rad Air",
-            "short_name": "radair",
-            "solid": {
-                "boards": [],
-                "maximum": 26.8,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://www.rad-air.com/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/dupraz/logo.webp",
-            "name": "Dupraz Snow",
-            "short_name": "dupraz",
-            "solid": {
-                "boards": [
-                    {
-                        "category": null,
-                        "image": "2021/dupraz/done.webp",
-                        "length": 193.0,
-                        "name": "D1 6'3",
-                        "price": "$870 (750 EUR)",
-                        "profile": "Aquasmooth Rocker",
-                        "setback": null,
-                        "shape": "Directional",
-                        "short_name": "done",
-                        "side_cut": null,
-                        "stance": "54cm-70cm",
-                        "url": "https://dupraz-snow.com/en/snowboards-d1-6-3/",
-                        "waist_width": 28.0
-                    }
-                ],
-                "maximum": null,
-                "notes": "Ships from France. If shipping to the USA you may have the VAT removed."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 25.8,
-                "notes": null
-            },
-            "url": "https://dupraz-snow.com/en/"
+            "url": "https://www.unitedshapes.us/"
         }
     ]
 }
