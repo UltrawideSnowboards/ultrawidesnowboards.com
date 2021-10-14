@@ -714,6 +714,42 @@
         },
         {
             "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/stranda/logo.png",
+            "name": "Stranda Snowboards",
+            "short_name": "stranda",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Carving",
+                        "image": "2021/stranda/cheater.jpg",
+                        "length": 170.0,
+                        "name": "Cheater",
+                        "price": "$780",
+                        "profile": "Camber with Tip-Tail-Rocker",
+                        "setback": "40mm",
+                        "shape": "Directional",
+                        "short_name": "cheater",
+                        "side_cut": 8.5,
+                        "stance": "47cm-63cm",
+                        "url": "https://www.strandasnowboards.com/product/cheater-snowboard/",
+                        "waist_width": 27.5
+                    }
+                ],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 27.3,
+                "notes": null
+            },
+            "url": "https://www.strandasnowboards.com/"
+        },
+        {
+            "custom": {
                 "notes": "Winterstick will customize the width of a board for $100 more. Shown here are the stock ultrawide snowboards. All models available as a splitboard."
             },
             "custom_option": true,
@@ -2211,42 +2247,6 @@
                 "notes": null
             },
             "url": "https://www.unitedshapes.us/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/stranda/logo.png",
-            "name": "Stranda Snowboards",
-            "short_name": "stranda",
-            "solid": {
-                "boards": [
-                    {
-                        "category": "Carving",
-                        "image": "2021/stranda/cheater.jpg",
-                        "length": 170.0,
-                        "name": "Cheater",
-                        "price": "$780",
-                        "profile": "Camber with Tip-Tail-Rocker",
-                        "setback": "40mm",
-                        "shape": "Directional",
-                        "short_name": "cheater",
-                        "side_cut": 8.5,
-                        "stance": "47cm-63cm",
-                        "url": "https://www.strandasnowboards.com/product/cheater-snowboard/",
-                        "waist_width": 27.5
-                    }
-                ],
-                "maximum": null,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 27.3,
-                "notes": null
-            },
-            "url": "https://www.strandasnowboards.com/"
         }
     ]
 }
