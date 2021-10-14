@@ -1490,6 +1490,26 @@
             "url": "https://www.habitualsnow.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/unity/logo.png",
+            "name": "Unity Snowboards",
+            "short_name": "unity",
+            "solid": {
+                "boards": [],
+                "maximum": 27.3,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.0,
+                "notes": null
+            },
+            "url": "https://www.unitysnowboards.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/hightide/logo.png",
             "name": "Hightide Mfg",
@@ -1899,6 +1919,46 @@
             "url": "https://www.voile.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/santacruz/logo.png",
+            "name": "Santa Cruz Snowboards",
+            "short_name": "santacruz",
+            "solid": {
+                "boards": [],
+                "maximum": 26.4,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://santacruzsnowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/swellpanik/logo.jpg",
+            "name": "SwellPanik",
+            "short_name": "swellpanik",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "SwellPanik does not publish any clear board dimensions."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.4,
+                "notes": null
+            },
+            "url": "https://www.swellpanik.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/slash/logo.png",
             "name": "Slash by GiGi",
@@ -1970,6 +2030,26 @@
             "url": "https://www.splinesnowboards.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/technine/logo.png",
+            "name": "Technine",
+            "short_name": "technine",
+            "solid": {
+                "boards": [],
+                "maximum": 26.1,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://technine.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/chimera/logo.png",
             "name": "Chimera Backcountry Snowboards",
@@ -1985,6 +2065,26 @@
                 "notes": null
             },
             "url": "https://chimerasnowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/one/logo.png",
+            "name": "One Snowboards",
+            "short_name": "one",
+            "solid": {
+                "boards": [],
+                "maximum": 25.8,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "http://www.one-snowboards.com/one1819/index.php"
         },
         {
             "custom": {
@@ -2045,6 +2145,26 @@
                 "notes": null
             },
             "url": "https://www.facebook.com/Alloy-Snowboards-USA-571209716572276/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/boheme/logo.jpg",
+            "name": "Boheme",
+            "short_name": "boheme",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Boheme does not publish board dimensions."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Boheme does not publish board dimensions."
+            },
+            "url": "https://www.boheme.fr/gb/"
         },
         {
             "custom_option": false,
@@ -2139,6 +2259,26 @@
         },
         {
             "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/forum/logo.png",
+            "name": "Forum",
+            "short_name": "forum",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Forum has not released their 2021-2022 lineup yet."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://forumblend.com/"
+        },
+        {
+            "custom": {
                 "notes": "Custom board prices not listed."
             },
             "custom_option": true,
@@ -2156,6 +2296,26 @@
                 "notes": "Kindred only makes custom snowboards."
             },
             "url": "http://www.kindredsnowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/lamar/logo.gif",
+            "name": "Lamar Snow",
+            "short_name": "lamar",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Lamar does not publish board dimensions."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://lamarsnow.com/"
         },
         {
             "custom": {
@@ -2232,123 +2392,6 @@
             "url": "https://www.publicsnowboards.com/"
         },
         {
-            "custom_option": false,
-            "logo": "2021/unitedshapes/logo.FAKE",
-            "name": "United Shapes",
-            "short_name": "unitedshapes",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": "United Shapes have not released their 2021-2022 lineup yet."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://www.unitedshapes.us/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/boheme/logo.jpg",
-            "name": "Boheme",
-            "short_name": "boheme",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": "Boheme does not publish board dimensions."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": "Boheme does not publish board dimensions."
-            },
-            "url": "https://www.boheme.fr/gb/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/one/logo.png",
-            "name": "One Snowboards",
-            "short_name": "one",
-            "solid": {
-                "boards": [],
-                "maximum": 25.8,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "http://www.one-snowboards.com/one1819/index.php"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/forum/logo.png",
-            "name": "Forum",
-            "short_name": "forum",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": "Forum has not released their 2021-2022 lineup yet."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://forumblend.com/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/lamar/logo.gif",
-            "name": "Lamar Snow",
-            "short_name": "lamar",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": "Lamar does not publish board dimensions."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://lamarsnow.com/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/santacruz/logo.png",
-            "name": "Santa Cruz Snowboards",
-            "short_name": "santacruz",
-            "solid": {
-                "boards": [],
-                "maximum": 26.4,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://santacruzsnowboards.com/"
-        },
-        {
             "custom": {
                 "notes": null
             },
@@ -2369,64 +2412,21 @@
             "url": "https://www.smokinsnowboards.com/"
         },
         {
-            "custom": {
-                "notes": null
-            },
             "custom_option": false,
-            "logo": "2021/swellpanik/logo.jpg",
-            "name": "SwellPanik",
-            "short_name": "swellpanik",
+            "logo": "2021/unitedshapes/logo.FAKE",
+            "name": "United Shapes",
+            "short_name": "unitedshapes",
             "solid": {
                 "boards": [],
                 "maximum": null,
-                "notes": "SwellPanik does not publish any clear board dimensions."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 26.4,
-                "notes": null
-            },
-            "url": "https://www.swellpanik.com/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/technine/logo.png",
-            "name": "Technine",
-            "short_name": "technine",
-            "solid": {
-                "boards": [],
-                "maximum": 26.1,
-                "notes": null
+                "notes": "United Shapes have not released their 2021-2022 lineup yet."
             },
             "splitboards": {
                 "boards": [],
                 "maximum": null,
                 "notes": null
             },
-            "url": "https://technine.com/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/unity/logo.png",
-            "name": "Unity Snowboards",
-            "short_name": "unity",
-            "solid": {
-                "boards": [],
-                "maximum": 27.3,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 26.0,
-                "notes": null
-            },
-            "url": "https://www.unitysnowboards.com/"
+            "url": "https://www.unitedshapes.us/"
         }
     ]
 }
