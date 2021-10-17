@@ -2343,9 +2343,25 @@
             "name": "Northwave",
             "short_name": "northwave",
             "solid": {
-                "boards": [],
+                "boards": [
+                    {
+                        "category": null,
+                        "image": "2021/northwave/drakebattlerusty.jpg",
+                        "length": 163.0,
+                        "name": "Drake Battle Rusty",
+                        "price": "$500",
+                        "profile": "Camber",
+                        "setback": "0",
+                        "shape": "Directional Twin Blunt",
+                        "short_name": "drakebattlerusty",
+                        "side_cut": 7.9,
+                        "stance": "53.6cm-63-6cm",
+                        "url": "https://northwave.us/collections/boards/products/drake-battle-rusty-wide-1",
+                        "waist_width": 27.9
+                    }
+                ],
                 "maximum": null,
-                "notes": "Northwave does not publish board dimensions."
+                "notes": "Northwave publishes their board dimensions in their catalog (<a href=\"https://issuu.com/zuzupopo/docs/northwave_2122_jp\" target=\"_blank\">page 82</a>)."
             },
             "splitboards": {
                 "boards": [],
