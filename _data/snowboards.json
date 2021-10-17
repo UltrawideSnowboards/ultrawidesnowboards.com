@@ -509,6 +509,87 @@
                 "notes": null
             },
             "custom_option": false,
+            "logo": "2021/airtracks/logo.png",
+            "name": "Airtracks",
+            "short_name": "airtracks",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "All Mountain",
+                        "image": "2021/airtracks/bwf.jpg",
+                        "length": 171.0,
+                        "name": "BWF",
+                        "price": "$200 (180 EUR)",
+                        "profile": "Camber",
+                        "setback": "2cm",
+                        "shape": "Directional",
+                        "short_name": "bwf",
+                        "side_cut": 9.8,
+                        "stance": "52cm-64cm",
+                        "url": "https://www.airtracks.de/sportartikel-outdoor-aktivitaeten-wintersport-aktivitaeten-skisport-snowboarden-snowboards/bwf-snowboard-wide",
+                        "waist_width": 27.9
+                    },
+                    {
+                        "category": "All Mountain",
+                        "image": "2021/airtracks/refractions.jpg",
+                        "length": 171.0,
+                        "name": "Refractions",
+                        "price": "$200 (180 EUR)",
+                        "profile": "Camber",
+                        "setback": "2cm",
+                        "shape": "Directional",
+                        "short_name": "refractions",
+                        "side_cut": 9.8,
+                        "stance": "52cm-64cm",
+                        "url": "https://www.airtracks.de/sportartikel-outdoor-aktivitaeten-wintersport-aktivitaeten-skisport-snowboarden-snowboards/refractions-game-snowboard-wide",
+                        "waist_width": 27.9
+                    },
+                    {
+                        "category": "All Mountain",
+                        "image": "2021/airtracks/cubo.jpg",
+                        "length": 171.0,
+                        "name": "Cubo",
+                        "price": "$200 (180 EUR)",
+                        "profile": "Camber",
+                        "setback": "2cm",
+                        "shape": "Directional",
+                        "short_name": "cubo",
+                        "side_cut": 9.8,
+                        "stance": "52cm-64cm",
+                        "url": "https://www.airtracks.de/sportartikel-outdoor-aktivitaeten-wintersport-aktivitaeten-skisport-snowboarden-snowboards/cubo-snowboard-wide",
+                        "waist_width": 27.9
+                    },
+                    {
+                        "category": "All Mountain",
+                        "image": "2021/airtracks/mirrors.jpg",
+                        "length": 169.0,
+                        "name": "Mirrors Neon",
+                        "price": "$180 (160 EUR)",
+                        "profile": "Camber",
+                        "setback": "2cm",
+                        "shape": "Directional",
+                        "short_name": "mirrors",
+                        "side_cut": 9.6,
+                        "stance": "52cm-64cm",
+                        "url": "https://www.airtracks.de/sportartikel-outdoor-aktivitaeten-wintersport-aktivitaeten-skisport-snowboarden-snowboards/mirrors-neon-snowboard-wide",
+                        "waist_width": 27.8
+                    }
+                ],
+                "maximum": null,
+                "notes": "The prices listed are their 'sale' price, which we have reason to belive are the fulltime price. If this changes we'll update the listings below."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.airtracks.de/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
             "logo": "2021/goodboards/logo.svg",
             "name": "Good Boards",
             "short_name": "goodboards",
