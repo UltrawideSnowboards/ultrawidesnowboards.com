@@ -1790,6 +1790,26 @@
             "url": "https://signalsnowboards.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/radical/logo.png",
+            "name": "Radical",
+            "short_name": "radical",
+            "solid": {
+                "boards": [],
+                "maximum": 27.0,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://radical.swiss/en/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/rossignol/logo.png",
             "name": "Rossignol",
