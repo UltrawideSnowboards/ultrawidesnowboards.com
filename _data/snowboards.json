@@ -1791,9 +1791,9 @@
         },
         {
             "custom": {
-                "notes": null
+                "notes": "Their stock models max out at 27.0cm, but <a href=\"https://radical.swiss/en/custom-made/\" target=\"_blank\">custom options up to 35.0cm</a> are available starting at $2600 (2400 CHF)."
             },
-            "custom_option": false,
+            "custom_option": true,
             "logo": "2021/radical/logo.png",
             "name": "Radical",
             "short_name": "radical",
