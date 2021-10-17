@@ -2199,6 +2199,26 @@
             "url": "https://highsocietyfreeride.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/nobile/logo.png",
+            "name": "Nobile Snowboards",
+            "short_name": "nobile",
+            "solid": {
+                "boards": [],
+                "maximum": 26.6,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.7,
+                "notes": null
+            },
+            "url": "https://nobilesnowboards.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/voile/logo.png",
             "name": "Voile",
@@ -2256,6 +2276,26 @@
             "url": "https://www.swellpanik.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/easy/logo.svg",
+            "name": "Easy Board Company",
+            "short_name": "easy",
+            "solid": {
+                "boards": [],
+                "maximum": 26.4,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.5,
+                "notes": null
+            },
+            "url": "https://easyboardcompany.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/slash/logo.png",
             "name": "Slash by GiGi",
@@ -2305,6 +2345,26 @@
                 "notes": null
             },
             "url": "http://www.theipproject.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/west/logo.png",
+            "name": "West Snowboarding",
+            "short_name": "west",
+            "solid": {
+                "boards": [],
+                "maximum": 26.3,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.8,
+                "notes": null
+            },
+            "url": "https://www.westsnowboarding.com/"
         },
         {
             "custom": {
@@ -2382,6 +2442,26 @@
                 "notes": null
             },
             "url": "http://www.one-snowboards.com/one1819/index.php"
+        },
+        {
+            "custom": {
+                "notes": "Ships from Switzerland. <a href=\"http://kessler-swiss.com/en-US/products/customMade\" target=\"_blank\">Custom options.</a>"
+            },
+            "custom_option": true,
+            "logo": "2021/kessler/logo.gif",
+            "name": "Kessler-Swiss",
+            "short_name": "kessler",
+            "solid": {
+                "boards": [],
+                "maximum": 25.8,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "http://kessler-swiss.com/"
         },
         {
             "custom": {
@@ -2464,6 +2544,26 @@
             "url": "https://www.boheme.fr/gb/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/bakery/logo.jpg",
+            "name": "The Bakery Mfg Co",
+            "short_name": "bakery",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "The Bakery Mfg Co does not publish board dimensions."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": "The Bakery Mfg Co does not publish board dimensions."
+            },
+            "url": "https://thebakerysnowboards.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/chomonix/logo.png",
             "name": "Chamonix Collection",
@@ -2479,6 +2579,26 @@
                 "notes": "Chamonix does not publish board dimensions."
             },
             "url": "https://chamonixcollection.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/canarycartel/logo.jpg",
+            "name": "Canary Cartel",
+            "short_name": "canarycartel",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Canary Cartel releases their 2021-2022 lineup on November 1st."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.canarycartel.com/"
         },
         {
             "custom_option": false,
@@ -2573,6 +2693,26 @@
                 "notes": null
             },
             "url": "https://forumblend.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/ftwo/logo.png",
+            "name": "F2",
+            "short_name": "ftwo",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "F2 has not released their 2021-2022 linueup yet."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://shop.f2.com/"
         },
         {
             "custom": {
@@ -2690,6 +2830,46 @@
                 "notes": null
             },
             "url": "https://www.smokinsnowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/sessions/logo.png",
+            "name": "Sessions",
+            "short_name": "sessions",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Sessions does not publish board dimensions."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://sessionsmfg.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/trans/logo.png",
+            "name": "Trans Boardsports",
+            "short_name": "trans",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Made in Germany. Trans has not released their 2021-2022 lineup yet."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://trans-boardsports.de/"
         },
         {
             "custom_option": false,

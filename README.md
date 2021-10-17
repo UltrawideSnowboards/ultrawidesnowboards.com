@@ -76,3 +76,12 @@ Export as png
 ```bash
 convert -background none favicon.svg -define icon:auto-resize favicon.ico
 ```
+
+
+
+## Extra resources
+
+
+This site has a list of all the different snowboard manufacturers:
+
+http://www.zuzupopo.com/xe/index.php?mid=brand&listStyle=viewer&l=zh-CN&search_target=tag&search_keyword=Snowboards&document_srl=235083
