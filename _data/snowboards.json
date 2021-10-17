@@ -506,6 +506,57 @@
         },
         {
             "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/goodboards/logo.svg",
+            "name": "Good Boards",
+            "short_name": "goodboards",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "All Mountain",
+                        "image": "2021/goodboards/reload.png",
+                        "length": 167.0,
+                        "name": "Reload",
+                        "price": "$700 (600 EUR)",
+                        "profile": "Double Rocker",
+                        "setback": "10cm",
+                        "shape": "Directional",
+                        "short_name": "reload",
+                        "side_cut": "9.1m",
+                        "stance": "54cm-66cm",
+                        "url": "https://goodboards.eu/en/produkt/reload/",
+                        "waist_width": 28.5
+                    },
+                    {
+                        "category": "All Mountain",
+                        "image": "2021/goodboards/wooden.png",
+                        "length": 167.0,
+                        "name": "Wooden",
+                        "price": "$750 (640 EUR)",
+                        "profile": "Camber",
+                        "setback": "10cm",
+                        "shape": "Directional",
+                        "short_name": "wooden",
+                        "side_cut": 9.1,
+                        "stance": "54cm-66cm",
+                        "url": "https://goodboards.eu/en/produkt/wooden/",
+                        "waist_width": 28.5
+                    }
+                ],
+                "maximum": null,
+                "notes": "Ships from Germany. Measurements are listed in their <a href=\"https://goodboards.eu/wp-content/uploads/2021/01/2021-2022_goodboards_Katalog_Snow.pdf\" target=\"_blank\">katalog</a>."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.0,
+                "notes": null
+            },
+            "url": "https://goodboards.eu/en/"
+        },
+        {
+            "custom": {
                 "notes": "Deviation Works offers a custom option starting at $1000."
             },
             "custom_option": true,
@@ -964,6 +1015,39 @@
                 "notes": null
             },
             "url": "https://www.neversummer.com/"
+        },
+        {
+            "custom_option": false,
+            "logo": "2021/northwave/logo.png",
+            "name": "Northwave",
+            "short_name": "northwave",
+            "solid": {
+                "boards": [
+                    {
+                        "category": null,
+                        "image": "2021/northwave/drakebattlerusty.jpg",
+                        "length": 163.0,
+                        "name": "Drake Battle Rusty",
+                        "price": "$500",
+                        "profile": "Camber",
+                        "setback": "0",
+                        "shape": "Directional Twin Blunt",
+                        "short_name": "drakebattlerusty",
+                        "side_cut": 7.9,
+                        "stance": "53.6cm-63.6cm",
+                        "url": "https://northwave.us/collections/boards/products/drake-battle-rusty-wide-1",
+                        "waist_width": 27.9
+                    }
+                ],
+                "maximum": null,
+                "notes": "Northwave publishes their board dimensions in their catalog (<a href=\"https://issuu.com/zuzupopo/docs/northwave_2122_jp\" target=\"_blank\">page 82</a>)."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://northwave.us/"
         },
         {
             "custom_option": false,
@@ -2339,39 +2423,6 @@
         },
         {
             "custom_option": false,
-            "logo": "2021/northwave/logo.png",
-            "name": "Northwave",
-            "short_name": "northwave",
-            "solid": {
-                "boards": [
-                    {
-                        "category": null,
-                        "image": "2021/northwave/drakebattlerusty.jpg",
-                        "length": 163.0,
-                        "name": "Drake Battle Rusty",
-                        "price": "$500",
-                        "profile": "Camber",
-                        "setback": "0",
-                        "shape": "Directional Twin Blunt",
-                        "short_name": "drakebattlerusty",
-                        "side_cut": 7.9,
-                        "stance": "53.6cm-63.6cm",
-                        "url": "https://northwave.us/collections/boards/products/drake-battle-rusty-wide-1",
-                        "waist_width": 27.9
-                    }
-                ],
-                "maximum": null,
-                "notes": "Northwave publishes their board dimensions in their catalog (<a href=\"https://issuu.com/zuzupopo/docs/northwave_2122_jp\" target=\"_blank\">page 82</a>)."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://northwave.us/"
-        },
-        {
-            "custom_option": false,
             "logo": "2021/pallas/logo.png",
             "name": "Pallas Snowboards",
             "short_name": "pallas",
@@ -2443,57 +2494,6 @@
                 "notes": null
             },
             "url": "https://www.unitedshapes.us/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/goodboards/logo.svg",
-            "name": "Good Boards",
-            "short_name": "goodboards",
-            "solid": {
-                "boards": [
-                    {
-                        "category": "All Mountain",
-                        "image": "2021/goodboards/reload.png",
-                        "length": 167.0,
-                        "name": "Reload",
-                        "price": "$700 (600 EUR)",
-                        "profile": "Double Rocker",
-                        "setback": "10cm",
-                        "shape": "Directional",
-                        "short_name": "reload",
-                        "side_cut": "9.1m",
-                        "stance": "54cm-66cm",
-                        "url": "https://goodboards.eu/en/produkt/reload/",
-                        "waist_width": 28.5
-                    },
-                    {
-                        "category": "All Mountain",
-                        "image": "2021/goodboards/wooden.png",
-                        "length": 167.0,
-                        "name": "Wooden",
-                        "price": "$750 (640 EUR)",
-                        "profile": "Camber",
-                        "setback": "10cm",
-                        "shape": "Directional",
-                        "short_name": "wooden",
-                        "side_cut": 9.1,
-                        "stance": "54cm-66cm",
-                        "url": "https://goodboards.eu/en/produkt/wooden/",
-                        "waist_width": 28.5
-                    }
-                ],
-                "maximum": null,
-                "notes": "Ships from Germany. Measurements are listed in their <a href=\"https://goodboards.eu/wp-content/uploads/2021/01/2021-2022_goodboards_Katalog_Snow.pdf\" target=\"_blank\">katalog</a>."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 26.0,
-                "notes": null
-            },
-            "url": "https://goodboards.eu/en/"
         }
     ]
 }
