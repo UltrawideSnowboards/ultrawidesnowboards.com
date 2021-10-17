@@ -833,6 +833,57 @@
             "url": "http://www.mosssnowstick.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/fieldearth/logo.webp",
+            "name": "Field Earth Design",
+            "short_name": "fieldearth",
+            "solid": {
+                "boards": [
+                    {
+                        "category": null,
+                        "image": "2021/fieldearth/tsix.webp",
+                        "length": 170.0,
+                        "name": "T6",
+                        "price": "$1450 (166000 Yen)",
+                        "profile": null,
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "tsix",
+                        "side_cut": null,
+                        "stance": "48cm-58cm",
+                        "url": "https://www.fieldearthdesign.com/t6.html",
+                        "waist_width": 27.7
+                    },
+                    {
+                        "category": null,
+                        "image": "2021/fieldearth/xtwofa.webp",
+                        "length": 163.5,
+                        "name": "X2 FA",
+                        "price": "$1450 (165000 Yen)",
+                        "profile": null,
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "xtwofa",
+                        "side_cut": null,
+                        "stance": "48cm-58cm",
+                        "url": "https://www.fieldearthdesign.com/x2fa.html",
+                        "waist_width": 28.0
+                    }
+                ],
+                "maximum": null,
+                "notes": "Ships from Japan."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 25.4,
+                "notes": null
+            },
+            "url": "https://www.fieldearthdesign.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/westonbackcountry/logo.jpeg",
             "name": "Weston Backcountry",
