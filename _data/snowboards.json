@@ -191,6 +191,88 @@
             "url": "https://dupraz-snow.com/en/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/elevated/logo.png",
+            "name": "Elevated Surf Craft",
+            "short_name": "elevated",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Powder",
+                        "image": "2021/elevated/log.png",
+                        "length": 178.0,
+                        "name": "Log",
+                        "price": "$880",
+                        "profile": "Flat with Early Rise Rocker",
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "log",
+                        "side_cut": 13.7,
+                        "stance": null,
+                        "url": "https://elevatedsurfcraft.com/collections/taper-collection/products/5-10-log-w-2020",
+                        "waist_width": 29.2
+                    },
+                    {
+                        "category": null,
+                        "image": "2021/elevated/stepup.png",
+                        "length": 163.0,
+                        "name": "Step-Up",
+                        "price": "$850",
+                        "profile": "Flat with Early Rise Rocker",
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "stepup",
+                        "side_cut": 14.3,
+                        "stance": null,
+                        "url": "https://elevatedsurfcraft.com/collections/trimline-series/products/54-step-up",
+                        "waist_width": 27.9
+                    },
+                    {
+                        "category": null,
+                        "image": "2021/elevated/redtail.png",
+                        "length": 155.0,
+                        "name": "Redtail Hawk",
+                        "price": "$820",
+                        "profile": "Flat with Early Rise Rocker",
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "redtail",
+                        "side_cut": 9.1,
+                        "stance": null,
+                        "url": "https://elevatedsurfcraft.com/collections/taper-collection/products/redtail-hawk",
+                        "waist_width": 28.9
+                    }
+                ],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [
+                    {
+                        "category": null,
+                        "image": "2021/elevated/redtailsplit.png",
+                        "length": 155.0,
+                        "name": "Redtail Hawk",
+                        "price": "$1050",
+                        "profile": "Posi-Drive Camber",
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "redtailsplit",
+                        "side_cut": 9.1,
+                        "stance": null,
+                        "url": "https://elevatedsurfcraft.com/collections/splits/products/rth-split-2021",
+                        "waist_width": 28.9
+                    }
+                ],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://elevatedsurfcraft.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/gentemstick/logo.png",
             "name": "Gentemstick",
