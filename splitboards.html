@@ -12,6 +12,9 @@ title: Ultrawide Snowboards
                 <p>The supply of big split boards is even more limited than solid boards. The list below is everything that is 27.5cm or wider and 155cm or longer. Unfortunately, it's not much. You might be better off splitting your own board or going custom.</p>
 
                 <p>Check out the <a href="/">home page</a> for more general information on ultrawide boards.</p>
+
+                {% assign board_count_split = site.data.snowboards.brands | map: "splitboards" | map: "boards" | map: "name" | size %}
+                <p>Check out the {{ board_count_split }} ultrawide splitboards we found for you!</p>
             </div>
         </div>
     </div>

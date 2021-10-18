@@ -11,7 +11,8 @@ title: Ultrawide Snowboards
 
                 <p>If you want a particular shape, material, size, or profile you may need to comission a custom board. Listed below are manufacturers that offer custom board services.</p>
 
-                <p>Check out the <a href="/">home page</a> for more general information on ultrawide boards.</p>
+                {% assign custom_brand_count = site.data.snowboards.brands | where_exp:"brand", "brand.custom_option == true" | size%}
+                <p>Check out the <a href="/">home page</a> for more general information on ultrawide boards. Otherwise check out the {{ custom_brand_count }} custom manufacturers we found for you!</p>
             </div>
         </div>
     </div>

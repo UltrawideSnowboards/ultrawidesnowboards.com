@@ -55,7 +55,8 @@ title: Ultrawide Snowboards
 
                 <p>Brands and boards are sorted by simple surface area of a brand's biggest board (length x width)</p>
 
-                <p>Check out the {{ site.data.snowboards.brands.size }} brands in the 2021-2022 lineup!</p>
+                {% assign board_count_solid = site.data.snowboards.brands | map: "solid" | map: "boards" | map: "name" | size%}
+                <p>Check out the {{ site.data.snowboards.brands.size }} brands and {{ board_count_solid }} ultrawide boards in the 2021-2022 lineup!</p>
             </div>
         </div>
     </div>
