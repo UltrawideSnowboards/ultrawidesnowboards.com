@@ -2938,6 +2938,198 @@
                 "notes": null
             },
             "url": "https://www.unitedshapes.us/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/gravity/logo.jpg",
+            "name": "Gravity Snowboards",
+            "short_name": "gravity",
+            "solid": {
+                "boards": [],
+                "maximum": 27.2,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.gravity-snowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/raven/logo.svg",
+            "name": "Raven Snowboards",
+            "short_name": "raven",
+            "solid": {
+                "boards": [],
+                "maximum": 27.2,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://ravensnowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/prime/logo.png",
+            "name": "Prime Snowboards",
+            "short_name": "prime",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Prime has not released their 2021-2022 lineup yet."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://primesnowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/stone/logo.jpg",
+            "name": "Stone Snowboards",
+            "short_name": "stone",
+            "solid": {
+                "boards": [],
+                "maximum": 27.0,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 27.2,
+                "notes": null
+            },
+            "url": "https://www.stonesnowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/wired/logo.png",
+            "name": "Wired Snowboards",
+            "short_name": "wired",
+            "solid": {
+                "boards": [],
+                "maximum": 26.8,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.2,
+                "notes": null
+            },
+            "url": "https://wiredsnowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/sandyshapes/logo.jpg",
+            "name": "Sandy Shapes",
+            "short_name": "sandyshapes",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Powder/Carving",
+                        "image": "2021/sandyshapes/virtuosa.webp",
+                        "length": 169.0,
+                        "name": "Virtuosa",
+                        "price": "$920 (800 EUR)",
+                        "profile": "Freeride",
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "virtuosa",
+                        "side_cut": 7.3,
+                        "stance": "52cm-68cm",
+                        "url": "https://www.sandyshapes.it/en/prodotto/virtuosa/",
+                        "waist_width": 27.5
+                    }
+                ],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [
+                    {
+                        "category": null,
+                        "image": "2021/sandyshapes/virtuosasplit.webp",
+                        "length": 169.0,
+                        "name": "Virtuosa",
+                        "price": "$1450 (1250 EUR)",
+                        "profile": "Freeride",
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "virtuosasplit",
+                        "side_cut": 7.3,
+                        "stance": "52cm-68cm",
+                        "url": "https://www.sandyshapes.it/en/prodotto/virtuosa-splitboard/",
+                        "waist_width": 27.5
+                    }
+                ],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.sandyshapes.it/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/light/logo.jpg",
+            "name": "Light Snowboards",
+            "short_name": "light",
+            "solid": {
+                "boards": [],
+                "maximum": 27.0,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.light-snowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/fyve/logo.png",
+            "name": "Fyve",
+            "short_name": "fyve",
+            "solid": {
+                "boards": [],
+                "maximum": 25.7,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://5fyve.com/"
         }
     ]
 }
