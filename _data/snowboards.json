@@ -1280,6 +1280,42 @@
             "url": "https://www.sgsnowboards.com"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/caprabianca/logo.jpg",
+            "name": "Caprabianca",
+            "short_name": "caprabianca",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "All-Mountain Freeride",
+                        "image": "2021/caprabianca/picco.jpg",
+                        "length": 166.0,
+                        "name": "Picco",
+                        "price": "$680 (580 EUR)",
+                        "profile": "Camber",
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "picco",
+                        "side_cut": 9.39,
+                        "stance": "40cm-60cm",
+                        "url": "https://www.caprabianca.com/en/shop/picco-en",
+                        "waist_width": 27.6
+                    }
+                ],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.caprabianca.com/en/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/neversummer/logo.png",
             "name": "Never Summer",
@@ -1817,6 +1853,26 @@
                 "notes": null
             },
             "url": "https://kemper-snowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/pathron/logo.gif",
+            "name": "Pathron Snowboards",
+            "short_name": "pathron",
+            "solid": {
+                "boards": [],
+                "maximum": 27.4,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.0,
+                "notes": null
+            },
+            "url": "https://pathron.com/"
         },
         {
             "custom_option": false,
@@ -2365,6 +2421,26 @@
             "url": "https://www.amplid.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/fjell/logo.png",
+            "name": "Fjell Snowboards",
+            "short_name": "fjell",
+            "solid": {
+                "boards": [],
+                "maximum": 26.7,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.7,
+                "notes": null
+            },
+            "url": "https://www.fjellsnowboards.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/trapper/logo.webp",
             "name": "Trapper Snowboards",
@@ -2437,6 +2513,26 @@
                 "notes": "Voile's maximum width is 26.5cm. Note that they also sell <a href=\"https://www.voile.com/voile-split-kit-diy.html\" target=\"_blank\">DIY conversion kits</a> to convert your solid ultrawide board to a split."
             },
             "url": "https://www.voile.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/fullbag/logo.png",
+            "name": "Fullbag",
+            "short_name": "fullbag",
+            "solid": {
+                "boards": [],
+                "maximum": 26.5,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://fullbag.com/"
         },
         {
             "custom": {
@@ -2610,6 +2706,26 @@
             "url": "https://technine.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/rabanser/logo.jpeg",
+            "name": "Rabanser Snowboards",
+            "short_name": "rabanser",
+            "solid": {
+                "boards": [],
+                "maximum": 26.0,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "http://www.rabansersnowboards.com/en/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/chimera/logo.png",
             "name": "Chimera Backcountry Snowboards",
@@ -2685,6 +2801,26 @@
                 "notes": null
             },
             "url": "https://5fyve.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/acc/logo.jpg",
+            "name": "ACC Snowboard",
+            "short_name": "acc",
+            "solid": {
+                "boards": [],
+                "maximum": 25.3,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "http://www.acc-snowboard.com/"
         },
         {
             "custom": {
@@ -2787,6 +2923,26 @@
             "url": "https://thebakerysnowboards.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/beany/logo.svg",
+            "name": "Beany",
+            "short_name": "beany",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Beany makes children's snowboards, and does not publish board dimensions."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.beany-sport.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/chomonix/logo.png",
             "name": "Chamonix Collection",
@@ -2876,6 +3032,26 @@
                 "notes": null
             },
             "url": null
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/degenerati/logo.png",
+            "name": "The Degenerati",
+            "short_name": "degenerati",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "The Degenerati does not publish board dimensions."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "http://www.thedegenerati.com/"
         },
         {
             "custom": {
@@ -2996,6 +3172,26 @@
                 "notes": "MTN Local only makes custom snowboards."
             },
             "url": "https://mtnlocalsnowboards.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/monument/logo.png",
+            "name": "Monument Snowboards",
+            "short_name": "monument",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "The website has not been updated since the 2016-2017 snowboard collection."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "http://monumentsnowboards.com/"
         },
         {
             "custom_option": false,
@@ -3130,202 +3326,6 @@
                 "notes": null
             },
             "url": "https://www.unitedshapes.us/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/fullbag/logo.png",
-            "name": "Fullbag",
-            "short_name": "fullbag",
-            "solid": {
-                "boards": [],
-                "maximum": 26.5,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://fullbag.com/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/acc/logo.jpg",
-            "name": "ACC Snowboard",
-            "short_name": "acc",
-            "solid": {
-                "boards": [],
-                "maximum": 25.3,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "http://www.acc-snowboard.com/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/beany/logo.svg",
-            "name": "Beany",
-            "short_name": "beany",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": "Beany makes children's snowboards, and does not publish board dimensions."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://www.beany-sport.com/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/monument/logo.png",
-            "name": "Monument Snowboards",
-            "short_name": "monument",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": "The website has not been updated since the 2016-2017 snowboard collection."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "http://monumentsnowboards.com/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/pathron/logo.gif",
-            "name": "Pathron Snowboards",
-            "short_name": "pathron",
-            "solid": {
-                "boards": [],
-                "maximum": 27.4,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 26.0,
-                "notes": null
-            },
-            "url": "https://pathron.com/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/rabanser/logo.jpeg",
-            "name": "Rabanser Snowboards",
-            "short_name": "rabanser",
-            "solid": {
-                "boards": [],
-                "maximum": 26.0,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "http://www.rabansersnowboards.com/en/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/degenerati/logo.png",
-            "name": "The Degenerati",
-            "short_name": "degenerati",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": "The Degenerati does not publish board dimensions."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "http://www.thedegenerati.com/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/caprabianca/logo.jpg",
-            "name": "Caprabianca",
-            "short_name": "caprabianca",
-            "solid": {
-                "boards": [
-                    {
-                        "category": "All-Mountain Freeride",
-                        "image": "2021/caprabianca/picco.jpg",
-                        "length": 166.0,
-                        "name": "Picco",
-                        "price": "$680 (580 EUR)",
-                        "profile": "Camber",
-                        "setback": null,
-                        "shape": "Directional",
-                        "short_name": "picco",
-                        "side_cut": 9.39,
-                        "stance": "40cm-60cm",
-                        "url": "https://www.caprabianca.com/en/shop/picco-en",
-                        "waist_width": 27.6
-                    }
-                ],
-                "maximum": null,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://www.caprabianca.com/en/"
-        },
-        {
-            "custom": {
-                "notes": null
-            },
-            "custom_option": false,
-            "logo": "2021/fjell/logo.png",
-            "name": "Fjell Snowboards",
-            "short_name": "fjell",
-            "solid": {
-                "boards": [],
-                "maximum": 26.7,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 26.7,
-                "notes": null
-            },
-            "url": "https://www.fjellsnowboards.com/"
         }
     ]
 }
