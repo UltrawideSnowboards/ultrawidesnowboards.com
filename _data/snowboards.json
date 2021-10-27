@@ -1137,7 +1137,7 @@
                 "boards": [
                     {
                         "category": "Carving",
-                        "image": "2021/soul/fukai.png",
+                        "image": "2021/soul/fukai.webp",
                         "length": 168.0,
                         "name": "Fukai",
                         "price": "$700",
@@ -1152,7 +1152,7 @@
                     },
                     {
                         "category": "Carving",
-                        "image": "2021/soul/pitchwing.png",
+                        "image": "2021/soul/pitchwing.webp",
                         "length": 157.0,
                         "name": "Pitch Wing",
                         "price": "$650",
@@ -1167,7 +1167,7 @@
                     },
                     {
                         "category": "Powder",
-                        "image": "2021/soul/blower.png",
+                        "image": "2021/soul/blower.webp",
                         "length": 162.0,
                         "name": "Blower",
                         "price": "$650",

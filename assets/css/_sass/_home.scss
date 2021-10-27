@@ -27,18 +27,18 @@ img.brand-logo-hero {
 
 @media (max-width: 600px) {
     .background-image {
-      background-image: url("../img/background-sm.jpg");
+      background-image: url("../img/background-sm.webp");
     }
 }
 
 @media (min-width: 601px) and (max-width: 1500px) {
     .background-image {
-        background-image: url('../img/background-md.jpg');
+        background-image: url('../img/background-md.webp');
     }
 }
 
 @media (min-width: 1501px) {
     .background-image {
-        background-image: url('../img/background-lg.jpg');
+        background-image: url('../img/background-lg.webp');
     }
 }
