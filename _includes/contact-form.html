@@ -29,10 +29,9 @@
 
             <script type="text/javascript">
             var submitted=false;
-            $('#gform').on('submit', function(e) {
-              $('#gform *').fadeOut(2000);
-              $('#gform').prepend("Thanks for reaching out! We'll get back to you soon.");
-              });
+            document.getElementById("gform").addEventListener("submit", function(e){
+              document.getElementById("gform").innerHTML = "<h2>Thanks for reaching out! We'll get back to you soon.</h2>";
+            });
             </script>
         </div>
     </div>
