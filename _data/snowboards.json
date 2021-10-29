@@ -412,6 +412,58 @@
             "url": "https://gentemstick.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/tahoelab/logo.webp",
+            "name": "Tahoe Lab",
+            "short_name": "tahoelab",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "All-Mountain",
+                        "image": "2021/tahoelab/directionalsolid.webp",
+                        "length": 180.0,
+                        "name": "Directional Solid",
+                        "price": "$750",
+                        "profile": null,
+                        "setback": "25mm",
+                        "shape": "Directional",
+                        "short_name": "directionalsolid",
+                        "side_cut": 9.5,
+                        "stance": "63.5cm-77.5cm",
+                        "url": "https://www.tahoelab.com/product-page",
+                        "waist_width": 27.6
+                    }
+                ],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [
+                    {
+                        "category": "All-Mountain",
+                        "image": "2021/tahoelab/directionalsplit.webp",
+                        "length": 180.0,
+                        "name": "Directional Split",
+                        "price": "$950",
+                        "profile": null,
+                        "setback": "25mm",
+                        "shape": "Directional",
+                        "short_name": "directionalsplit",
+                        "side_cut": 9.5,
+                        "stance": "63.5cm-77.5cm",
+                        "url": "https://www.tahoelab.com/product-page/directional-split",
+                        "waist_width": 27.6
+                    }
+                ],
+                "maximum": null,
+                "notes": "Tahoe Lab also offers the 'Phantom' carbon fiber construction for their splitboards."
+            },
+            "url": "https://www.tahoelab.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/libtech/logo.png",
             "name": "Lib Tech",
