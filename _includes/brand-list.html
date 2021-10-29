@@ -17,7 +17,7 @@
                     <div class="table-responsive">
                     <table class="table">
                         <thead class="thead-dark">
-                            <th><a class="text-reset" href="{{ brand.url }}" target="_blank">{{ brand.name }}</a></th>
+                            <th><a class="text-reset" href="https://ultrawidesnowboards.com/url?link={{ brand.url | url_encode }}" target="_blank">{{ brand.name }}</a></th>
                             <th>Name</th>
                             <th>Size (cm)</th>
                             <th>Waist Width (cm)</th>
@@ -31,7 +31,7 @@
                         </thead>
                         {% for board in brand[category].boards %}
                             <tr>
-                                <td><a href="{{ board.url }}" target="_blank"><img src="{{ site.github.url }}/assets/img/vendors/{{ board.image }}" class="snowboard"><img></a></td>
+                                <td><a href="https://ultrawidesnowboards.com/url?link={{ board.url | url_encode}}" target="_blank"><img src="{{ site.github.url }}/assets/img/vendors/{{ board.image }}" class="snowboard"><img></a></td>
                                 <td>{{ board.name }}</td>
                                 <td>{{ board.length }}</td>
                                 <td>{{ board.waist_width }}</td>
@@ -41,7 +41,7 @@
                                 <td>{{ board.side_cut }}</td>
                                 <td>{{ board.stance }}</td>
                                 <td>{{ board.setback }}</td>
-                                <td><a href="{{ board.url }}" target="_blank">
+                                <td><a href="https://ultrawidesnowboards.com/url?link={{ board.url | url_encode }}" target="_blank">
                                     {% if board.price != null %}
                                         {{ board.price }}
                                     {% else %}
@@ -52,16 +52,16 @@
                     </table>
                     </div>
                 {% elsif brand[category].maximum >= 0 %}
-                    <p><a class="text-reset" href="{{ brand.url }}" target="_blank">{{ brand.name }}</a> doesn't make any ultrawide boards (their largest is {{ brand[category].maximum }} cm).</p>
+                    <p><a class="text-reset" href="https://ultrawidesnowboards.com/url?link={{ brand.url | url_encode }}" target="_blank">{{ brand.name }}</a> doesn't make any ultrawide boards (their largest is {{ brand[category].maximum }} cm).</p>
                 {% elsif brand[category].notes == null %}
-                    <p><a class="text-reset" href="{{ brand.url }}" target="_blank">{{ brand.name }}</a> doesn't make any {% case category %}
+                    <p><a class="text-reset" href="https://ultrawidesnowboards.com/url?link={{ brand.url | url_encode }}" target="_blank">{{ brand.name }}</a> doesn't make any {% case category %}
                         {% when "solid" %}normal (non-split) snowboards
                         {% when "splitboards" %}splitboards
                         {% else %}snowboards
                         {% endcase %}
                     </p>
                 {% else %}
-                    <p><a class="text-reset" href="{{ brand.url }}" target="_blank">Website</a></p>
+                    <p><a class="text-reset" href="https://ultrawidesnowboards.com/url?link={{ brand.url | url_encode }}" target="_blank">Website</a></p>
                 {% endif %}
             </div>
         </div>
