@@ -413,9 +413,9 @@
         },
         {
             "custom": {
-                "notes": null
+                "notes": "Solid boards max out right around 27.5cm, but splitboards can go pretty much as wide as needed no problem. The price for a custom board depends on what specs need to be adjusted from the stock boards. If someone wanted a existing shape but wider it would be an extra $150 over MSRP. If they wanted a full custom shape it would be $500 over MSRP and if they wanted some custom graphics that would be another $150. They can press boards from 130cm to 180cm in length."
             },
-            "custom_option": false,
+            "custom_option": true,
             "logo": "2021/tahoelab/logo.webp",
             "name": "Tahoe Lab",
             "short_name": "tahoelab",
@@ -459,7 +459,7 @@
                     }
                 ],
                 "maximum": null,
-                "notes": "Tahoe Lab also offers the 'Phantom' carbon fiber construction for their splitboards."
+                "notes": "Tahoe Lab also offers the 'Phantom' carbon fiber construction for their splitboards. They can also do full custom splitboards (check out <a href=\"/customboards\">the custom page</a>)."
             },
             "url": "https://www.tahoelab.com/"
         },
@@ -1097,7 +1097,7 @@
         },
         {
             "custom": {
-                "notes": "Winterstick will customize the width of a board for $100 more. Shown here are the stock ultrawide snowboards. All models available as a splitboard."
+                "notes": "Winterstick will customize the width of a board for $100 more up to 30.1cm waist width. Shown here are the stock ultrawide snowboards. All models available as a splitboard."
             },
             "custom_option": true,
             "logo": "2021/winterstick/logo.jpg",
@@ -2161,7 +2161,7 @@
         },
         {
             "custom": {
-                "notes": "Custom boards start at $1400."
+                "notes": "Custom boards start at $1400 up to 30cm waist width."
             },
             "custom_option": true,
             "logo": "2021/prior/logo.webp",
@@ -3067,7 +3067,7 @@
         },
         {
             "custom": {
-                "notes": "Donek is well known for their ultrawide custom boards. Prices start at around $700."
+                "notes": "Donek is well known for their ultrawide custom boards, up to around 31.2cm waist width. Prices start at around $700."
             },
             "custom_option": true,
             "logo": "2021/donek/logo.png",
@@ -3167,7 +3167,7 @@
         },
         {
             "custom": {
-                "notes": "Custom board prices not listed."
+                "notes": "Custom board prices not listed, but can go up to 30.4cm waist width."
             },
             "custom_option": true,
             "logo": "2021/kindred/logo.webp",
@@ -3378,6 +3378,62 @@
                 "notes": null
             },
             "url": "https://www.unitedshapes.us/"
+        },
+        {
+            "custom": {
+                "notes": "Can make up to a 31.1cm waist width custom board. Ships world wide from the UK."
+            },
+            "custom_option": true,
+            "logo": "2021/douksnow/logo.webp",
+            "name": "Douk Snow UK",
+            "short_name": "douksnow",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Powder",
+                        "image": "2021/douksnow/powderpig.webp",
+                        "length": 158.0,
+                        "name": "Powder Pig",
+                        "price": "$675 (495GBP)",
+                        "profile": "Hybrid camber",
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "powderpig",
+                        "side_cut": 9.5,
+                        "stance": "58",
+                        "url": "https://www.douksnow.com/product-page/powder-pig-man-wolf",
+                        "waist_width": 28.0
+                    }
+                ],
+                "maximum": null,
+                "notes": "Boards can be customized."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 27.1,
+                "notes": null
+            },
+            "url": "https://www.douksnow.com/"
+        },
+        {
+            "custom": {
+                "notes": "Can make up to 31.1cm waist width custom board. Ships world wide from Russia."
+            },
+            "custom_option": true,
+            "logo": "2021/customskis/logo.png",
+            "name": "Custom Skis",
+            "short_name": "customskis",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://customskis.ru/"
         }
     ]
 }
