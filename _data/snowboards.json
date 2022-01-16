@@ -1564,6 +1564,42 @@
             "url": "https://www.stompede-snowboards.com/"
         },
         {
+            "custom": {
+                "notes": "Can make up to a 31.1cm waist width custom board. Ships world wide from the UK."
+            },
+            "custom_option": true,
+            "logo": "2021/douksnow/logo.webp",
+            "name": "Douk Snow UK",
+            "short_name": "douksnow",
+            "solid": {
+                "boards": [
+                    {
+                        "category": "Powder",
+                        "image": "2021/douksnow/powderpig.webp",
+                        "length": 158.0,
+                        "name": "Powder Pig",
+                        "price": "$675 (495GBP)",
+                        "profile": "Hybrid camber",
+                        "setback": null,
+                        "shape": "Directional",
+                        "short_name": "powderpig",
+                        "side_cut": 9.5,
+                        "stance": "58",
+                        "url": "https://www.douksnow.com/product-page/powder-pig-man-wolf",
+                        "waist_width": 28.0
+                    }
+                ],
+                "maximum": null,
+                "notes": "Boards can be customized."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 27.1,
+                "notes": null
+            },
+            "url": "https://www.douksnow.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/endeavor/logo.jpeg",
             "name": "Endeavor Snowboards",
@@ -3032,6 +3068,26 @@
             "url": "https://www.canarycartel.com/"
         },
         {
+            "custom": {
+                "notes": "Can make up to 31.1cm waist width custom board. Ships world wide from Russia."
+            },
+            "custom_option": true,
+            "logo": "2021/customskis/logo.png",
+            "name": "Custom Skis",
+            "short_name": "customskis",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://customskis.ru/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/deusexmachina/logo.png",
             "name": "Deus Ex Machina",
@@ -3378,62 +3434,6 @@
                 "notes": null
             },
             "url": "https://www.unitedshapes.us/"
-        },
-        {
-            "custom": {
-                "notes": "Can make up to a 31.1cm waist width custom board. Ships world wide from the UK."
-            },
-            "custom_option": true,
-            "logo": "2021/douksnow/logo.webp",
-            "name": "Douk Snow UK",
-            "short_name": "douksnow",
-            "solid": {
-                "boards": [
-                    {
-                        "category": "Powder",
-                        "image": "2021/douksnow/powderpig.webp",
-                        "length": 158.0,
-                        "name": "Powder Pig",
-                        "price": "$675 (495GBP)",
-                        "profile": "Hybrid camber",
-                        "setback": null,
-                        "shape": "Directional",
-                        "short_name": "powderpig",
-                        "side_cut": 9.5,
-                        "stance": "58",
-                        "url": "https://www.douksnow.com/product-page/powder-pig-man-wolf",
-                        "waist_width": 28.0
-                    }
-                ],
-                "maximum": null,
-                "notes": "Boards can be customized."
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": 27.1,
-                "notes": null
-            },
-            "url": "https://www.douksnow.com/"
-        },
-        {
-            "custom": {
-                "notes": "Can make up to 31.1cm waist width custom board. Ships world wide from Russia."
-            },
-            "custom_option": true,
-            "logo": "2021/customskis/logo.png",
-            "name": "Custom Skis",
-            "short_name": "customskis",
-            "solid": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "splitboards": {
-                "boards": [],
-                "maximum": null,
-                "notes": null
-            },
-            "url": "https://customskis.ru/"
         }
     ]
 }
