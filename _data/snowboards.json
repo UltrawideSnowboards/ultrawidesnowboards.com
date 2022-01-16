@@ -1827,6 +1827,42 @@
             "url": "https://ridesnowboards.com/"
         },
         {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/gilsonsnow/logo.png",
+            "name": "Gilson Snow",
+            "short_name": "gilsonsnow",
+            "solid": {
+                "boards": [
+                    {
+                        "category": null,
+                        "image": "2021/gilsonsnow/undead.jpg",
+                        "length": 159.0,
+                        "name": "Undead",
+                        "price": "$530",
+                        "profile": "[assorted]",
+                        "setback": null,
+                        "shape": null,
+                        "short_name": "undead",
+                        "side_cut": 8.95,
+                        "stance": null,
+                        "url": "https://www.gilsonsnow.com/snowboards/2022-undead",
+                        "waist_width": 27.5
+                    }
+                ],
+                "maximum": null,
+                "notes": "Gilson has a bunch of boards that seem to be almost all identical except for profile and graphics. Only the Undead is included here as a representative example. Check out their lineup for more info."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://www.gilsonsnow.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/salomon/logo.png",
             "name": "Salomon",
@@ -2586,6 +2622,26 @@
             "url": "https://nobilesnowboards.com/"
         },
         {
+            "custom": {
+                "notes": "Parlor can make custom solid and split boards. They also offer a DIY build class."
+            },
+            "custom_option": true,
+            "logo": "2021/parlor/logo.png",
+            "name": "Parlor Skis",
+            "short_name": "parlor",
+            "solid": {
+                "boards": [],
+                "maximum": 26.6,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 26.6,
+                "notes": null
+            },
+            "url": "https://parlorskis.com/"
+        },
+        {
             "custom_option": false,
             "logo": "2021/voile/logo.png",
             "name": "Voile",
@@ -2798,6 +2854,26 @@
                 "notes": null
             },
             "custom_option": false,
+            "logo": "2021/meierskis/logo.png",
+            "name": "Meier Skis",
+            "short_name": "meierskis",
+            "solid": {
+                "boards": [],
+                "maximum": 26.1,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://meierskis.com/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
             "logo": "2021/rabanser/logo.jpeg",
             "name": "Rabanser Snowboards",
             "short_name": "rabanser",
@@ -2889,6 +2965,26 @@
                 "notes": null
             },
             "url": "https://5fyve.com/"
+        },
+        {
+            "custom": {
+                "notes": "Unclear if they customize the width as well. They also offer DIY classes in Vermont."
+            },
+            "custom_option": true,
+            "logo": "2021/powderjet/logo.png",
+            "name": "PowderJet Snowboards",
+            "short_name": "powderjet",
+            "solid": {
+                "boards": [],
+                "maximum": 25.4,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": 25.4,
+                "notes": null
+            },
+            "url": "https://cello-beige-jbe9.squarespace.com/"
         },
         {
             "custom": {
@@ -3086,6 +3182,26 @@
                 "notes": null
             },
             "url": "https://customskis.ru/"
+        },
+        {
+            "custom": {
+                "notes": "CRSP does not publish board widths."
+            },
+            "custom_option": true,
+            "logo": "2021/crspskis/logo.png",
+            "name": "CRSP Skis",
+            "short_name": "crspskis",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://crspskis.com/"
         },
         {
             "custom_option": false,
@@ -3400,6 +3516,66 @@
         },
         {
             "custom": {
+                "notes": "Custom boards from New Hampshire."
+            },
+            "custom_option": true,
+            "logo": "2021/saintskis/logo.jpg",
+            "name": "Saint Skis",
+            "short_name": "saintskis",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://saintskis.com/"
+        },
+        {
+            "custom": {
+                "notes": "SPURart does custom shapes. They also do DIY workshops in Austria."
+            },
+            "custom_option": true,
+            "logo": "2021/spurart/logo.png",
+            "name": "SPURart",
+            "short_name": "spurart",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://spurart.at/en/"
+        },
+        {
+            "custom": {
+                "notes": null
+            },
+            "custom_option": false,
+            "logo": "2021/starlightsnowboards/logo.jpg",
+            "name": "Starlight Snowboards",
+            "short_name": "starlightsnowboards",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": "Starlight does not publish their board widths."
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": "https://starlightsnowboards.com/"
+        },
+        {
+            "custom": {
                 "notes": null
             },
             "custom_option": false,
@@ -3434,6 +3610,26 @@
                 "notes": null
             },
             "url": "https://www.unitedshapes.us/"
+        },
+        {
+            "custom": {
+                "notes": "Zen makes custom boards in Switzerland. They also offer DIY workshops."
+            },
+            "custom_option": true,
+            "logo": "2021/zensnowboards/logo.png",
+            "name": "Zen Snowboards",
+            "short_name": "zensnowboards",
+            "solid": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "splitboards": {
+                "boards": [],
+                "maximum": null,
+                "notes": null
+            },
+            "url": null
         }
     ]
 }
