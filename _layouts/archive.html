@@ -1,0 +1,110 @@
+---
+layout: default
+title: Ultrawide Snowboards Archive
+---
+
+<div class="row">
+    <div class="col-sm">
+        <div class="card text-bg-warning">
+            <div class="card-body">
+                <div class="d-flex justify-content-center">
+                    <h1>This site has moved! Check it out:</h1>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a class="link-dark" href="https://chairliftrebellion.com/ultrawide" style="font-size: 5rem;">ChairliftRebellion.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm">
+        <div class="card text-bg-warning">
+            <div class="card-body">
+                <h1>Everything from here on down is in archive mode.</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm">
+        <div class="card">
+            <div class="card-body">
+                <h1>Why Ultrawide?</h1>
+
+                <img src="{{ site.github.url }}/assets/img/mountain.webp" class="img-fluid" loading="eager"></img>
+
+                <p>Those of us with big feet (I'm a US 13) know that toe and heel drag is a big issue, especially if you want to lay out your carves.</p>
+
+                <p>How does an ultrawide compare?</p>
+
+                <ul>
+                    <li>Normal: 25.5cm</li>
+                    <li>Wide: 26.5cm</li>
+                    <li>Ultrawide: 28cm +</li>
+                </ul>
+
+                <p>Finding a big board is tough. Most manufacturers don't make ultrawide boards, and those that do bury the boards in their lineup.</p>
+
+                <p>This website is a list of the widest snowboards for the 2021-2022 season that fits the ultrawide criteria. Since almost every board comes in multiple sizes, I'm only listing the widest and longest variant. You'd never ride anything smaller, right?</p>
+
+                <p>If you're not 6'2" with a size 13 foot or larger this site is not for you. You'll do fine with a regular sized board.</p>
+
+                <p>Some people like to overcome a narrow board by widening their stance, angling their feet more, getting risers, getting smaller boots, or just ignoring it. Those don't work for me, and they hurt. Shouldn't big guys have an opportunity to ride big boards and get that extra wide snowboard feel?</p>
+
+                <p>Choosing the right board size is tough. Here are some useful resources:</p>
+                <ul>
+                    <li><a href="https://ultrawidesnowboards.com/url?link={{ 'https://snowboardingprofiles.com/how-important-is-snowboard-width-sizing-and-how-do-i-get-it-right' | url_encode }}" target="_blank">How Important is Snowboard Width Sizing and How Do I Get it Right? (snowboardingprofiles.com)</a></li>
+                    <li><a href="https://ultrawidesnowboards.com/url?link={{ 'https://www.nextlevelsnowboarding.com/about.html' | url_encode }}" target="_blank">Ryan Knapton, the most famous wide board rider (custom 31.2cm waist width!)</a></li>
+                </ul>
+
+                <h1>What's new in 2021-2022?</h1>
+
+                <p>The big news is that we've found many more indy and non-US brands. Especially for our EU and Asia-Pacific riders be sure to check out all the options, and more are arriving daily. For North American riders not too much has changed: most brands have kept their lineups from previous years.</p>
+
+                <p>A few brands are very slow with updating their website. We'll add them once the 2021-2022 lineup is announced.</p>
+
+                <p>Most brands hide their ultrawide snowboards, but a few have dedicated marketing for what they consider wide (note that some of them are in the 26cm range): <a href="https://ultrawidesnowboards.com/url?link={{ 'https://www.neversummer.com/how-to-choose-a-snowboard/' | url_encode }}" target="_blank">Never Summer DF series</a>, <a href="https://ultrawidesnowboards.com/url?link={{ 'https://www.lib-tech.com/snowboard/mens-snowboards?snowboard_width=948' | url_encode }}" target="_blank">Lib Tech ultra-wide</a>, <a href="https://ultrawidesnowboards.com/url?link={{ 'https://www.jonessnowboards.com/content/241-wide-snowboards-and-splitboards-big-feet-big-horn-series' | url_encode }}" target="_blank">Jones Big Horn Series</a>, <a href="https://ultrawidesnowboards.com/url?link={{ 'http://www.ltbsnowboards.com/snowboards?fi[20]=57-45' | url_encode }}" target="_blank">LTB XW and XXW</a>.</p>
+
+                <h1>How this list is built</h1>
+
+                <p>To qualify as an ultrawide, a board must:</p>
+
+                <ul>
+                    <li>have a 27.5cm or greater waist width</li>
+                    <li>be at least 155cm long</li>
+                    <li>be a current model for the 2021-2022 season</li>
+                </ul>
+
+                <p>Brands and boards are sorted by simple surface area of a brand's biggest board (length x width)</p>
+
+                {% assign board_count_solid = site.data.snowboards.brands | map: "solid" | map: "boards" | map: "name" | size%}
+                <p>Check out the {{ site.data.snowboards.brands.size }} brands and {{ board_count_solid }} best ultrawide boards in the 2021-2022 lineup!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% assign category = 'solid' %}
+
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].boards.size > 0" | where_exp:"brand", "brand[category].maximum != 0" %}
+{% include brand-list.html %}
+
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].boards.size == 0" | where_exp:"brand", "brand[category].maximum > 0" %}
+{% include brand-list.html %}
+
+{% comment %}Brands that make custom boards{% endcomment %}
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].maximum == -1" %}
+{% include brand-list.html %}
+
+{% comment %}Allow special casing the brands with wide boards that I think should go at the bottom{% endcomment %}
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].maximum == 0" %}
+{% include brand-list.html %}
+
+{% assign brands = site.data.snowboards.brands | where_exp:"brand", "brand[category].boards.size == 0" | where_exp:"brand", "brand[category].maximum == null" %}
+{% include brand-list.html %}
+<br><br><br><br>
+
+{% include contact-form.html %}
